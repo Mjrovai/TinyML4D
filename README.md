@@ -6,7 +6,9 @@
 ## Workshops / Lectures
 ### Addis Ababa University (AAU) Workshop:
 + [Seeed Wio Terminal - Introduction, Installation and Tests](AAU/1_Wio_Terminal_Installation.pdf)
-+ [Seeed Wio Terminal - Gesture Classification Hands-On](AAU/)
++ [Seeed Wio Terminal - Gesture Classification Hands-On](AAU/2_Wio_Terminal_Hands-on.pdf)
++ [Arduino IDE Code](AAU/Arduino_IDE_code)
++ [Docs](AAU/docs)
 
 <hr>
 
