@@ -9,7 +9,7 @@
 + [Seeed Wio Terminal - Gesture Classification Hands-On](AAU/2_Wio_Terminal_Hands-on.pdf)
 + [Arduino IDE Code](AAU/Arduino_IDE_code)
 + [Docs](AAU/docs)
-- Edge Impulse - Spectral Analysis Block [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UAA/Edge Impulse - Spectral Analysis Block.ipynb)
++ [Edge Impulse - Spectral Analysis Block](https://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/AAU/Edge%20Impulse%20-%20Spectral%20Analysis%20Block.ipynb)
 
 <hr>
 
