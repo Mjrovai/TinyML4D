@@ -10,6 +10,8 @@
 + [Arduino IDE Code](AAU/Arduino_IDE_code)
 + [Edge Impulse - Spectral Analysis Block](https://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/AAU/Edge%20Impulse%20-%20Spectral%20Analysis%20Block.ipynb)
 + [Docs](AAU/docs)
++ Wio Terminal TinyML Kit Course 
+  + [Getting Started with TinyML](https://wiki.seeedstudio.com/Wio-Terminal-TinyML-Kit-Course/)
 
 <hr>
 
