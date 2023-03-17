@@ -8,7 +8,7 @@
 ### [SciTinyML: Scientific Use of Machine Learning on Low-Power Devices - 2023](/SciTinyM-2023)
 ### [Addis Ababa University (AAU) Workshop - Using Wio Terminal](/AAU)
 ### [WALC_2022-Applied_AI](https://github.com/Mjrovai/WALC_2022-Applied_AI)
-
+### [CNMAC-22](https://github.com/Mjrovai/CNMAC-22)
 <hr>
 
 These workshops and Lectures are part of the [TinyML4D](https://tinyml.seas.harvard.edu/), an initiative to make Embedded Machine Learning (TinyML) education available to everyone, explicitly enabling innovative solutions for the unique challenges faced by Developing Countries.  
