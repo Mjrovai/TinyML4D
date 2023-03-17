@@ -5,8 +5,9 @@
 <hr>  
 
 ## Workshops / Lectures
-### [Addis Ababa University (AAU) Workshop](/AAU)
 ### [SciTinyML: Scientific Use of Machine Learning on Low-Power Devices - 2023](/SciTinyM-2023)
+### [Addis Ababa University (AAU) Workshop - Using Wio Terminal](/AAU)
+### [WALC_2022-Applied_AI](https://github.com/Mjrovai/WALC_2022-Applied_AI)
 
 <hr>
 
