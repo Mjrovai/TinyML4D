@@ -6,6 +6,7 @@
 
 ## Workshops / Lectures
 ### [Addis Ababa University (AAU) Workshop](/AAU)
+### [SciTinyML: Scientific Use of Machine Learning on Low-Power Devices - 2023](/SciTinyM-2023)
 
 <hr>
 
