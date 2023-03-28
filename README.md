@@ -13,7 +13,7 @@
 ### [CNMAC-22 - Campinas, Brazil](https://github.com/Mjrovai/CNMAC-22)
 ## Workshops / Lectures
 ### [AFIB_SR_detection_TinyML](/papers/AFIB_SR_detection_TinyML.pdf)
-### []()
+### [On Device - Predictive Model](/papers/sensors-22-05174.pdf)
 <hr>
 
 These workshops and Lectures are part of the [TinyML4D](https://tinyml.seas.harvard.edu/), an initiative to make Embedded Machine Learning (TinyML) education available to everyone, explicitly enabling innovative solutions for the unique challenges faced by Developing Countries.  
