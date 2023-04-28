@@ -1,4 +1,5 @@
 # Addis Ababa University (AAU) Workshop:
+Updated @27Apr23
 ## Material
 + [Seeed Wio Terminal - Introduction, Installation and Tests](1_Wio_Terminal_Installation.pdf)
 + [Seeed Wio Terminal - Gesture Classification Hands-On](2_Wio_Terminal_Hands-on.pdf)
