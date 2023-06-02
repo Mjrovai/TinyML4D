@@ -15,6 +15,8 @@
 ### [AFIB_SR_detection_TinyML](/papers/AFIB_SR_detection_TinyML.pdf)
 ### [On Device - Predictive Model](/papers/sensors-22-05174.pdf)
 ## Tutorials 
+### [XIAO ESP32S3 Sense - Audio / Motion / Vision](https://github.com/Mjrovai/XIAO-ESP32S3-Sense))
+### [ESP32 TinyML - Audio / Motion / Vision](https://github.com/Mjrovai/ESP32-TinyML)
 <hr>
 
 These workshops and Lectures are part of the [TinyML4D](https://tinyml.seas.harvard.edu/), an initiative to make Embedded Machine Learning (TinyML) education available to everyone, explicitly enabling innovative solutions for the unique challenges faced by Developing Countries.  
