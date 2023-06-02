@@ -15,7 +15,7 @@
 ### [AFIB_SR_detection_TinyML](/papers/AFIB_SR_detection_TinyML.pdf)
 ### [On Device - Predictive Model](/papers/sensors-22-05174.pdf)
 ## Tutorials 
-### [XIAO ESP32S3 Sense - Audio / Motion / Vision](https://github.com/Mjrovai/XIAO-ESP32S3-Sense))
+### [XIAO ESP32S3 Sense - Audio / Motion / Vision](https://github.com/Mjrovai/XIAO-ESP32S3-Sense)
 ### [ESP32 TinyML - Audio / Motion / Vision](https://github.com/Mjrovai/ESP32-TinyML)
 <hr>
 
