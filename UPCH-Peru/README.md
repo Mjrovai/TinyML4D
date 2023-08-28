@@ -1,2 +1,2 @@
 # Charlas en la Universidad Peruana Cayetano Heredia. 
-<img src=''/>
+![](/UPCH-Peru/Posters.png)
