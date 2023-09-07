@@ -18,7 +18,7 @@
 ### [On Device - Predictive Model](/papers/sensors-22-05174.pdf)
 ### [Classifying mosquito wingbeat sound using TinyML](/papers/TinyML_Research_Symposium_Classifying-mosquito-wingbeat-sound-using-TinyML.pdf)
 ## Tutorials 
-### ARDUINO NICLA Vision - Computer Vision [[Material]](UPCH-Peru) [[Video]](https://youtu.be/uYHSKd8A_sE?si=JoGJQyolGomPd09G)
+### ARDUINO NICLA Vision - Computer Vision [[Material]](UPCH-Peru) [[Video]](https://www.youtube.com/watch?v=uYHSKd8A_sE&t=10s)
 ### [XIAO ESP32S3 Sense - Audio / Motion / Vision](https://github.com/Mjrovai/XIAO-ESP32S3-Sense)
 ### [ESP32 TinyML - Audio / Motion / Vision](https://github.com/Mjrovai/ESP32-TinyML)
 ### [XIAO-BLE-Sense - Audio / Motion / Datalogger / MicroPython](https://github.com/Mjrovai/Seeed-XIAO-BLE-Sense/tree/main)
