@@ -6,7 +6,7 @@
 
 ## Workshops / Lectures
 ### [UPCH-Peru: TinyML Introduction and Edge Computing Vision w/ Arduino NICLA Vision](UPCH-Peru)
-### Morocco AI - Summer School [Material]()
+### Morocco AI - Summer School [[Material]](AI-Morocco)
 ### tinyML Talks: "Unleashing the Power of the New XIAO ESP32S3 Sense" [[Slides]](https://cms.tinyml.org/wp-content/uploads/talks2023/tinyML_Talks_Marcelo_Rovai_230613.pdf) [[Video]](https://youtu.be/KeXlAazzgKw?si=PEi6pVYxZ8zKobIl)
 ### [SciTinyML: Scientific Use of Machine Learning on Low-Power Devices - 2023](/SciTinyM-2023)
 ### [PUC Ecuador - Bringing Intelligence to Sensors](/PUC-Ecuador/TinyML-Intro-Rovai_30mar23.pdf)
