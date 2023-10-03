@@ -19,6 +19,8 @@
 ### [On Device - Predictive Model](/papers/sensors-22-05174.pdf)
 ### [Classifying mosquito wingbeat sound using TinyML](/papers/TinyML_Research_Symposium_Classifying-mosquito-wingbeat-sound-using-TinyML.pdf)
 ## Tutorials 
+### [Edge Machine Learning in Practice e-Book (working in progress)](https://tinyml4d.gitbook.io/edge-machine-learning/)
+### [Sensor Data Fusion with SONY Spresense and SensiEDGE CommonSense boards](https://docs.edgeimpulse.com/experts/air-quality-and-environmental-projects/environmental-sensor-fusion-commonsense)[[Material]](https://github.com/Mjrovai/Sony-Spresense)
 ### ARDUINO NICLA Vision - Computer Vision [[Material]](UPCH-Peru) [[Video]](https://www.youtube.com/watch?v=uYHSKd8A_sE&t=10s)
 ### [XIAO ESP32S3 Sense - Audio / Motion / Vision](https://github.com/Mjrovai/XIAO-ESP32S3-Sense)
 ### [ESP32 TinyML - Audio / Motion / Vision](https://github.com/Mjrovai/ESP32-TinyML)
