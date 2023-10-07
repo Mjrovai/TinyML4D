@@ -1,5 +1,5 @@
 # WALC_2023-Applied_AI
-[WALC 2023 - Panama - Track 2 – Inteligencia Artificial Aplicada](https://eslared.net/walc2023/?page_id=241)
+[WALC 2023 - Guayaquil, Ecuador - Track 2 – Inteligencia Artificial Aplicada](https://eslared.net/walc2023/?page_id=241)
 
 ![](./images/track2.png)
 <hr>
@@ -24,52 +24,46 @@ This course will be divided into two main parts: Fundamentals and Applications.
 + [Professional Certificate in Tiny Machine Learning (TinyML) – edX/Harvard](https://www.edx.org/professional-certificate/harvardx-tiny-machine-learning)
 + [Introduction to Embedded Machine Learning - Coursera/Edge Impulse](https://www.coursera.org/learn/introduction-to-embedded-machine-learning)
 + [Computer Vision with Embedded Machine Learning - Coursera/Edge Impulse](https://www.coursera.org/learn/computer-vision-with-embedded-machine-learning)
++ [UNIFEI-IESTI01 TinyML: "Machine Learning for Embedding Devices"](https://github.com/Mjrovai/UNIFEI-IESTI01-TinyML-2023.1)
 + ["Deep Learning with Python" by François Chollet](https://www.manning.com/books/deep-learning-with-python) - [GitHub Notebooks](https://github.com/fchollet/deep-learning-with-python-notebooks)
 + ["TinyML" by Pete Warden, Daniel Situnayake](https://www.oreilly.com/library/view/tinyml/9781492052036/)
 + ["TinyML Cookbook" by Gian Marco Iodice](https://github.com/PacktPublishing/TinyML-Cookbook)
 + ["Technical Strategy for AI Engineers, In the Era of Deep Learning" by Andrew Ng](https://github.com/ajaymache/machine-learning-yearning/blob/master/full%20book/machine-learning-yearning.pdf)
 + ["Python for Data Analysis by Wes MacKinney"](https://wesmckinney.com/book/)
++ ["AI at the Edge" book by Daniel Situnayake, Jenny Plunkett](https://www.oreilly.com/library/view/ai-at-the/9781098120191/)
++ ["MACHINE LEARNING SYSTEMS for TinyML" e-Book extension from CS249r course at Harvard University](https://harvard-edge.github.io/cs249r_book/)
 
 ## Material
 - All material will be uploaded to this repo at the classes' base
-  - Slides, Noteboooks, Code and Docs in English 
-  - Videos in Spanish (or better, in "Portunhol" ;-)
+- Slides, Notebooks, Code and Docs are majoritarian in English 
 
 ### Day_1:
-1. About the Track & Sylabus
-2. Introduction to Artificial Inteligence and Machine Learning
-3. Introduction to Neural Networks (TF Hands-On)
-4. Regression (Hands-On with CoLab)
-+ [[Slides]](day_1/) 
-+ [[Morning Video]](https://youtu.be/J1d94Vrtj_E)
-+ [[Afternoon Video]](https://youtu.be/OHizFg1WWK4)
+1. About the Track & Syllabus
+2. Introduction to Artificial Intelligence and Machine Learning
+3. Introduction to Neural Networks
+4. Regression
+5. Hands-On: Python and Tensorflow with CoLab 
+
 ### Day_2:
 5. DNN - Classification (Hands-On with CoLab)
 6. DNN Recap & ML Metrics
-7. Introduction to Convoluctions
+7. Introduction to Convolutions
 8. Image Classification using Convolutions (CNN)  - Preventing Overfitting
-+ [[Slides]](day_2/) 
-+ [[Morning Video]](https://youtu.be/NisQSkHd-SQ)
-+ [[Afternoon Video]](https://youtu.be/OTSOHNKk8Ok)
+9. Hands-On: Microcontrollers and IDEs: overview and installation 
+
 ### Day_3:
 9. Deep Learning (DL) Wrap-up
 10. Embedded ML (TinyML) Intro & Applications
 11. Image Classification Intro & Hands-On using Edge Impulse
-+ [[Slides]](day_3/) 
-+ [[Morning Video]](https://youtu.be/Y-oCM7eURCw)
-+ [[Afternoon Video]](https://youtu.be/DxzgU8iXvKM)
+
 ### Day_4:
 12. Sound Classification Intro & Hands-On
 13. Motion Classification & Hands-On
-+ [[Slides]](day_4/) 
-+ [[Morning Video]](https://youtu.be/w2XgizNT36c)
-+ [[Afternoon Video]](https://youtu.be/ui-4m2omTPg)
+
 ### Day_5:
-13. (Review and previous day's conclusion) Anomaly Detecion & Hands-On
+13. (Review and previous day's conclusion) Anomaly Detection & Hands-On
 14. Applied AI Track Wrap-up
-+ [[Slides]](day_5/) 
-+ [[Morning Video]](https://youtu.be/D9hBOwr7biE)
 
 <hr>
 
-WALC 2023 Track 2 is part of the [TinyML4D](https://tinyml.seas.harvard.edu/), an initiative to make Embedded Machine Learning (TinyML) education available to everyone, explicitly enabling innovative solutions for the unique challenges faced by Developing Countries.  
+WALC 2023 Track 2 is part of the [TinyML4D](https://tinyml.seas.harvard.edu/4D/AcademicNetwork), an initiative to make Embedded Machine Learning (TinyML) education available to everyone, explicitly enabling innovative solutions for the unique challenges faced by Developing Countries.  
