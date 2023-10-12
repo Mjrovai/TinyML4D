@@ -5,6 +5,7 @@
 <hr>  
 
 ## Workshops / Lectures
+### [WALC 2023 - Ecuador - "Applied AI"](https://github.com/Mjrovai/WALC_2023-Applied_AI)
 ### [UPCH-Peru: TinyML Introduction and Edge Computing Vision w/ Arduino NICLA Vision](UPCH-Peru)
 ### Morocco AI - Summer School [[Material]](AI-Morocco)
 ### tinyML Talks: "Unleashing the Power of the New XIAO ESP32S3 Sense" [[Slides]](https://cms.tinyml.org/wp-content/uploads/talks2023/tinyML_Talks_Marcelo_Rovai_230613.pdf) [[Video]](https://youtu.be/KeXlAazzgKw?si=PEi6pVYxZ8zKobIl)
