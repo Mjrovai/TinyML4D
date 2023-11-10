@@ -64,20 +64,20 @@ This course will be divided into two main parts: Fundamentals and Applications.
     - ML Metrics 
 
 - Convolutions – M Rovai
-    - Introduction
-    - Image Classification using Convolutions (CNN)
+    - [Introduction](content/02_Applied_AI_2023.pdf)
+    - [Image Classification using Convolutions (CNN)](content/03_Applied_AI_2023.pdf)
         - Hands-On with CoLab
 
-- Preventing Overfitting & DL Wrap-Up – M Rovai
-
+- [Preventing Overfitting & DL Wrap-Up](content/04_Applied_AI_2023.pdf) – M Rovai
 
 ### Day 3 (Applications):
-- Edge Impulse Studio – M Rovai
+
+- [Edge Impulse Studio](content/05_Applied_AI_2023.pdf) – M Rovai
     - Hands-On with EI-Studio
 
-- Embedded ML (TinyML) Intro & Applications – M Rovai
+- [Embedded ML (TinyML) Intro & Applications](content/06_Applied_AI_2023.pdf) – M Rovai
 
-- Computer Vision (CV) Applications – M Rovai
+- [Computer Vision (CV) Applications](content/07_Applied_AI_2023.pdf) – M Rovai
 
     - Image Classification
         - Hands-On with NiclaV
@@ -86,24 +86,20 @@ This course will be divided into two main parts: Fundamentals and Applications.
 
 ### Day 4 (Applications):
 
-- Sound Classification – M Rovai 
+- [Sound Classification](content/08_Applied_AI_2023.pdf) – M Rovai 
     - Hands-On with NiclaV
 
-- Motion Classification – M Rovai
-    - Hands-On with NiclaV
+- [Motion Classification & Anomaly Detection](content/09_Applied_AI_2023.pdf) – M Rovai
 
-- Anomaly Detection  – M Rovai
-    - Hands-On with NiclaV
+    - Motion Classification Hands-On with NiclaV
+
+    - Anomaly Detection Hands-On with NiclaV
 
 ### Day 5 (Applications):
 
 - AI Ethics – J Lopez
 
-- Sensor Fusion and Multiple Models – M Rovai
-
-- The future of the Edge AI – M Rovai
-
-- Applied AI Track Wrap-up – M Rovai
+- [Applied AI Track Wrap-up](content/10_Applied_AI_2023.pdf) – M Rovai
 
 <hr>
 
