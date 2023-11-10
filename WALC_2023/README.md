@@ -34,12 +34,23 @@ This course will be divided into two main parts: Fundamentals and Applications.
 + ["MACHINE LEARNING SYSTEMS for TinyML" e-book extension from CS249r course at Harvard University](https://harvard-edge.github.io/cs249r_book/)
 + [Edge Impulse Expert Network](https://docs.edgeimpulse.com/experts/)
 
+
+
+## Instructors 
+
+- Marcelo José Rovai (Coordinator)  – UNIFEI – Universidade Federal de Itajubá (In person)
+- Diego Méndez Chávez – Universidad Javeriana (Virtual)
+- Jesús López – Universidad Autónoma de Occidente (Virtual)
+
+
+
 ## Material
-- All material will be uploaded to this repo at the classes' base
+
+- The material can be changed/updated to this repo at the classes' base
 - Slides, Notebooks, Code, and Docs are majoritarian in English 
 - Hands-On sections with the Nicla Vision device (NiclaV) will follow the e-book:
 
-    - https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/
+    - [TinyML Made Easy, Hands-On with the Nicla Vision](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/)
 
     ![](images/ebook.jpg)
 
@@ -79,24 +90,23 @@ This course will be divided into two main parts: Fundamentals and Applications.
     - Hands-On with EI-Studio
 
 - [Embedded ML (TinyML) Intro & Applications](content/06_Applied_AI_2023.pdf) – M Rovai
+    - [Hands-On: Nicla Vision Setup](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/niclav_sys.html)
 
 - [Computer Vision (CV) Applications](content/07_Applied_AI_2023.pdf) – M Rovai
 
     - Image Classification
-        - Hands-On with NiclaV
+        - [Hands-On with NiclaV: Image Classification](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/image_classification.html)
 
-    - Object Detection)
+    - Object Detection
+        - [Hands-On with NiclaV: Object Detection](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/object_detection_fomo.html)
 
 ### Day 4 (Applications):
 
 - [Sound Classification](content/08_Applied_AI_2023.pdf) – M Rovai 
-    - Hands-On with NiclaV
+    - [Hands-On with NiclaV: KWS](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/kws_nicla.html)
 
 - [Motion Classification & Anomaly Detection](content/09_Applied_AI_2023.pdf) – M Rovai
-
-    - Motion Classification Hands-On with NiclaV
-
-    - Anomaly Detection Hands-On with NiclaV
+    - [Hands-On with NiclaV: Motion Classification  & Anomaly Detection](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/Motion_Classif_Anomaly_Detect.html)
 
 ### Day 5 (Applications):
 
