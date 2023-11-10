@@ -36,50 +36,75 @@ This course will be divided into two main parts: Fundamentals and Applications.
 ## Material
 - All material will be uploaded to this repo at the classes' base
 - Slides, Notebooks, Code, and Docs are majoritarian in English 
+- Hands-On sections with the Nicla Vision device (NiclaV) will follow the e-book:
+
+    - https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/
+
+    ![](images/ebook.jpg)
 
 ### Day 1 (Fundamentals):
-1. About the Track & Syllabus
-2. Artificial Intelligence Overview
-3. Introduction to Machine Learning
-4. Introduction to Neural Networks
-5. **Afternoon Hands-On**
--  Python and Tensorflow Review with CoLab 
+
+- Artificial Intelligence Overview – J Lopez
+
+- About the Track & Syllabus – M Rovai
+
+- Tools Setup - M Rovai
 
 ### Day 2 (Fundamentals):
-5. DNN - Regression (Hands-On with CoLab)
-6. DNN - Classification (Hands-On with CoLab)
-7. DNN Recap & ML Metrics
-8. Introduction to Convolutions
-9. Image Classification using Convolutions (CNN)  - Preventing Overfitting
-10. **Afternoon Hardware Hands-On**
-- The Arduino Nicla Vision
-- The Arduino IDE & Sensor Test
-- The OpenMV IDE and MicroPython
+
+- Introduction to Machine Learning – D Mendez
+
+- Introduction to Neural Networks – D Mendez
+
+    - DNN – Regression
+
+    - DNN – Classification
+
+    - ML Metrics 
+
+- Convolutions – M Rovai
+    - Introduction
+    - Image Classification using Convolutions (CNN)
+        - Hands-On with CoLab
+
+- Preventing Overfitting & DL Wrap-Up – M Rovai
 
 
 ### Day 3 (Applications):
-11. Embedded ML (TinyML) Intro & Applications
-11. Computer Vision (CV) Applications (Image Classification and Object Detection)
-12. **Afternoon HW Hands-On**
-- Edge Impulse Studio Intro
-- Image Classification Project
-- Object Detection Project 
+- Edge Impulse Studio – M Rovai
+    - Hands-On with EI-Studio
 
-### Day_4 (Applications):
-12. Sound Classification Intro 
-13. DSP - Digital Signal Processing Overview 
-14. Vibration (Movement) 
-15. Anomaly Detection 
-16. **Afternoon HW Hands-On**: 
-- KeyWordSpotting (KWS) Project
-- Motion Classification and Anomaly Detection Project
+- Embedded ML (TinyML) Intro & Applications – M Rovai
 
-### Day_5 (Applications):
-13. Sensor Fusion and Multiple Models Intro
-14. The future of the Edge AI
-15. AI Ethics Intro 
-16. Applied AI Track Wrap-up
+- Computer Vision (CV) Applications – M Rovai
+
+    - Image Classification
+        - Hands-On with NiclaV
+
+    - Object Detection)
+
+### Day 4 (Applications):
+
+- Sound Classification – M Rovai 
+    - Hands-On with NiclaV
+
+- Motion Classification – M Rovai
+    - Hands-On with NiclaV
+
+- Anomaly Detection  – M Rovai
+    - Hands-On with NiclaV
+
+### Day 5 (Applications):
+
+- AI Ethics – J Lopez
+
+- Sensor Fusion and Multiple Models – M Rovai
+
+- The future of the Edge AI – M Rovai
+
+- Applied AI Track Wrap-up – M Rovai
 
 <hr>
+![](images/tinyml4d_logo.jpg)
 
 WALC 2023 Track 2 is part of the [TinyML4D](https://tinyml.seas.harvard.edu/4D/AcademicNetwork), an initiative to make Embedded Machine Learning (TinyML) education available to everyone, explicitly enabling innovative solutions for the unique challenges Developing Countries face.  
