@@ -1,4 +1,5 @@
 # WALC_2023-Applied_AI
+
 [WALC 2023 - Guayaquil, Ecuador - Track 2 – Inteligencia Artificial Aplicada](https://eslared.net/walc2023/?page_id=241)
 
 ![](./images/track2.png)
@@ -46,7 +47,7 @@ This course will be divided into two main parts: Fundamentals and Applications.
 
 - Artificial Intelligence Overview – J Lopez
 
-- About the Track & Syllabus – M Rovai
+- [About the Track & Syllabus](content/01_Applied_AI_2023) – M Rovai
 
 - Tools Setup - M Rovai
 
@@ -105,6 +106,7 @@ This course will be divided into two main parts: Fundamentals and Applications.
 - Applied AI Track Wrap-up – M Rovai
 
 <hr>
+
 
 ![](images/tinyml4d_logo.jpg)
 
