@@ -47,7 +47,7 @@ This course will be divided into two main parts: Fundamentals and Applications.
 
 - Artificial Intelligence Overview – J Lopez
 
-- [About the Track & Syllabus](content/01_Applied_AI_2023) – M Rovai
+- [About the Track & Syllabus](content/01_Applied_AI_2023.pdf) – M Rovai
 
 - Tools Setup - M Rovai
 
