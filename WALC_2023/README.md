@@ -105,6 +105,7 @@ This course will be divided into two main parts: Fundamentals and Applications.
 - Applied AI Track Wrap-up – M Rovai
 
 <hr>
+
 ![](images/tinyml4d_logo.jpg)
 
 WALC 2023 Track 2 is part of the [TinyML4D](https://tinyml.seas.harvard.edu/4D/AcademicNetwork), an initiative to make Embedded Machine Learning (TinyML) education available to everyone, explicitly enabling innovative solutions for the unique challenges Developing Countries face.  
