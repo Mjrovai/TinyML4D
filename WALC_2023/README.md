@@ -15,34 +15,13 @@ On the other hand, in the last decades, we have witnessed the development of Mac
 
 
 ## Overview of the Applied AI Track
-The Applied AI Track is an introductory course on the intersection between Machine Learning and Embedded Devices. The spread of embedded devices with ultra-low power consumption (on the order of milliwatts), together with the introduction of machine learning frameworks dedicated to embedded devices, such as TensorFlow Lite for Microcontrollers (TF Lite Micro), allow the mass proliferation of IoT devices empowered by AI (“AioT”).
-
-This course will be divided into two main parts: Fundamentals and Applications. 
-
-## References
-+ [Harvard School of Engineering and Applied Sciences - CS249r: Tiny Machine Learning](https://sites.google.com/g.harvard.edu/tinyml/home)
-+ [Professional Certificate in Tiny Machine Learning (TinyML) – edX/Harvard](https://www.edx.org/professional-certificate/harvardx-tiny-machine-learning)
-+ [Introduction to Embedded Machine Learning - Coursera/Edge Impulse](https://www.coursera.org/learn/introduction-to-embedded-machine-learning)
-+ [Computer Vision with Embedded Machine Learning - Coursera/Edge Impulse](https://www.coursera.org/learn/computer-vision-with-embedded-machine-learning)
-+ [UNIFEI-IESTI01 TinyML: "Machine Learning for Embedding Devices"](https://github.com/Mjrovai/UNIFEI-IESTI01-TinyML-2023.1)
-+ ["Deep Learning with Python" by François Chollet](https://www.manning.com/books/deep-learning-with-python) - [GitHub Notebooks](https://github.com/fchollet/deep-learning-with-python-notebooks)
-+ ["TinyML" by Pete Warden, Daniel Situnayake](https://www.oreilly.com/library/view/tinyml/9781492052036/)
-+ ["TinyML Cookbook" by Gian Marco Iodice](https://github.com/PacktPublishing/TinyML-Cookbook)
-+ ["Technical Strategy for AI Engineers, In the Era of Deep Learning" by Andrew Ng](https://github.com/ajaymache/machine-learning-yearning/blob/master/full%20book/machine-learning-yearning.pdf)
-+ ["Python for Data Analysis by Wes McKinney"](https://wesmckinney.com/book/)
-+ ["AI at the Edge" book by Daniel Situnayake, Jenny Plunkett](https://www.oreilly.com/library/view/ai-at-the/9781098120191/)
-+ ["MACHINE LEARNING SYSTEMS for TinyML" e-book extension from CS249r course at Harvard University](https://harvard-edge.github.io/cs249r_book/)
-+ [Edge Impulse Expert Network](https://docs.edgeimpulse.com/experts/)
-
-
+The Applied AI Track is an introductory course on the intersection between Machine Learning and Embedded Devices. The spread of embedded devices with ultra-low power consumption (on the order of milliwatts), together with the introduction of machine learning frameworks dedicated to embedded devices, such as TensorFlow Lite for Microcontrollers (TF Lite Micro), allow the mass proliferation of IoT devices empowered by AI (“AioT”). The course will be divided into two main parts: Fundamentals and Applications. 
 
 ## Instructors 
 
 - Marcelo José Rovai (Coordinator)  – UNIFEI – Universidade Federal de Itajubá (In person)
 - Diego Méndez Chávez – Universidad Javeriana (Virtual)
 - Jesús López – Universidad Autónoma de Occidente (Virtual)
-
-
 
 ## Material
 
@@ -114,9 +93,36 @@ This course will be divided into two main parts: Fundamentals and Applications.
 
 - [Applied AI Track Wrap-up](content/10_Applied_AI_2023.pdf) – M Rovai
 
+
+
+## References
+
+### Online Courses
+
+-   [Harvard School of Engineering and Applied Sciences - CS249r: Tiny Machine Learning](https://sites.google.com/g.harvard.edu/tinyml/home)
+-   [Professional Certificate in Tiny Machine Learning (TinyML) -- edX/Harvard](https://www.edx.org/professional-certificate/harvardx-tiny-machine-learning)
+-   [Introduction to Embedded Machine Learning - Coursera/Edge Impulse](https://www.coursera.org/learn/introduction-to-embedded-machine-learning)
+-   [Computer Vision with Embedded Machine Learning - Coursera/Edge Impulse](https://www.coursera.org/learn/computer-vision-with-embedded-machine-learning)
+-   [UNIFEI-IESTI01 TinyML: "Machine Learning for Embedding Devices"](https://github.com/Mjrovai/UNIFEI-IESTI01-TinyML-2023.1)
+
+### Books
+
+-   ["Python for Data Analysis by Wes McKinney"](https://wesmckinney.com/book/)
+-   ["Deep Learning with Python" by François Chollet](https://www.manning.com/books/deep-learning-with-python) - [GitHub Notebooks](https://github.com/fchollet/deep-learning-with-python-notebooks)
+-   ["TinyML" by Pete Warden, Daniel Situnayake](https://www.oreilly.com/library/view/tinyml/9781492052036/)
+-   ["TinyML Cookbook" by Gian Marco Iodice](https://github.com/PacktPublishing/TinyML-Cookbook)
+-   ["Technical Strategy for AI Engineers, In the Era of Deep Learning" by Andrew Ng](https://github.com/ajaymache/machine-learning-yearning/blob/master/full%20book/machine-learning-yearning.pdf)
+-   ["AI at the Edge" book by Daniel Situnayake, Jenny Plunkett](https://www.oreilly.com/library/view/ai-at-the/9781098120191/)
+-   ["MACHINE LEARNING SYSTEMS for TinyML" Collaborative effort](https://harvard-edge.github.io/cs249r_book/)
+
+### Projects Repository
+
+-   [Edge Impulse Expert Network](https://docs.edgeimpulse.com/experts/)
+
 <hr>
 
 
 ![](images/tinyml4d_logo.jpg)
 
-WALC 2023 Track 2 is part of the [TinyML4D](https://tinyml.seas.harvard.edu/4D/AcademicNetwork), an initiative to make Embedded Machine Learning (TinyML) education available to everyone, explicitly enabling innovative solutions for the unique challenges Developing Countries face.  
+WALC 2023 - Applied AI content is part of the [TinyML4D](https://tinyml.seas.harvard.edu/4D/AcademicNetwork), an initiative to make Embedded Machine Learning (TinyML) education available to everyone, explicitly enabling innovative solutions for the unique challenges Developing Countries face.  
+
