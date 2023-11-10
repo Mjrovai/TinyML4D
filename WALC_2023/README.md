@@ -53,9 +53,12 @@ This course will be divided into two main parts: Fundamentals and Applications.
 
 ### Day 2 (Fundamentals):
 
-- Introduction to Machine Learning – D Mendez
+- [Machine Learning Fundamentals - Part I](content/Applied_AI_D2_p1.pdf) – D Mendez
+    - Introduction
+    - The ML Paradigma
+    - Artificial Neural Networks
 
-- Introduction to Neural Networks – D Mendez
+- [Machine Learning Fundamentals - Part II](content/Applied_AI_D2_p2.pdf) – D Mendez
 
     - DNN – Regression
 
