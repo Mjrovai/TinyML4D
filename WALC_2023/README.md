@@ -40,7 +40,7 @@ The Applied AI Track is an introductory course on the intersection between Machi
 - [About the Track & Syllabus](content/01_Applied_AI_2023.pdf) – M Rovai
 
 - Tools Setup - M Rovai
-    - - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-T01-2021.1/blob/main/00_Curso_Folder/1_Fundamentals/Class_4/notebooks/Class_4_Python_Overview.ipynb) [Python_Overview.ipynb](/00_Curso_Folder/1_Fundamentals/Class_4/notebooks/Class_4_Python_Overview.ipynb)
+    - - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Mjrovai/TinyML4D/blob/main/WALC_2023/notebooks/Test_Python.ipynb) [Python_Overview.ipynb](notebooks/Python_Overview.ipynb)
 
 
 ### Day 2 (Fundamentals):
