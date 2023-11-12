@@ -35,7 +35,7 @@ The Applied AI Track is an introductory course on the intersection between Machi
 
 ### Day 1 (Fundamentals):
 
-- Artificial Intelligence Overview – J Lopez
+- [Artificial Intelligence Overview](content/Applied_AI_D1_AI_Overview.pdf) – J Lopez
 
 - [About the Track & Syllabus](content/01_Applied_AI_2023.pdf) – M Rovai
 
