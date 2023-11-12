@@ -61,7 +61,7 @@ The Applied AI Track is an introductory course on the intersection between Machi
 - Convolutions – M Rovai
     - [Introduction](content/02_Applied_AI_2023.pdf)
     - [Image Classification using Convolutions (CNN)](content/03_Applied_AI_2023.pdf)
-        - Hands-On with CoLab
+        - Hands-On with CoLab  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_11/CNN_Cifar_10.ipynb)
 
 - [Preventing Overfitting & DL Wrap-Up](content/04_Applied_AI_2023.pdf) – M Rovai
 
@@ -74,10 +74,9 @@ The Applied AI Track is an introductory course on the intersection between Machi
     - [Hands-On: Nicla Vision Setup](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/niclav_sys.html)
 
 - [Computer Vision (CV) Applications](content/07_Applied_AI_2023.pdf) – M Rovai
-
     - Image Classification
         - [Hands-On with NiclaV: Image Classification](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/image_classification.html)
-
+    
     - Object Detection
         - [Hands-On with NiclaV: Object Detection](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/object_detection_fomo.html)
 
