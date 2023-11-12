@@ -40,7 +40,7 @@ The Applied AI Track is an introductory course on the intersection between Machi
 - [About the Track & Syllabus](content/01_Applied_AI_2023.pdf) – M Rovai
 
 - Tools Setup - M Rovai
-    - - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/WALC_2023/notebooks/Test_Python.ipynb) [Python_Overview.ipynb](notebooks/Python_Overview.ipynb)
+    - [Python_Overview.ipynb](notebooks/Python_Overview.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/WALC_2023/notebooks/Test_Python.ipynb) 
 
 
 ### Day 2 (Fundamentals):
@@ -117,9 +117,10 @@ The Applied AI Track is an introductory course on the intersection between Machi
 -   ["AI at the Edge" book by Daniel Situnayake, Jenny Plunkett](https://www.oreilly.com/library/view/ai-at-the/9781098120191/)
 -   ["MACHINE LEARNING SYSTEMS for TinyML" Collaborative effort](https://harvard-edge.github.io/cs249r_book/)
 
-### Projects Repository
+### Papers and Projects Repositories
 
 -   [Edge Impulse Expert Network](https://docs.edgeimpulse.com/experts/)
+-   [TinyML Papers and Projects](https://github.com/gigwegbe/tinyml-papers-and-projects)
 
 <hr>
 
