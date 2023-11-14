@@ -45,6 +45,7 @@ The Applied AI Track is an introductory course on the intersection between Machi
 - [Machine Learning Fundamentals - Part I](content/Applied_AI_D2_p1.pdf) – D Mendez [[Video]](https://youtu.be/xhwzK5qO6ew)
     - Introduction
     - The ML Paradigma
+       - Exploring Loss and Cost Function [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_05/Exploring_Loss_Cost_Function.ipynb) 
     - Artificial Neural Networks
        - TF_First_Neural_Network [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_06/TF_First_Neural_Network.ipynb) 
 - [Machine Learning Fundamentals - Part II](content/Applied_AI_D2_p2.pdf) – D Mendez [[Video]](https://youtu.be/eGhTuZ_quds)
