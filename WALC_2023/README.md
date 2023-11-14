@@ -49,14 +49,19 @@ The Applied AI Track is an introductory course on the intersection between Machi
     - Introduction
     - The ML Paradigma
     - Artificial Neural Networks
+       - TF_First_Neural_Network [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_06/TF_First_Neural_Network.ipynb) 
 
 - [Machine Learning Fundamentals - Part II](content/Applied_AI_D2_p2.pdf) – D Mendez [[Video]](https://youtu.be/eGhTuZ_quds)
 
     - DNN – Regression
+      - TF_Boston_Housing_Regression [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_07/TF_Boston_Housing_Regression.ipynb) 
 
     - DNN – Classification
+      - TF_MNIST_Classification_v2 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_09/TF_MNIST_Classification_v2.ipynb) 
 
-    - ML Metrics 
+
+    - ML Metrics
+        - Classification_Report [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_09/Classification_Report.ipynb) 
 
 - Convolutions – M Rovai
     - [Introduction](content/02_Applied_AI_2023.pdf)
