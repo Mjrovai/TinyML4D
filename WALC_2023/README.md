@@ -35,7 +35,7 @@ The Applied AI Track is an introductory course on the intersection between Machi
 
 ### Day 1 (Fundamentals):
 
-- [Artificial Intelligence Overview](content/Applied_AI_D1_AI_Overview.pdf) – J Lopez
+- [Artificial Intelligence Overview](content/Applied_AI_D1_AI_Overview.pdf) – J Lopez [[Video]](https://youtu.be/ij77-S2XREI)
 
 - [About the Track & Syllabus](content/01_Applied_AI_2023.pdf) – M Rovai
 
@@ -45,12 +45,12 @@ The Applied AI Track is an introductory course on the intersection between Machi
 
 ### Day 2 (Fundamentals):
 
-- [Machine Learning Fundamentals - Part I](content/Applied_AI_D2_p1.pdf) – D Mendez
+- [Machine Learning Fundamentals - Part I](content/Applied_AI_D2_p1.pdf) – D Mendez [[Video]](https://youtu.be/xhwzK5qO6ew)
     - Introduction
     - The ML Paradigma
     - Artificial Neural Networks
 
-- [Machine Learning Fundamentals - Part II](content/Applied_AI_D2_p2.pdf) – D Mendez
+- [Machine Learning Fundamentals - Part II](content/Applied_AI_D2_p2.pdf) – D Mendez [[Video]](https://youtu.be/eGhTuZ_quds)
 
     - DNN – Regression
 
