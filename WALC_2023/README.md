@@ -36,12 +36,9 @@ The Applied AI Track is an introductory course on the intersection between Machi
 ### Day 1 (Fundamentals):
 
 - [Artificial Intelligence Overview](content/Applied_AI_D1_AI_Overview.pdf) – J Lopez [[Video]](https://youtu.be/ij77-S2XREI)
-
 - [About the Track & Syllabus](content/01_Applied_AI_2023.pdf) – M Rovai [[Podcast]](https://youtu.be/TB5BUtg0P8I?si=jZW3DCAygQlA8r9D)
-
 - Tools Setup - M Rovai
     - [Python_Overview](notebooks/Test_Python.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/WALC_2023/notebooks/Test_Python.ipynb) 
-
 
 ### Day 2 (Fundamentals):
 
@@ -50,38 +47,28 @@ The Applied AI Track is an introductory course on the intersection between Machi
     - The ML Paradigma
     - Artificial Neural Networks
        - TF_First_Neural_Network [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_06/TF_First_Neural_Network.ipynb) 
-
 - [Machine Learning Fundamentals - Part II](content/Applied_AI_D2_p2.pdf) – D Mendez [[Video]](https://youtu.be/eGhTuZ_quds)
-
     - DNN – Regression
       - TF_Boston_Housing_Regression [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_07/TF_Boston_Housing_Regression.ipynb) 
-
     - DNN – Classification
       - TF_MNIST_Classification_v2 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_09/TF_MNIST_Classification_v2.ipynb) 
-
-
     - ML Metrics
         - Classification_Report [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_09/Classification_Report.ipynb) 
-
 - Convolutions – M Rovai
     - [Introduction](content/02_Applied_AI_2023.pdf)
     - [Image Classification using Convolutions (CNN)](content/03_Applied_AI_2023.pdf)
         - Hands-On with CoLab  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_11/CNN_Cifar_10.ipynb)
-
 - [Preventing Overfitting & DL Wrap-Up](content/04_Applied_AI_2023.pdf) – M Rovai
 
 ### Day 3 (Applications):
 
 - [Edge Impulse Studio](content/05_Applied_AI_2023.pdf) – M Rovai
     - Hands-On with EI-Studio
-
 - [Embedded ML (TinyML) Intro & Applications](content/06_Applied_AI_2023.pdf) – M Rovai
     - [Hands-On: Nicla Vision Setup](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/niclav_sys.html)
-
 - [Computer Vision (CV) Applications](content/07_Applied_AI_2023.pdf) – M Rovai
     - Image Classification
-        - [Hands-On with NiclaV: Image Classification](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/image_classification.html)
-    
+        - [Hands-On with NiclaV: Image Classification](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/image_classification.html)    
     - Object Detection
         - [Hands-On with NiclaV: Object Detection](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/object_detection_fomo.html)
 
@@ -89,17 +76,13 @@ The Applied AI Track is an introductory course on the intersection between Machi
 
 - [Sound Classification](content/08_Applied_AI_2023.pdf) – M Rovai 
     - [Hands-On with NiclaV: KWS](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/kws_nicla.html)
-
 - [Motion Classification & Anomaly Detection](content/09_Applied_AI_2023.pdf) – M Rovai
     - [Hands-On with NiclaV: Motion Classification  & Anomaly Detection](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/Motion_Classif_Anomaly_Detect.html)
 
 ### Day 5 (Applications):
 
 - AI Ethics – J Lopez
-
 - [Applied AI Track Wrap-up](content/10_Applied_AI_2023.pdf) – M Rovai
-
-
 
 ## References
 
