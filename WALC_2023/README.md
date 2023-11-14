@@ -37,7 +37,7 @@ The Applied AI Track is an introductory course on the intersection between Machi
 
 - [Artificial Intelligence Overview](content/Applied_AI_D1_AI_Overview.pdf) – J Lopez [[Video]](https://youtu.be/ij77-S2XREI)
 
-- [About the Track & Syllabus](content/01_Applied_AI_2023.pdf) – M Rovai
+- [About the Track & Syllabus](content/01_Applied_AI_2023.pdf) – M Rovai [[Podcast]](https://youtu.be/TB5BUtg0P8I?si=jZW3DCAygQlA8r9D)
 
 - Tools Setup - M Rovai
     - [Python_Overview](notebooks/Test_Python.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/WALC_2023/notebooks/Test_Python.ipynb) 
