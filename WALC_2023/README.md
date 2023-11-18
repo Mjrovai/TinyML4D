@@ -82,7 +82,7 @@ The Applied AI Track is an introductory course on the intersection between Machi
 
 ### Day 5 (Applications):
 
-- [Applied IA Ethics and AI](content/Applied_IA_Ethics_and_AI.pdf) – J Lopez
+- [Applied IA Ethics and AI](content/Applied_IA_Ethics_and_AI.pdf) – J Lopez [[video]](https://youtu.be/h_TMfzRkMkI?si=1uY4o9fW3rGi3nKL&t=60)
 - [Applied AI Track Wrap-up](content/10_Applied_AI_2023.pdf) – M Rovai
 
 ## References
