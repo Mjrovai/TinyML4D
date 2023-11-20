@@ -89,14 +89,14 @@ The Applied AI Track is an introductory course on the intersection between Machi
 - [Sound Classification](content/08_Applied_AI_2023.pdf) – M Rovai 
     - [Hands-On with NiclaV: KWS](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/kws_nicla.html)
     - EXTRA: [Audio Feature Engineering](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/kws_feature_eng.html)
-    - EXTRA [Edge Impulse MFCC Analysis for a KWS project]([![Open In Colab <](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/Arduino_Nicla_Vision/blob/main/KWS/KWS_MFCC_Analysis.ipynb))
+    - EXTRA: Edge Impulse MFCC Analysis for a KWS project [![Open In Colab <](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/Arduino_Nicla_Vision/blob/main/KWS/KWS_MFCC_Analysis.ipynb)
 
 ### Day 5 (Applications):
 
 - [Motion Classification & Anomaly Detection](content/09_Applied_AI_2023.pdf) – M Rovai
     - [Hands-On with NiclaV: Motion Classification  & Anomaly Detection](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/Motion_Classif_Anomaly_Detect.html)
     - EXTRA: [DSP - Spectral Features](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/dsp_spectral_features_block.html)
-    - EXTRA: [Edge Impulse - Spectral Analysis Block]([![Open In Colab <](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/SciTinyM-2023/Edge_Impulse-Spectral_Analysis_Block/Edge_Impulse_Spectral_Analysis_Block_V3.ipynb))
+    - EXTRA: Edge Impulse - Spectral Analysis Block [![Open In Colab <](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/SciTinyM-2023/Edge_Impulse-Spectral_Analysis_Block/Edge_Impulse_Spectral_Analysis_Block_V3.ipynb)
 
 - [Applied IA Ethics and AI](content/Applied_IA_Ethics_and_AI.pdf) – J Lopez [[video]](https://youtu.be/h_TMfzRkMkI?si=1uY4o9fW3rGi3nKL&t=60)
 - [Applied AI Track Wrap-up](content/10_Applied_AI_2023.pdf) – M Rovai
