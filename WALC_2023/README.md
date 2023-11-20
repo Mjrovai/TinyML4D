@@ -22,11 +22,12 @@ The Applied AI Track is an introductory course on the intersection between Machi
 - Marcelo José Rovai (Coordinator)  – UNIFEI – Universidade Federal de Itajubá (In person)
 - Diego Méndez Chávez – Universidad Javeriana (Virtual)
 - Jesús López – Universidad Autónoma de Occidente (Virtual)
+- Stalin Arciniegas - PUCE - Ibarra (in Person)
 
 ## Material
 
-- The material can be changed/updated to this repo at the classes' base
-- Slides, Notebooks, Code, and Docs are majoritarian in English 
+- The material can be changed/updated to this repo at the class's base.
+- Slides, notebooks, codes, and docs are majoritarian in English. 
 - Hands-On sections with the Nicla Vision device (NiclaV) will follow the e-book:
 
     - [TinyML Made Easy, Hands-On with the Nicla Vision](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/)
@@ -36,8 +37,10 @@ The Applied AI Track is an introductory course on the intersection between Machi
 ### Day 1 (Fundamentals):
 
 - [Artificial Intelligence Overview](content/Applied_AI_D1_AI_Overview.pdf) – J Lopez [[Video]](https://youtu.be/ij77-S2XREI)
-- [About the Track & Syllabus](content/01_Applied_AI_2023.pdf) – M Rovai [[Podcast]](https://youtu.be/TB5BUtg0P8I?si=jZW3DCAygQlA8r9D)
-- Tools Setup - M Rovai
+- [About the Track & Syllabus](content/01_Applied_AI_2023.pdf) – M Rovai 
+    - EXTRA: [[Podcast]](https://youtu.be/TB5BUtg0P8I?si=jZW3DCAygQlA8r9D)
+
+- Tools Setup (Google CoLab) - M Rovai
     - [Python_Overview](notebooks/Test_Python.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/WALC_2023/notebooks/Test_Python.ipynb) 
 
 ### Day 2 (Fundamentals):
@@ -55,32 +58,45 @@ The Applied AI Track is an introductory course on the intersection between Machi
       - TF_MNIST_Classification_v2 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_09/TF_MNIST_Classification_v2.ipynb) 
     - ML Metrics
         - Classification_Report [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_09/Classification_Report.ipynb) 
+- Tools Setup (Arduino IDE and OpenMV) - M Rovai and S Arciniegas
+	- [Hands-On: Nicla Vision Setup](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/niclav_sys.html)
+
+### Day 3 (Applications):
+
 - Convolutions – M Rovai
     - [Introduction](content/02_Applied_AI_2023.pdf)
     - [Image Classification using Convolutions (CNN)](content/03_Applied_AI_2023.pdf)
         - Hands-On with CoLab  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_11/CNN_Cifar_10.ipynb)
 - [Preventing Overfitting & DL Wrap-Up](content/04_Applied_AI_2023.pdf) – M Rovai
+    - EXTRA: - Data Augmentation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_13/IESTI01_data_augmentation.ipynb) 
 
-### Day 3 (Applications):
+    - EXTRA: Breast Cancer Classification [![Open In Colab](https://camo.githubusercontent.com/84f0493939e0c4de4e6dbe113251b4bfb5353e57134ffd9fcab6b8714514d4d1/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_13/docs/WDBC_Project/Breast_Cancer_Classification.ipynb)
 
 - [Edge Impulse Studio](content/05_Applied_AI_2023.pdf) – M Rovai
     - Hands-On with EI-Studio
 - [Embedded ML (TinyML) Intro & Applications](content/06_Applied_AI_2023.pdf) – M Rovai
-    - [Hands-On: Nicla Vision Setup](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/niclav_sys.html)
-- [Computer Vision (CV) Applications](content/07_Applied_AI_2023.pdf) – M Rovai
-    - Image Classification
-        - [Hands-On with NiclaV: Image Classification](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/image_classification.html)    
-    - Object Detection
-        - [Hands-On with NiclaV: Object Detection](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/object_detection_fomo.html)
 
 ### Day 4 (Applications):
 
+- [Computer Vision (CV) Applications](content/07_Applied_AI_2023.pdf) – M Rovai
+
+    - Image Classification
+        - [Hands-On with NiclaV: Image Classification](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/image_classification.html)    
+
+    - Object Detection
+        - [Hands-On with NiclaV: Object Detection](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/object_detection_fomo.html)
+
 - [Sound Classification](content/08_Applied_AI_2023.pdf) – M Rovai 
     - [Hands-On with NiclaV: KWS](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/kws_nicla.html)
-- [Motion Classification & Anomaly Detection](content/09_Applied_AI_2023.pdf) – M Rovai
-    - [Hands-On with NiclaV: Motion Classification  & Anomaly Detection](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/Motion_Classif_Anomaly_Detect.html)
+    - EXTRA: [Audio Feature Engineering](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/kws_feature_eng.html)
+    - EXTRA [Edge Impulse MFCC Analysis for a KWS project]([![Open In Colab <](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/Arduino_Nicla_Vision/blob/main/KWS/KWS_MFCC_Analysis.ipynb))
 
 ### Day 5 (Applications):
+
+- [Motion Classification & Anomaly Detection](content/09_Applied_AI_2023.pdf) – M Rovai
+    - [Hands-On with NiclaV: Motion Classification  & Anomaly Detection](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/Motion_Classif_Anomaly_Detect.html)
+    - EXTRA: [DSP - Spectral Features](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/dsp_spectral_features_block.html)
+    - EXTRA: [Edge Impulse - Spectral Analysis Block]([![Open In Colab <](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/SciTinyM-2023/Edge_Impulse-Spectral_Analysis_Block/Edge_Impulse_Spectral_Analysis_Block_V3.ipynb))
 
 - [Applied IA Ethics and AI](content/Applied_IA_Ethics_and_AI.pdf) – J Lopez [[video]](https://youtu.be/h_TMfzRkMkI?si=1uY4o9fW3rGi3nKL&t=60)
 - [Applied AI Track Wrap-up](content/10_Applied_AI_2023.pdf) – M Rovai
