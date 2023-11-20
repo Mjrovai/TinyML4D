@@ -15,7 +15,7 @@ On the other hand, in the last decades, we have witnessed the development of Mac
 
 
 ## Overview of the Applied AI Track
-The Applied AI Track is an introductory course on the intersection between Machine Learning and Embedded Devices. The spread of embedded devices with ultra-low power consumption (on the order of milliwatts), together with the introduction of machine learning frameworks dedicated to embedded devices, such as TensorFlow Lite for Microcontrollers (TF Lite Micro), allow the mass proliferation of IoT devices empowered by AI (“AioT”). The course will be divided into two main parts: Fundamentals and Applications. 
+The Applied AI Track is an introductory course on the intersection between Machine Learning and Embedded Devices. The spread of embedded devices with ultra-low power consumption (on the order of milliwatts), together with the introduction of machine learning frameworks dedicated to embedded devices, such as TensorFlow Lite for Microcontrollers (TF Lite Micro), allow the mass proliferation of IoT devices empowered by AI (“AioT”). This 40 hours course covers fundamentals and applications of deep learning and embedded machine learning. 
 
 ## Instructors 
 
