@@ -74,6 +74,7 @@ The Applied AI Track is an introductory course on the intersection between Machi
 
 - [Edge Impulse Studio](content/05_Applied_AI_2023.pdf) – M Rovai
     - Hands-On with EI-Studio
+    - EXTRA: [Arduino CLI Instalation](arduino-cli-nicla.pdf)
 - [Embedded ML (TinyML) Intro & Applications](content/06_Applied_AI_2023.pdf) – M Rovai
 
 ### Day 4 (Applications):
