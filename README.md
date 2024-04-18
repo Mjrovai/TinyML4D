@@ -21,6 +21,7 @@
 ### [Classifying mosquito wingbeat sound using TinyML](/papers/TinyML_Research_Symposium_Classifying-mosquito-wingbeat-sound-using-TinyML.pdf)
 ## Tutorials 
 ### [Edge Machine Learning in Practice e-Book (working in progress)](https://tinyml4d.gitbook.io/edge-machine-learning/)
+### TinyML LSTM Model [[Temperature Prediction using a TinyML LSTM model - Tutorial]](https://www.hackster.io/mjrobot/temperature-prediction-using-a-tinyml-lstm-model-264029) [[Material]](https://github.com/Mjrovai/Tiny-LSTM-Weather-Station)
 ### Grove Vision AI Module (V2) [[Computer Vision at the Edge - Tutorial]](https://www.hackster.io/mjrobot/computer-vision-at-the-edge-with-grove-vision-ai-module-v2-0003c7) [[Material]](https://github.com/Mjrovai/Edge-Computer-Vision/tree/main/SenseCraft-EDGE-CV)
 ### SONY Spresense and SensiEDGE CommonSense [[Sensor Data Fusion tutorial]](https://docs.edgeimpulse.com/experts/air-quality-and-environmental-projects/environmental-sensor-fusion-commonsense) [[Material]](https://github.com/Mjrovai/Sony-Spresense)
 ### ARDUINO NICLA Vision - Computer Vision [[Material]](UPCH-Peru) [[Video-ES]](https://www.youtube.com/watch?v=uYHSKd8A_sE&t=10s)
