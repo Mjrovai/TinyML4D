@@ -15,6 +15,10 @@
 ### [UAO - Colombia - TinyML Introduction](/UAO_2023)
 ### [WALC 2022 - Panama - "Applied_AI"](https://github.com/Mjrovai/WALC_2022-Applied_AI)
 ### [CNMAC-22 - Campinas, Brazil](https://github.com/Mjrovai/CNMAC-22)
+## Books
+### [Machine Learning Systems](https://github.com/harvard-edge/cs249r_book)
+### [XIAO: Big Power, Small Board - Mastering Arduino and TinyML](https://mjrovai.github.io/XIAO_Big_Power_Small_Board-ebook/)
+
 ## Academic Papers
 ### [AFIB_SR_detection_TinyML](/papers/AFIB_SR_detection_TinyML.pdf)
 ### [On Device - Predictive Model](/papers/sensors-22-05174.pdf)
