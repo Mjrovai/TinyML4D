@@ -70,7 +70,7 @@ The Applied AI Track is an introductory course on the intersection between Machi
 - [Preventing Overfitting & DL Wrap-Up](content/04_Applied_AI_2023.pdf) – M Rovai
     - EXTRA: - Data Augmentation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_13/IESTI01_data_augmentation.ipynb) 
 
-    - EXTRA: Breast Cancer Classification [![Open In Colab](https://camo.githubusercontent.com/84f0493939e0c4de4e6dbe113251b4bfb5353e57134ffd9fcab6b8714514d4d1/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_13/docs/WDBC_Project/Breast_Cancer_Classification.ipynb)
+    - EXTRA: Breast Cancer Classification [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_13/docs/WDBC_Project/Breast_Cancer_Classification.ipynb)
 
 - [Edge Impulse Studio](content/05_Applied_AI_2023.pdf) – M Rovai
     - Hands-On with EI-Studio
