@@ -30,9 +30,9 @@ The Applied AI Track is an introductory course on the intersection between Machi
 - Slides, notebooks, codes, and docs are majoritarian in English. 
 - Hands-On sections with the Nicla Vision device (NiclaV) will follow the e-book:
 
-    - [TinyML Made Easy, Hands-On with the Nicla Vision](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/)
+    - [Machine Learning Systems - LAB: Hands-On with the Nicla Vision](https://harvard-edge.github.io/cs249r_book/contents/labs/arduino/nicla_vision/nicla_vision.html)
 
-    ![](images/ebook.jpg)
+    ![](images/MLSys_book.jpg)
 
 ### Day 1 (Fundamentals):
 
