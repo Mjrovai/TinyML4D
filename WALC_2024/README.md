@@ -1,6 +1,6 @@
-# WALC_2023-Applied_AI
+# WALC_2024-Applied_AI
 
-[WALC 2023 - Guayaquil, Ecuador - Track 2 – Inteligencia Artificial Aplicada](https://eslared.net/walc2023/?page_id=241)
+[WALC 2024 - Track 3 – Inteligencia Artificial Aplicada](https://eslared.net/walc2024/?page_id=164)
 
 ![](./images/track2.png)
 <hr>
@@ -19,10 +19,10 @@ The Applied AI Track is an introductory course on the intersection between Machi
 
 ## Instructors 
 
-- Marcelo José Rovai (Coordinator)  – UNIFEI – Universidade Federal de Itajubá (In person)
-- Diego Méndez Chávez – Universidad Javeriana (Virtual)
-- Jesús López – Universidad Autónoma de Occidente (Virtual)
-- Stalin Arciniegas - PUCE - Ibarra (in Person)
+- Marcelo José Rovai (Coordinator)  – UNIFEI – Universidade Federal de Itajubá 
+- Diego Méndez Chávez – Universidad Javeriana 
+- Jesús López – Universidad Autónoma de Occidente 
+- Stalin Arciniegas - PUCE - Ibarra 
 
 ## Material
 
