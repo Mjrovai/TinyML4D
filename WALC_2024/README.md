@@ -79,7 +79,7 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
 - [Hands-On: KWS] - - S Arciniegas
 
 ### Day 4 (TimeSeries/Motion):
-- Time Series Applications - M Rovai
+- [Time Series Applications](content/08_Applied_AI_2024-LSTM.pdf) - M Rovai
 - [Motion Classification & Anomaly Detection](content/) – M Rovai
     - EXTRA: [DSP - Spectral Features](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/dsp_spectral_features_block.html)
     - EXTRA: Edge Impulse - Spectral Analysis Block [![Open In Colab <](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/SciTinyM-2023/Edge_Impulse-Spectral_Analysis_Block/Edge_Impulse_Spectral_Analysis_Block_V3.ipynb)
