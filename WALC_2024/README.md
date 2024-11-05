@@ -70,9 +70,7 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
 - Hands-On: Image Classification - S Arciniegas
 
 ### Day 3 (Advanced Image/Audio):
-- [Computer Vision (CV) Applications](content/) – M Rovai  
-
-- Object Detection – M Rovai
+- [Computer Vision (CV) Applications](content/06_Applied_AI_2024-Computer_Vision_Applications.pdf) – M Rovai  
 
 - [Sound Classification](content/) – M Rovai 
     - EXTRA: [Audio Feature Engineering](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/kws_feature_eng.html)
