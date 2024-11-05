@@ -36,7 +36,7 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
 
 - [EdgeAI Introduction](content/02-Applied_AI_2024-EdgeAI_Introduction.pdf) – M Rovai
   
-- [Artificial Intelligence Overview](content/Applied_AI_D1_AI_Overview.pdf) – J Lopez [[Video]]()
+- [Artificial Intelligence Overview](content/) – J Lopez
 
 - Tools Setup (Google CoLab) - M Rovai
     - [Python_Overview](notebooks/Test_Python.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/WALC_2023/notebooks/Test_Python.ipynb) 
@@ -56,8 +56,18 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
       - TF_MNIST_Classification_v2 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_09/TF_MNIST_Classification_v2.ipynb) 
     - ML Metrics
         - Classification_Report [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_09/Classification_Report.ipynb) 
-- Tools Setup (Arduino IDE and OpenMV) - M Rovai and S Arciniegas
-	- [Hands-On: Nicla Vision Setup](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/niclav_sys.html)
+
+- Convolutions – M Rovai
+    - [Introduction](content/02_Applied_AI_2023.pdf)
+    - [Image Classification using Convolutions (CNN)](content/03_Applied_AI_2023.pdf)
+        - Hands-On with CoLab  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_11/CNN_Cifar_10.ipynb)
+- [Preventing Overfitting & DL Wrap-Up](content/04_Applied_AI_2023.pdf) – M Rovai
+    - EXTRA: - Data Augmentation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_13/IESTI01_data_augmentation.ipynb) 
+
+    - EXTRA: Breast Cancer Classification [![Open In Colab](https://camo.githubusercontent.com/84f0493939e0c4de4e6dbe113251b4bfb5353e57134ffd9fcab6b8714514d4d1/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_13/docs/WDBC_Project/Breast_Cancer_Classification.ipynb)
+
+- Tools Setup (Edge Impulse Studio) - S Arciniegas
+- Hands-On: Image Classification - S Arciniegas
 
 ### Day 3 (Applications):
 
