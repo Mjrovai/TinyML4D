@@ -72,7 +72,7 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
 ### Day 3 (Advanced Image/Audio):
 - [Computer Vision (CV) Applications](content/06_Applied_AI_2024-Computer_Vision_Applications.pdf) – M Rovai  
 
-- [Sound Classification](content/) – M Rovai 
+- [Sound Classification Introduction](content/07_Applied_AI_2024-Sound_Classification_Intro.pdf) – M Rovai 
     - EXTRA: [Audio Feature Engineering](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/kws_feature_eng.html)
     - EXTRA: Edge Impulse MFCC Analysis for a KWS project [![Open In Colab <](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/Arduino_Nicla_Vision/blob/main/KWS/KWS_MFCC_Analysis.ipynb)
 
