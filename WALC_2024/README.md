@@ -70,45 +70,26 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
 - Hands-On: Image Classification - S Arciniegas
 
 ### Day 3 (Applications):
+- [Computer Vision (CV) Applications](content/) – M Rovai  
 
-- Convolutions – M Rovai
-    - [Introduction](content/02_Applied_AI_2023.pdf)
-    - [Image Classification using Convolutions (CNN)](content/03_Applied_AI_2023.pdf)
-        - Hands-On with CoLab  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_11/CNN_Cifar_10.ipynb)
-- [Preventing Overfitting & DL Wrap-Up](content/04_Applied_AI_2023.pdf) – M Rovai
-    - EXTRA: - Data Augmentation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_13/IESTI01_data_augmentation.ipynb) 
+- Object Detection – M Rovai
 
-    - EXTRA: Breast Cancer Classification [![Open In Colab](https://camo.githubusercontent.com/84f0493939e0c4de4e6dbe113251b4bfb5353e57134ffd9fcab6b8714514d4d1/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_13/docs/WDBC_Project/Breast_Cancer_Classification.ipynb)
-
-- [Edge Impulse Studio](content/05_Applied_AI_2023.pdf) – M Rovai
-    - Hands-On with EI-Studio
-    - EXTRA: [Arduino CLI Instalation](arduino-cli-nicla.pdf)
-- [Embedded ML (TinyML) Intro & Applications](content/06_Applied_AI_2023.pdf) – M Rovai
-
-### Day 4 (Applications):
-
-- [Computer Vision (CV) Applications](content/07_Applied_AI_2023.pdf) – M Rovai
-
-    - Image Classification
-        - [Hands-On with NiclaV: Image Classification](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/image_classification.html)    
-
-    - Object Detection
-        - [Hands-On with NiclaV: Object Detection](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/object_detection_fomo.html)
-
-- [Sound Classification](content/08_Applied_AI_2023.pdf) – M Rovai 
-    - [Hands-On with NiclaV: KWS](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/kws_nicla.html)
+- [Sound Classification](content/) – M Rovai 
     - EXTRA: [Audio Feature Engineering](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/kws_feature_eng.html)
     - EXTRA: Edge Impulse MFCC Analysis for a KWS project [![Open In Colab <](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/Arduino_Nicla_Vision/blob/main/KWS/KWS_MFCC_Analysis.ipynb)
 
-### Day 5 (Applications):
+- [Hands-On: KWS] - - S Arciniegas
 
-- [Motion Classification & Anomaly Detection](content/09_Applied_AI_2023.pdf) – M Rovai
-    - [Hands-On with NiclaV: Motion Classification  & Anomaly Detection](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/Motion_Classif_Anomaly_Detect.html)
+### Day 4 (Applications):
+- Time Series Applications - M Rovai
+- [Motion Classification & Anomaly Detection](content/) – M Rovai
     - EXTRA: [DSP - Spectral Features](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/dsp_spectral_features_block.html)
     - EXTRA: Edge Impulse - Spectral Analysis Block [![Open In Colab <](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/SciTinyM-2023/Edge_Impulse-Spectral_Analysis_Block/Edge_Impulse_Spectral_Analysis_Block_V3.ipynb)
 
-- [Applied IA Ethics and AI](content/Applied_IA_Ethics_and_AI.pdf) – J Lopez [[video]](https://youtu.be/h_TMfzRkMkI?si=1uY4o9fW3rGi3nKL&t=60)
-- [Applied AI Track Wrap-up](content/10_Applied_AI_2023.pdf) – M Rovai
+### Day 5 (Applications):
+- [Applied IA Ethics and AI](content/) – J Lopez
+- GenAI - M Rovai
+- [Applied AI Track Wrap-up](content/) – M Rovai
 
 ## References
 
@@ -140,5 +121,5 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
 
 ![](images/tinyml4d_logo.jpg)
 
-WALC 2023 - Applied AI content is part of the [TinyML4D](https://tinyml.seas.harvard.edu/4D/AcademicNetwork), an initiative to make Embedded Machine Learning (TinyML) education available to everyone, explicitly enabling innovative solutions for the unique challenges Developing Countries face.  
+WALC 2024 - Applied AI content is part of the [TinyML4D](https://tinyml.seas.harvard.edu/4D/AcademicNetwork), an initiative to make Embedded Machine Learning (TinyML) education available to everyone, explicitly enabling innovative solutions for the unique challenges Developing Countries face.  
 
