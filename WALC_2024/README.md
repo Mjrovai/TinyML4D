@@ -41,7 +41,7 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
 - Tools Setup (Google CoLab) - M Rovai
     - [Python_Overview](notebooks/Test_Python.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/WALC_2023/notebooks/Test_Python.ipynb) 
 
-### Day 2 (Fundamentals):
+### Day 2 (Fundamentals/Image):
 
 - [Machine Learning Fundamentals - Part I](content/Applied_AI_D2_p1.pdf) – D Mendez [[Video]](https://youtu.be/xhwzK5qO6ew)
     - Introduction
@@ -64,12 +64,12 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
 - [Preventing Overfitting & DL Wrap-Up](content/04_Applied_AI_2023.pdf) – M Rovai
     - EXTRA: - Data Augmentation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_13/IESTI01_data_augmentation.ipynb) 
 
-    - EXTRA: Breast Cancer Classification [![Open In Colab](https://camo.githubusercontent.com/84f0493939e0c4de4e6dbe113251b4bfb5353e57134ffd9fcab6b8714514d4d1/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_13/docs/WDBC_Project/Breast_Cancer_Classification.ipynb)
+    - EXTRA: Breast Cancer Classification [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_13/docs/WDBC_Project/Breast_Cancer_Classification.ipynb)
 
 - Tools Setup (Edge Impulse Studio) - S Arciniegas
 - Hands-On: Image Classification - S Arciniegas
 
-### Day 3 (Applications):
+### Day 3 (Advanced Image/Audio):
 - [Computer Vision (CV) Applications](content/) – M Rovai  
 
 - Object Detection – M Rovai
@@ -80,13 +80,13 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
 
 - [Hands-On: KWS] - - S Arciniegas
 
-### Day 4 (Applications):
+### Day 4 (TimeSeries/Motion):
 - Time Series Applications - M Rovai
 - [Motion Classification & Anomaly Detection](content/) – M Rovai
     - EXTRA: [DSP - Spectral Features](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/dsp_spectral_features_block.html)
     - EXTRA: Edge Impulse - Spectral Analysis Block [![Open In Colab <](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/SciTinyM-2023/Edge_Impulse-Spectral_Analysis_Block/Edge_Impulse_Spectral_Analysis_Block_V3.ipynb)
 
-### Day 5 (Applications):
+### Day 5 (Ethics/GenAI):
 - [Applied IA Ethics and AI](content/) – J Lopez
 - GenAI - M Rovai
 - [Applied AI Track Wrap-up](content/) – M Rovai
