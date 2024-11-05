@@ -15,7 +15,7 @@ On the other hand, in the last decades, we have witnessed the development of Mac
 
 
 ## Overview of the Applied AI Track
-The Applied AI Track is an introductory course on the intersection between Machine Learning and Embedded Devices. The spread of embedded devices with ultra-low power consumption (on the order of milliwatts), together with the introduction of machine learning frameworks dedicated to embedded devices, such as TensorFlow Lite for Microcontrollers (TF Lite Micro), allow the mass proliferation of IoT devices empowered by AI (“AioT”). The course will be divided into two main parts: Fundamentals and Applications. 
+This Applied AI track provides a comprehensive exploration of modern artificial intelligence technologies, focusing on their practical applications at the edge. The course covers the evolution from traditional AI to Edge AI and TinyML, addressing the growing need for intelligent processing on resource-constrained devices. Participants will learn about the fundamental concepts of AI, including machine learning models and deep neural networks, while understanding the unique challenges and solutions for deploying AI on edge devices. The course emphasizes hands-on experience with Edge AI applications across various domains, from computer vision and audio processing to sensor analytics, utilizing platforms like Edge Impulse and popular microcontroller boards. Special attention is given to emerging trends like small language models (SLMs) and Generative AI at the edge, making AI more accessible and efficient for real-world applications. Through practical examples and case studies, students will understand how to develop and deploy AI solutions that balance performance, power consumption, and privacy considerations.
 
 ## Instructors 
 
@@ -28,17 +28,15 @@ The Applied AI Track is an introductory course on the intersection between Machi
 
 - The material can be changed/updated to this repo at the class's base.
 - Slides, notebooks, codes, and docs are majoritarian in English. 
-- Hands-On sections with the Nicla Vision device (NiclaV) will follow the e-book:
-
-    - [TinyML Made Easy, Hands-On with the Nicla Vision](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/)
-
-    ![](images/ebook.jpg)
 
 ### Day 1 (Fundamentals):
 
-- [Artificial Intelligence Overview](content/Applied_AI_D1_AI_Overview.pdf) – J Lopez [[Video]](https://youtu.be/ij77-S2XREI)
-- [About the Track & Syllabus](content/01_Applied_AI_2023.pdf) – M Rovai 
+- [About the Track & Syllabus](content/01_Applied_AI_2024-Track_Introduction.pdf) – M Rovai 
     - EXTRA: [[Podcast]](https://youtu.be/TB5BUtg0P8I?si=jZW3DCAygQlA8r9D)
+
+- [EdgeAI Introduction](content/02-Applied_AI_2024-EdgeAI_Introduction.pdf) – M Rovai
+  
+- [Artificial Intelligence Overview](content/Applied_AI_D1_AI_Overview.pdf) – J Lopez [[Video]]()
 
 - Tools Setup (Google CoLab) - M Rovai
     - [Python_Overview](notebooks/Test_Python.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/WALC_2023/notebooks/Test_Python.ipynb) 
