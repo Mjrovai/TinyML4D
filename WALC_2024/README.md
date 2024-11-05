@@ -36,7 +36,7 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
 
 - [EdgeAI Introduction](content/02-Applied_AI_2024-EdgeAI_Introduction.pdf) – M Rovai
   
-- [Artificial Intelligence Overview](content/) – J Lopez
+- Artificial Intelligence Overview – J Lopez
 
 - Tools Setup (Google CoLab) - M Rovai
     - [Python_Overview](notebooks/Test_Python.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/WALC_2023/notebooks/Test_Python.ipynb) 
@@ -76,7 +76,7 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
     - EXTRA: [Audio Feature Engineering](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/kws_feature_eng.html)
     - EXTRA: Edge Impulse MFCC Analysis for a KWS project [![Open In Colab <](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/Arduino_Nicla_Vision/blob/main/KWS/KWS_MFCC_Analysis.ipynb)
 
-- [Hands-On: KWS] - S Arciniegas
+- Hands-On: KWS - S Arciniegas
 
 ### Day 4 (TimeSeries/Motion):
 - [Time Series Applications](content/08_Applied_AI_2024-LSTM.pdf) - M Rovai
@@ -85,9 +85,9 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
     - EXTRA: Edge Impulse - Spectral Analysis Block [![Open In Colab <](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/SciTinyM-2023/Edge_Impulse-Spectral_Analysis_Block/Edge_Impulse_Spectral_Analysis_Block_V3.ipynb)
 
 ### Day 5 (Ethics/GenAI):
-- [Applied IA Ethics and AI](content/) – J Lopez
+- Applied IA Ethics and AI – J Lopez
 - GenAI - M Rovai
-- [Applied AI Track Wrap-up](content/) – M Rovai
+- Applied AI Track Wrap-up – M Rovai
 
 ## References
 
