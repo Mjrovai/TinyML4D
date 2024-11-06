@@ -86,8 +86,8 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
 
 ### Day 5 (Ethics/GenAI):
 - Applied IA Ethics and AI – J Lopez
-- [GenAI - LLMs](content/10_Applied_AI_2024-LLM_at_the Edge.pdf) - M Rovai
--     EXTRA: [MachadoBot](content/11_Applied_IA_2024-Machado_Bot_Presentation_EN.pdf)
+- [GenAI - LLMs](content/10_Applied_AI_2024-LLM_at_the_Edge.pdf) - M Rovai
+    - EXTRA: [MachadoBot](content/11_Applied_IA_2024-Machado_Bot_Presentation_EN.pdf)
 - Applied AI Track Wrap-up – M Rovai
 
 ## References
