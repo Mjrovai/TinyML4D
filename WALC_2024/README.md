@@ -36,20 +36,20 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
 
 - [EdgeAI Introduction](content/02-Applied_AI_2024-EdgeAI_Introduction.pdf) – M Rovai
   
-- Artificial Intelligence Overview – J Lopez
+- [Artificial Intelligence Overview](content/JL01-AI_Introduction_WALC_2024.pdf) – J Lopez
 
 - Tools Setup (Google CoLab) - M Rovai
     - [Python_Overview](notebooks/Test_Python.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/WALC_2023/notebooks/Test_Python.ipynb) 
 
 ### Day 2 (Fundamentals/Image):
 
-- [Machine Learning Fundamentals - Part I](content/Applied_AI_D2_p1.pdf) – D Mendez [[Video]](https://youtu.be/xhwzK5qO6ew)
+- [Machine Learning Fundamentals - Part I](content/DM1-Applied_AI_ML_p1.pdf) – D Mendez 
     - Introduction
     - The ML Paradigma
        - Exploring Loss and Cost Function [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_05/Exploring_Loss_Cost_Function.ipynb) 
     - Artificial Neural Networks
        - TF_First_Neural_Network [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_06/TF_First_Neural_Network.ipynb) 
-- [Machine Learning Fundamentals - Part II](content/Applied_AI_D2_p2.pdf) – D Mendez [[Video]](https://youtu.be/eGhTuZ_quds)
+- [Machine Learning Fundamentals - Part II](content/DM2-Applied_AI_ML_p2.pdf) – D Mendez 
     - DNN – Regression
       - TF_Boston_Housing_Regression [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_07/TF_Boston_Housing_Regression.ipynb) 
     - DNN – Classification
