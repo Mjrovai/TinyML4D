@@ -66,8 +66,7 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
 
     - EXTRA: Breast Cancer Classification [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_13/docs/WDBC_Project/Breast_Cancer_Classification.ipynb)
 
-- Tools Setup (Edge Impulse Studio) - S Arciniegas
-- Hands-On: Image Classification - S Arciniegas
+- [Tools Setup (Edge Impulse Studio) & Hands-On: Image Classification](content/SA-Image_Class_Hands-On.pdf) - S Arciniegas [[Video]](https://youtu.be/hSfWEgeOc7Y)
 
 ### Day 3 (Advanced Image/Audio):
 - [Computer Vision (CV) Applications](content/06_Applied_AI_2024-Computer_Vision_Applications.pdf) – M Rovai  
