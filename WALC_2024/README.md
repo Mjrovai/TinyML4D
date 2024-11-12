@@ -57,7 +57,7 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
     - ML Metrics
         - Classification_Report [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_09/Classification_Report.ipynb) 
 
-- Convolutions – M Rovai
+- Convolutions – M Rovai [[Video]](https://youtu.be/7aL4SuoQ6l8)
     - [Introduction](content/03-Applied_AI_2024-Convolution-Intro.pdf)
     - [Image Classification using Convolutions (CNN)](content/04-Applied_AI_2024-CNN-Train.pdf)
         - Hands-On with CoLab  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_11/CNN_Cifar_10.ipynb)
