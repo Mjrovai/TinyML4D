@@ -43,13 +43,13 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
 
 ### Day 2 (Fundamentals/Image):
 
-- [Machine Learning Fundamentals - Part I](content/DM1-Applied_AI_ML_p1.pdf) – D Mendez 
+- [Machine Learning Fundamentals - Part I](content/DM1-Applied_AI_ML_p1.pdf) – D Mendez [[Video]](https://youtu.be/UOA2nAzQa3U)
     - Introduction
     - The ML Paradigma
        - Exploring Loss and Cost Function [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_05/Exploring_Loss_Cost_Function.ipynb) 
     - Artificial Neural Networks
        - TF_First_Neural_Network [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_06/TF_First_Neural_Network.ipynb) 
-- [Machine Learning Fundamentals - Part II](content/DM2-Applied_AI_ML_p2.pdf) – D Mendez 
+- [Machine Learning Fundamentals - Part II](content/DM2-Applied_AI_ML_p2.pdf) – D Mendez [[Video]](https://youtu.be/fufR9nppEvQ)
     - DNN – Regression
       - TF_Boston_Housing_Regression [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_07/TF_Boston_Housing_Regression.ipynb) 
     - DNN – Classification
