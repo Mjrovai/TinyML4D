@@ -75,7 +75,7 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
     - EXTRA: [Audio Feature Engineering](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/kws_feature_eng.html)
     - EXTRA: Edge Impulse MFCC Analysis for a KWS project [![Open In Colab <](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/Arduino_Nicla_Vision/blob/main/KWS/KWS_MFCC_Analysis.ipynb)
 
-- Hands-On: KWS - S Arciniegas
+- [Hands-On: KWS](content/SA02-Sound_Classification_Hands-On.pdf) - S Arciniegas
 
 ### Day 4 (TimeSeries/Motion):
 - [Time Series Applications](content/08_Applied_AI_2024-LSTM.pdf) - M Rovai
