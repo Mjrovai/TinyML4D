@@ -61,21 +61,22 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
     - [Introduction](content/03-Applied_AI_2024-Convolution-Intro.pdf)
     - [Image Classification using Convolutions (CNN)](content/04-Applied_AI_2024-CNN-Train.pdf)
         - Hands-On with CoLab  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_11/CNN_Cifar_10.ipynb)
-- [Preventing Overfitting & DL Wrap-Up](content/05_Applied_AI_2024-Preventing_Overfitting-DL_Wrap-Up.pdf) – M Rovai
-    - EXTRA: - Data Augmentation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_13/IESTI01_data_augmentation.ipynb) 
-
-    - EXTRA: Breast Cancer Classification [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_13/docs/WDBC_Project/Breast_Cancer_Classification.ipynb)
 
 - [Tools Setup (Edge Impulse Studio) & Hands-On: Image Classification](content/SA-Image_Class_Hands-On.pdf) - S Arciniegas [[Video]](https://youtu.be/hSfWEgeOc7Y)
 
 ### Day 3 (Advanced Image/Audio):
-- [Computer Vision (CV) Applications](content/06_Applied_AI_2024-Computer_Vision_Applications.pdf) – M Rovai  
+- [Preventing Overfitting & DL Wrap-Up](content/05_Applied_AI_2024-Preventing_Overfitting-DL_Wrap-Up.pdf) – M Rovai [[Video]](https://youtu.be/2TkYhKe0Z00)
+    - EXTRA: - Data Augmentation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_13/IESTI01_data_augmentation.ipynb) 
 
-- [Sound KWS Processing](content/JL02-Sound_KWS_Processing_WALC_2024.pdf) – J Lopez 
+    - EXTRA: Breast Cancer Classification [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_13/docs/WDBC_Project/Breast_Cancer_Classification.ipynb)
+
+- [Computer Vision (CV) Applications](content/06_Applied_AI_2024-Computer_Vision_Applications.pdf) – M Rovai 
+
+- [Sound KWS Processing](content/JL02-Sound_KWS_Processing_WALC_2024.pdf) – J Lopez [[Video]](https://youtu.be/2OyKayToOIA)
     - EXTRA: [Audio Feature Engineering](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/kws_feature_eng.html)
     - EXTRA: Edge Impulse MFCC Analysis for a KWS project [![Open In Colab <](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/Arduino_Nicla_Vision/blob/main/KWS/KWS_MFCC_Analysis.ipynb)
 
-- [Hands-On: KWS](content/SA02-Sound_Classification_Hands-On.pdf) - S Arciniegas
+- [Hands-On: KWS](content/SA02-Sound_Classification_Hands-On.pdf) - S Arciniegas [[Video]](https://youtu.be/-QBmL_yoFlE)
 
 ### Day 4 (TimeSeries/Motion):
 - [Time Series Applications](content/08_Applied_AI_2024-LSTM.pdf) - M Rovai
