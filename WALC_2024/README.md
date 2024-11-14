@@ -80,6 +80,7 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
 
 ### Day 4 (TimeSeries/Motion):
 - [Time Series Applications](content/08_Applied_AI_2024-LSTM.pdf) - M Rovai
+  - EXTRA: [Jules Verne Bot](content/11_b_Applied_IA_2024-Jules_Verne_Presentation_EN.pdf) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/WALC_2024/notebooks/20_JulesVerneBot_Generating_English_Texts_with_RNN.ipynb)
 - [Motion Classification & Anomaly Detection](content/09_Applied_AI_2024-Motion_Class_AD.pdf) – M Rovai
     - EXTRA: [DSP - Spectral Features](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/dsp_spectral_features_block.html)
     - EXTRA: Edge Impulse - Spectral Analysis Block [![Open In Colab <](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/SciTinyM-2023/Edge_Impulse-Spectral_Analysis_Block/Edge_Impulse_Spectral_Analysis_Block_V3.ipynb)
@@ -88,7 +89,7 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
 - Applied IA Ethics and AI – J Lopez
 - [GenAI - LLMs](content/10_Applied_AI_2024-LLM_at_the_Edge.pdf) - M Rovai
     - EXTRA: [MachadoBot](content/11_Applied_IA_2024-Machado_Bot_Presentation_EN.pdf) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Mjrovai/MachadoAssisBot/blob/master/10_MachadoAssisBot_Generating_Portuguese_Texts_with_RNN.ipynb)
-    - EXTRA: [Jules Verne Bot](content/11_b_Applied_IA_2024-Jules_Verne_Presentation_EN.pdf) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/WALC_2024/notebooks/20_JulesVerneBot_Generating_English_Texts_with_RNN.ipynb)
+
 - Applied AI Track Wrap-up – M Rovai
 
 ## References
