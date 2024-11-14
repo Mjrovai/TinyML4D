@@ -79,9 +79,9 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
 - [Hands-On: KWS](content/SA02-Sound_Classification_Hands-On.pdf) - S Arciniegas [[Video]](https://youtu.be/-QBmL_yoFlE)
 
 ### Day 4 (TimeSeries/Motion):
-- [Time Series Applications](content/08_Applied_AI_2024-LSTM.pdf) - M Rovai
-  - EXTRA: [Jules Verne Bot](content/11_b_Applied_IA_2024-Jules_Verne_Presentation_EN.pdf) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/WALC_2024/notebooks/20_JulesVerneBot_Generating_English_Texts_with_RNN.ipynb)
-- [Motion Classification & Anomaly Detection](content/09_Applied_AI_2024-Motion_Class_AD.pdf) – M Rovai
+- [Time Series Applications](content/08_Applied_AI_2024-LSTM.pdf) - M Rovai [[Video]](https://youtu.be/5SmtKd8hGJw)
+  - [Jules Verne Bot](content/11_b_Applied_IA_2024-Jules_Verne_Presentation_EN.pdf) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/WALC_2024/notebooks/20_JulesVerneBot_Generating_English_Texts_with_RNN.ipynb)
+- [Motion Classification & Anomaly Detection](content/09_Applied_AI_2024-Motion_Class_AD.pdf) – M Rovai [[Video]](https://youtu.be/7cA6AnQg8pE)
     - EXTRA: [DSP - Spectral Features](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/dsp_spectral_features_block.html)
     - EXTRA: Edge Impulse - Spectral Analysis Block [![Open In Colab <](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/SciTinyM-2023/Edge_Impulse-Spectral_Analysis_Block/Edge_Impulse_Spectral_Analysis_Block_V3.ipynb)
 - [Hands-On: Motion Classificatio and Anomaly Detection](content/SA3-Motion_Class_Anomaly_Det_Hands-On.pdf) - S Arciniegas [[Video]](https://youtu.be/MFAeK949cp4)
