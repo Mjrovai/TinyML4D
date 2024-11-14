@@ -70,7 +70,7 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
 
     - EXTRA: Breast Cancer Classification [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/UNIFEI-IESTI01-TinyML-2022.1/blob/main/00_Curse_Folder/1_Fundamentals/Class_13/docs/WDBC_Project/Breast_Cancer_Classification.ipynb)
 
-- [Computer Vision (CV) Applications](content/06_Applied_AI_2024-Computer_Vision_Applications.pdf) – M Rovai 
+- [Computer Vision (CV) Applications](content/06_Applied_AI_2024-Computer_Vision_Applications.pdf) – M Rovai [[Video]](https://youtu.be/2TkYhKe0Z00?si=Z2T27fGDiaIR4rPE&t=2292)
 
 - [Sound KWS Processing](content/JL02-Sound_KWS_Processing_WALC_2024.pdf) – J Lopez [[Video]](https://youtu.be/2OyKayToOIA)
     - EXTRA: [Audio Feature Engineering](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/kws_feature_eng.html)
