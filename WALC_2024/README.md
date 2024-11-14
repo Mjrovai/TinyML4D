@@ -84,7 +84,7 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
 - [Motion Classification & Anomaly Detection](content/09_Applied_AI_2024-Motion_Class_AD.pdf) – M Rovai
     - EXTRA: [DSP - Spectral Features](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/dsp_spectral_features_block.html)
     - EXTRA: Edge Impulse - Spectral Analysis Block [![Open In Colab <](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/SciTinyM-2023/Edge_Impulse-Spectral_Analysis_Block/Edge_Impulse_Spectral_Analysis_Block_V3.ipynb)
-
+- [Hands-On: Motion Classificatio and Anomaly Detection](content/SA3-Motion_Class_Anomaly_Det_Hands-On.pdf) - S Arciniegas
 ### Day 5 (Ethics/GenAI):
 - Applied IA Ethics and AI – J Lopez
 - [GenAI - LLMs](content/10_Applied_AI_2024-LLM_at_the_Edge.pdf) - M Rovai
