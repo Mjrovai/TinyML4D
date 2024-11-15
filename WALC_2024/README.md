@@ -86,11 +86,11 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
     - EXTRA: Edge Impulse - Spectral Analysis Block [![Open In Colab <](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mjrovai/TinyML4D/blob/main/SciTinyM-2023/Edge_Impulse-Spectral_Analysis_Block/Edge_Impulse_Spectral_Analysis_Block_V3.ipynb)
 - [Hands-On: Motion Classificatio and Anomaly Detection](content/SA3-Motion_Class_Anomaly_Det_Hands-On.pdf) - S Arciniegas [[Video]](https://youtu.be/MFAeK949cp4)
 ### Day 5 (Ethics/GenAI):
-- [Applied IA Ethics and AI](content/JL03-IA_Ethics.pdf) – J Lopez
-- [GenAI - LLMs](content/10_Applied_AI_2024-LLM_at_the_Edge.pdf) - M Rovai
+- [Applied IA Ethics and AI](content/JL03-IA_Ethics.pdf) – J Lopez [[Video]]()
+- [LLMs - GenAI and Transformer's Introduction](content/10_a_Applied_AI_2024-Transformers_Intro.pdf) - M Rovai [[Video]]()
     - EXTRA: [MachadoBot](content/11_Applied_IA_2024-Machado_Bot_Presentation_EN.pdf) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Mjrovai/MachadoAssisBot/blob/master/10_MachadoAssisBot_Generating_Portuguese_Texts_with_RNN.ipynb)
-
-- [Applied AI Track Wrap-up](content/12_Applied_AI_2024-Track-Wrapup.pdf) – M Rovai
+- [LLMs - GenAI Demo](content/10_b_Applied_AI_2024-GenAI_Demo.pdf) - M Rovai [[Video]]()
+- [Applied AI Track Wrap-up](content/12_Applied_AI_2024-Track-Wrapup.pdf) – M Rovai [[Video]]()
 
 ## References
 
