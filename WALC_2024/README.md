@@ -90,7 +90,7 @@ This Applied AI track provides a comprehensive exploration of modern artificial 
 - [GenAI - LLMs](content/10_Applied_AI_2024-LLM_at_the_Edge.pdf) - M Rovai
     - EXTRA: [MachadoBot](content/11_Applied_IA_2024-Machado_Bot_Presentation_EN.pdf) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/Mjrovai/MachadoAssisBot/blob/master/10_MachadoAssisBot_Generating_Portuguese_Texts_with_RNN.ipynb)
 
-- Applied AI Track Wrap-up – M Rovai
+- [Applied AI Track Wrap-up](content/12_Applied_AI_2024-Track-Wrapup.pdf) – M Rovai
 
 ## References
 
