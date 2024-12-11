@@ -5,7 +5,7 @@
 <hr>  
 
 ## Workshops / Lectures
-### [UNIFEI: From GPIO to GPT - Turning the Raspberry Pi into an AI Hub]() [[Video]](https://youtu.be/xfIA_U7cUsk?si=8A_jDsOrU6mFRXoZ)
+### UNIFEI: From GPIO to GPT - Turning the Raspberry Pi into an AI Hub [[Slides]]() [[Video]](https://youtu.be/xfIA_U7cUsk?si=Jm_K7qtaoWxeKI2d)
 ### [WALC 2023 - Ecuador - "Applied AI"](https://github.com/Mjrovai/TinyML4D/tree/main/WALC_2023)
 ### [UPCH-Peru: TinyML Introduction and Edge Computing Vision w/ Arduino NICLA Vision](UPCH-Peru)
 ### Morocco AI - Summer School [[Material]](AI-Morocco)
