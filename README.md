@@ -6,7 +6,7 @@
 
 ## Workshops / Lectures
 ### UNIFEI: From GPIO to GPT - Turning the Raspberry Pi into an AI Hub [[Slides]](Lectures/From_GPIO_2_GPT.pdf) [[Video]](https://youtu.be/xfIA_U7cUsk?si=Jm_K7qtaoWxeKI2d)
-### SDSU: AI in Agriculture [[Slides]](Lectures/AI_in_Agriculture_Bio_Science.pdf)[[Video]]()
+### SDSU: AI in Agriculture [[Slides]](Lectures/AI_in_Agriculture_Bio_Science.pdf)[[Video]](https://sdstate.hosted.panopto.com/Panopto/Pages/Viewer.aspx?tid=8555b793-61b1-4bac-8c20-b23d00de53df)
 ### [WALC 2023 - Ecuador - "Applied AI"](https://github.com/Mjrovai/TinyML4D/tree/main/WALC_2023)
 ### [UPCH-Peru: TinyML Introduction and Edge Computing Vision w/ Arduino NICLA Vision](UPCH-Peru)
 ### Morocco AI - Summer School [[Material]](AI-Morocco)
