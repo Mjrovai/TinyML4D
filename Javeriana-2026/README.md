@@ -1,13 +1,15 @@
 # Generative AI at The Edge
 
-**Javeriana University — Bogotá, Colombia**
+## Javeriana University — Bogotá, Colombia
+
+**Invited Lecturer:** Prof. Marcelo Rovai, UNIFEI, Brazil
 
 ## Presentations
 
-- [Setup](0-GenAI_at_the%20Edge-Setup.pdf) [[Video]()](#)
-- [Introduction](1-GenAI_at_the_Edge-introduction.pdf) [[Video]()](#)
-- [Python](2-GenAI_at_the_Edge-Python.pdf) [[Video]()](#)
-- [Advancing Edge AI](3-GenAI_at_the_Edge-Advancing_EdgeAI.pdf) [[Video]()](#)
+- [Setup](0-GenAI_at_the%20Edge-Setup.pdf) [[Video]](https://youtu.be/YObn79GZFxc)
+- [Introduction](1-GenAI_at_the_Edge-introduction.pdf) [[Video]](https://youtu.be/GzNmHBQX-8g)
+- [Python](2-GenAI_at_the_Edge-Python.pdf) [[Video]](https://youtu.be/MaQReci7fls)
+- [Advancing Edge AI](3-GenAI_at_the_Edge-Advancing_EdgeAI.pdf) [[Video]](https://youtu.be/MaQReci7fls?si=_Moxvrgjy8u-Ws6Y&t=5174)
 
 ## Notebooks
 
