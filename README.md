@@ -23,6 +23,7 @@
 ### [WALC 2025 - Virtual - "Applied AI"](https://walc2025-appliedai.notion.site)
 ### [WALC 2024 - Virtual - "Applied AI"](https://github.com/Mjrovai/TinyML4D/tree/main/WALC_2024)
 ### [WALC 2023 - Ecuador - "Applied AI"](https://github.com/Mjrovai/TinyML4D/tree/main/WALC_2023)
+### [WALC 2022 - Panama - "Applied_AI"](https://github.com/Mjrovai/WALC_2022-Applied_AI)
 ### [UPCH-Peru: TinyML Introduction and Edge Computing Vision w/ Arduino NICLA Vision](UPCH-Peru)
 ### Morocco AI - Summer School [[Material]](AI-Morocco)
 ### tinyML Talks: "Unleashing the Power of the New XIAO ESP32S3 Sense" [[Slides]](https://cms.tinyml.org/wp-content/uploads/talks2023/tinyML_Talks_Marcelo_Rovai_230613.pdf) [[Video]](https://youtu.be/KeXlAazzgKw?si=PEi6pVYxZ8zKobIl)
@@ -30,7 +31,6 @@
 ### [PUC Ecuador - Bringing Intelligence to Sensors](/PUC-Ecuador/TinyML-Intro-Rovai_30mar23.pdf)
 ### [Addis Ababa University (AAU) Workshop - Using Wio Terminal](/AAU)
 ### [UAO - Colombia - TinyML Introduction](/UAO_2023)
-### [WALC 2022 - Panama - "Applied_AI"](https://github.com/Mjrovai/WALC_2022-Applied_AI)
 ### [CNMAC-22 - Campinas, Brazil](https://github.com/Mjrovai/CNMAC-22)
 
 ## Academic Papers
