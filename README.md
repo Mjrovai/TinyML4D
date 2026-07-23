@@ -5,7 +5,7 @@
 <hr>  
 
 ## Workshops / Lectures
-### JAVERIANA (2026) - Generative AI at the Edge - [[Material]]()
+### JAVERIANA (2026) - Generative AI at the Edge - [[Material]](https://github.com/Mjrovai/TinyML4D/tree/main/Javeriana-2026)
 ### JAVERIANA (2025) - Generative AI at the Edge - [[Material]](https://github.com/Mjrovai/TinyML4D/tree/main/Javariana)
 ### UNIFEI: From GPIO to GPT - Turning the Raspberry Pi into an AI Hub [[Slides]](Lectures/From_GPIO_2_GPT.pdf) [[Video]](https://youtu.be/xfIA_U7cUsk?si=Jm_K7qtaoWxeKI2d)
 ### SDSU: AI in Agriculture [[Slides]](Lectures/AI_in_Agriculture_Bio_Science.pdf)[[Video]](https://sdstate.hosted.panopto.com/Panopto/Pages/Viewer.aspx?tid=8555b793-61b1-4bac-8c20-b23d00de53df)
