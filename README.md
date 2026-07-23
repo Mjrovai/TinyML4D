@@ -1,4 +1,4 @@
-# TinyML4D
+# AIEng4D (former TinyML4D)
 [Community of researchers and practitioners focused on both improving access to TinyML education and enabling innovative solutions for the unique challenges faced by Developing Countries.](https://tinyml.seas.harvard.edu/4D/AcademicNetwork)
 
 <img src='network-july26.png'/>
