@@ -2,7 +2,18 @@
 [Community of researchers and practitioners focused on both improving access to TinyML education and enabling innovative solutions for the unique challenges faced by Developing Countries.](https://tinyml.seas.harvard.edu/4D/AcademicNetwork)
 
 <img src='network-july26.png'/>
-<hr>  
+<hr> 
+
+## University complete courses
+### [UNIFEI-IESTI01: TinyML - Machine Learning for Embedded Devices](https://github.com/Mjrovai/UNIFEI-IESTI01-TinyML)
+### [UNIFEI-IESTI05: EdgeAI - Edge Machine Learning Systems Engineering](https://github.com/Mjrovai/UNIFEI-IESTI05-EDGE_AI)
+
+## Books
+### [Machine Learning Systems](https://mlsysbook.ai/)
+### [XIAO: Big Power, Small Board - Mastering Arduino and TinyML](https://mjrovai.github.io/XIAO_Big_Power_Small_Board-ebook/)
+### [TinyML Made Easy: Hands-On with the Nicla Vision](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/)
+### [TinyML Made Easy: Hands-On with Seeed Studio Devices](https://mjrovai.github.io/TinyML_Made_Easy_XIAO_ESP32S3_ebook/)
+### [Edge AI Engineering: Hands-on with the Raspberry Pi](https://mjrovai.github.io/EdgeML_Made_Ease_ebook/)
 
 ## Workshops / Lectures
 ### JAVERIANA (2026) - Generative AI at the Edge - [[Material]](https://github.com/Mjrovai/TinyML4D/tree/main/Javeriana-2026)
@@ -21,12 +32,6 @@
 ### [UAO - Colombia - TinyML Introduction](/UAO_2023)
 ### [WALC 2022 - Panama - "Applied_AI"](https://github.com/Mjrovai/WALC_2022-Applied_AI)
 ### [CNMAC-22 - Campinas, Brazil](https://github.com/Mjrovai/CNMAC-22)
-## Books
-### [Machine Learning Systems](https://mlsysbook.ai/)
-### [XIAO: Big Power, Small Board - Mastering Arduino and TinyML](https://mjrovai.github.io/XIAO_Big_Power_Small_Board-ebook/)
-### [TinyML Made Easy: Hands-On with the Nicla Vision](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/)
-### [TinyML Made Easy: Hands-On with Seeed Studio Devices](https://mjrovai.github.io/TinyML_Made_Easy_XIAO_ESP32S3_ebook/)
-### [Edge AI Engineering: Hands-on with the Raspberry Pi](https://mjrovai.github.io/EdgeML_Made_Ease_ebook/)
 
 ## Academic Papers
 ### [AFIB_SR_detection_TinyML](/papers/AFIB_SR_detection_TinyML.pdf)
