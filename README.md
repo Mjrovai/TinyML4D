@@ -20,13 +20,17 @@
 ### [WALC 2022 - Panama - "Applied_AI"](https://github.com/Mjrovai/WALC_2022-Applied_AI)
 ### [CNMAC-22 - Campinas, Brazil](https://github.com/Mjrovai/CNMAC-22)
 ## Books
-### [Machine Learning Systems](https://github.com/harvard-edge/cs249r_book)
+### [Machine Learning Systems](https://mlsysbook.ai/)
 ### [XIAO: Big Power, Small Board - Mastering Arduino and TinyML](https://mjrovai.github.io/XIAO_Big_Power_Small_Board-ebook/)
+### [TinyML Made Easy: Hands-On with the Nicla Vision](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/)
+### [TinyML Made Easy: Hands-On with Seeed Studio Devices](https://mjrovai.github.io/TinyML_Made_Easy_XIAO_ESP32S3_ebook/)
+### [Edge AI Engineering: Hands-on with the Raspberry Pi](https://mjrovai.github.io/EdgeML_Made_Ease_ebook/)
 
 ## Academic Papers
 ### [AFIB_SR_detection_TinyML](/papers/AFIB_SR_detection_TinyML.pdf)
 ### [On Device - Predictive Model](/papers/sensors-22-05174.pdf)
 ### [Classifying mosquito wingbeat sound using TinyML](/papers/TinyML_Research_Symposium_Classifying-mosquito-wingbeat-sound-using-TinyML.pdf)
+### [Use of Edge Machine Learning for a Non-Invasive Beehive Monitoring System](https://ieeexplore.ieee.org/document/11467907)
 ## Tutorials 
 ### [Edge Machine Learning in Practice e-Book (working in progress)](https://tinyml4d.gitbook.io/edge-machine-learning/)
 ### TinyML LSTM Model [[Temperature Prediction using a TinyML LSTM model - Tutorial]](https://www.hackster.io/mjrobot/temperature-prediction-using-a-tinyml-lstm-model-264029) [[Material]](https://github.com/Mjrovai/Tiny-LSTM-Weather-Station)
