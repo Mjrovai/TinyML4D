@@ -44,8 +44,10 @@
   --shadow-lg: 0 2px 6px rgba(26,39,116,.10), 0 30px 60px -28px rgba(26,39,116,.40);
 }
 
+/* Dark tokens — applied when the system prefers dark (unless the viewer has
+   explicitly chosen light via the toggle), or when explicitly toggled to dark. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --bg:        #121a52;   /* deepened brand navy for depth */
     --bg-2:      var(--navy);
     --surface:   #1e2a70;
@@ -60,13 +62,31 @@
     --link:      var(--steel);
     --link-hover:var(--amber);
     --glow:      rgba(245, 200, 66, 0.28);
-
     --logo-light: none;
     --logo-dark:  block;
-
     --shadow: 0 1px 2px rgba(0,0,0,.4), 0 14px 34px -18px rgba(0,0,0,.7);
     --shadow-lg: 0 2px 6px rgba(0,0,0,.5), 0 34px 64px -28px rgba(0,0,0,.75);
   }
+}
+:root[data-theme="dark"] {
+  --bg:        #121a52;
+  --bg-2:      var(--navy);
+  --surface:   #1e2a70;
+  --surface-2: #1a2566;
+  --ink:       var(--warm-white);
+  --ink-soft:  #c9cfee;
+  --muted:     #8f98c8;
+  --line:      rgba(255, 255, 255, 0.14);
+  --line-soft: rgba(255, 255, 255, 0.07);
+  --accent:    var(--amber);
+  --accent-tx: var(--amber);
+  --link:      var(--steel);
+  --link-hover:var(--amber);
+  --glow:      rgba(245, 200, 66, 0.28);
+  --logo-light: none;
+  --logo-dark:  block;
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 14px 34px -18px rgba(0,0,0,.7);
+  --shadow-lg: 0 2px 6px rgba(0,0,0,.5), 0 34px 64px -28px rgba(0,0,0,.75);
 }
 
 /* --------------------------------------------------------------------------
@@ -145,10 +165,53 @@ img { max-width: 100%; height: auto; }
   .nav-links.compact a:not(.nav-gh) { display: none; }
 }
 
+/* Theme toggle */
+.theme-toggle {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 38px; height: 38px; flex: none;
+  border: 1px solid var(--line); border-radius: 10px;
+  background: transparent; color: var(--ink-soft); cursor: pointer;
+  transition: color .2s, border-color .2s, background .2s;
+}
+.theme-toggle:hover { color: var(--ink); border-color: var(--accent); background: var(--line-soft); }
+.theme-toggle svg { width: 18px; height: 18px; display: none; }
+/* Show the icon for the theme you can switch TO. */
+.theme-toggle .icon-moon { display: block; }
+.theme-toggle .icon-sun  { display: none; }
+:root[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+:root[data-theme="dark"] .theme-toggle .icon-sun  { display: block; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-toggle .icon-moon { display: none; }
+  :root:not([data-theme="light"]) .theme-toggle .icon-sun  { display: block; }
+}
+
 /* --------------------------------------------------------------------------
    Hero
    -------------------------------------------------------------------------- */
 .hero { padding: 70px 0 20px; }
+.hero-top {
+  display: grid;
+  grid-template-columns: minmax(0, 1.42fr) minmax(0, .58fr);
+  gap: 48px; align-items: center;
+}
+.hero-copy { min-width: 0; }
+.hero-mark { justify-self: end; width: clamp(190px, 24vw, 280px); }
+.hero-mark .globe {
+  width: 100%;
+  overflow: hidden;   /* frame out the wordmark printed below the globe */
+  filter: drop-shadow(0 20px 34px rgba(26, 39, 116, .20));
+  animation: floaty 7s ease-in-out infinite;
+}
+.hero-mark .globe img { width: 100%; display: block; }
+/* Per-lockup crop ratios (the two-color and white marks have different canvases). */
+.hero-mark .globe.logo-light { display: var(--logo-light); aspect-ratio: 536 / 450; }
+.hero-mark .globe.logo-dark  { display: var(--logo-dark);  aspect-ratio: 1254 / 985; }
+@media (prefers-reduced-motion: reduce) { .hero-mark .globe { animation: none; } }
+@keyframes floaty { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+@media (max-width: 860px) {
+  .hero-top { grid-template-columns: 1fr; gap: 0; }
+  .hero-mark { display: none; }
+}
 .hero h1 {
   font-family: var(--font-display);
   font-weight: 700;
