@@ -112,7 +112,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-.wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
+.wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 clamp(22px, 4.5vw, 56px); }
 
 a { color: var(--link); text-decoration-color: var(--line); text-underline-offset: 3px; }
 a:hover { color: var(--link-hover); }
@@ -331,7 +331,7 @@ img { max-width: 100%; height: auto; }
 /* --------------------------------------------------------------------------
    Prose — the rendered README
    -------------------------------------------------------------------------- */
-.prose { padding: 26px 0 20px; counter-reset: sect; }
+.prose { padding-top: 26px; padding-bottom: 20px; counter-reset: sect; }
 
 /* Invisible in-content jump targets placed before each section heading. */
 .prose a.anchor-target { display: block; height: 0; scroll-margin-top: 84px; }
