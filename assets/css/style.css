@@ -197,15 +197,21 @@ img { max-width: 100%; height: auto; }
 .hero-copy { min-width: 0; }
 .hero-mark { justify-self: end; width: clamp(190px, 24vw, 280px); }
 .hero-mark .globe {
+  display: block;
   width: 100%;
-  overflow: hidden;   /* frame out the wordmark printed below the globe */
+  aspect-ratio: 536 / 450;   /* frame out the wordmark printed below the globe */
+  overflow: hidden;
   filter: drop-shadow(0 20px 34px rgba(26, 39, 116, .20));
   animation: floaty 7s ease-in-out infinite;
 }
 .hero-mark .globe img { width: 100%; display: block; }
-/* Per-lockup crop ratios (the two-color and white marks have different canvases). */
-.hero-mark .globe.logo-light { display: var(--logo-light); aspect-ratio: 536 / 450; }
-.hero-mark .globe.logo-dark  { display: var(--logo-dark);  aspect-ratio: 1254 / 985; }
+/* On dark, lift the two-color globe off the navy background with a soft plate + shadow. */
+:root[data-theme="dark"] .hero-mark { background: radial-gradient(circle at 50% 43%, rgba(184, 208, 232, .15), transparent 60%); }
+:root[data-theme="dark"] .hero-mark .globe { filter: drop-shadow(0 16px 30px rgba(0, 0, 0, .5)); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .hero-mark { background: radial-gradient(circle at 50% 43%, rgba(184, 208, 232, .15), transparent 60%); }
+  :root:not([data-theme="light"]) .hero-mark .globe { filter: drop-shadow(0 16px 30px rgba(0, 0, 0, .5)); }
+}
 @media (prefers-reduced-motion: reduce) { .hero-mark .globe { animation: none; } }
 @keyframes floaty { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
 @media (max-width: 860px) {
