@@ -1,0 +1,422 @@
+/* ==========================================================================
+   AIEng4D — Academic Network
+   Styled to the official AIEng4D Brand Guidelines:
+     Navy #1A2774 · Amber #F5C842 · Slate Blue #4A7FA5 · Steel Blue #8AB4D4
+     Warm White #FDF9F0 · Space Grotesk (headings/labels) · DM Sans (body)
+   Content is driven by README.md; this stylesheet dresses the rendered
+   markdown (.prose) and the layout chrome (hero, nav, cards, footer).
+   ========================================================================== */
+
+:root {
+  /* Brand palette */
+  --navy:       #1A2774;
+  --amber:      #F5C842;
+  --amber-deep: #C0921A;   /* amber for text on light bg (legibility) */
+  --slate:      #4A7FA5;
+  --steel:      #8AB4D4;
+  --warm-white: #FDF9F0;
+
+  /* Light theme roles */
+  --bg:        var(--warm-white);
+  --bg-2:      #F4EEDE;
+  --surface:   #FFFFFF;
+  --surface-2: #FBF5E8;
+  --ink:       var(--navy);
+  --ink-soft:  #46508A;
+  --muted:     #8A92B6;
+  --line:      rgba(26, 39, 116, 0.14);
+  --line-soft: rgba(26, 39, 116, 0.07);
+  --accent:    var(--amber);
+  --accent-tx: var(--amber-deep);
+  --link:      var(--slate);
+  --link-hover:var(--navy);
+  --glow:      rgba(245, 200, 66, 0.30);
+
+  --logo-light: block;
+  --logo-dark:  none;
+
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-body:    "DM Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --maxw: 1080px;
+  --radius: 14px;
+  --shadow: 0 1px 2px rgba(26,39,116,.06), 0 12px 32px -18px rgba(26,39,116,.30);
+  --shadow-lg: 0 2px 6px rgba(26,39,116,.10), 0 30px 60px -28px rgba(26,39,116,.40);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:        #121a52;   /* deepened brand navy for depth */
+    --bg-2:      var(--navy);
+    --surface:   #1e2a70;
+    --surface-2: #1a2566;
+    --ink:       var(--warm-white);
+    --ink-soft:  #c9cfee;
+    --muted:     #8f98c8;
+    --line:      rgba(255, 255, 255, 0.14);
+    --line-soft: rgba(255, 255, 255, 0.07);
+    --accent:    var(--amber);
+    --accent-tx: var(--amber);
+    --link:      var(--steel);
+    --link-hover:var(--amber);
+    --glow:      rgba(245, 200, 66, 0.28);
+
+    --logo-light: none;
+    --logo-dark:  block;
+
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 14px 34px -18px rgba(0,0,0,.7);
+    --shadow-lg: 0 2px 6px rgba(0,0,0,.5), 0 34px 64px -28px rgba(0,0,0,.75);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Base
+   -------------------------------------------------------------------------- */
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--ink);
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(1200px 620px at 84% -10%, var(--glow), transparent 62%),
+    radial-gradient(var(--line-soft) 1px, transparent 1px);
+  background-size: auto, 26px 26px;
+  background-attachment: fixed, scroll;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
+
+a { color: var(--link); text-decoration-color: var(--line); text-underline-offset: 3px; }
+a:hover { color: var(--link-hover); }
+
+img { max-width: 100%; height: auto; }
+
+.eyebrow {
+  font-family: var(--font-display);
+  font-size: .78rem;
+  font-weight: 500;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--slate);
+}
+
+/* --------------------------------------------------------------------------
+   Header / nav
+   -------------------------------------------------------------------------- */
+.site-header {
+  position: sticky; top: 0; z-index: 50;
+  backdrop-filter: saturate(1.4) blur(10px);
+  background: color-mix(in srgb, var(--bg) 84%, transparent);
+  border-bottom: 1px solid var(--line-soft);
+}
+.nav {
+  display: flex; align-items: center; gap: 20px;
+  height: 62px;
+}
+.brand { display: inline-flex; align-items: center; margin-right: auto; }
+.brand img { height: 30px; width: auto; display: block; }
+.brand .logo-light { display: var(--logo-light); }
+.brand .logo-dark  { display: var(--logo-dark); }
+
+.nav-links { display: flex; gap: 4px; align-items: center; }
+.nav-links a {
+  font-family: var(--font-display); font-weight: 500; font-size: .82rem;
+  letter-spacing: .01em; color: var(--ink-soft); text-decoration: none;
+  padding: 7px 11px; border-radius: 8px; transition: color .2s, background .2s;
+  white-space: nowrap;
+}
+.nav-links a:hover { color: var(--ink); background: var(--line-soft); }
+.nav-gh {
+  border: 1px solid var(--line) !important;
+  color: var(--ink) !important;
+}
+.nav-gh:hover { border-color: var(--accent) !important; color: var(--ink) !important; background: var(--line-soft) !important; }
+@media (max-width: 860px) {
+  .nav-links { display: none; }
+  .nav-links.compact { display: flex; }
+  .nav-links.compact a:not(.nav-gh) { display: none; }
+}
+
+/* --------------------------------------------------------------------------
+   Hero
+   -------------------------------------------------------------------------- */
+.hero { padding: 70px 0 20px; }
+.hero h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(3.2rem, 8.4vw, 5.6rem);
+  line-height: .98;
+  letter-spacing: -.03em;
+  margin: 16px 0 0;
+  color: var(--ink);
+}
+.hero h1 .ai { color: var(--accent-tx); }
+.hero h1 sup {
+  font-family: var(--font-display);
+  font-size: .2em; font-weight: 500; letter-spacing: .06em;
+  color: var(--muted); vertical-align: super; margin-left: .4em;
+  text-transform: uppercase;
+}
+.hero .lede {
+  font-size: 1.22rem; line-height: 1.5; color: var(--ink-soft);
+  max-width: 42ch; margin: 22px 0 0; font-weight: 400;
+}
+.hero .lede a { color: var(--ink); text-decoration-color: var(--accent); font-weight: 500; }
+
+.cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-family: var(--font-display); font-weight: 500; font-size: .9rem; letter-spacing: .01em;
+  padding: 12px 22px; border-radius: 999px; text-decoration: none;
+  transition: transform .18s ease, box-shadow .2s, background .2s, border-color .2s, color .2s;
+}
+.btn-primary { background: var(--accent); color: var(--navy); box-shadow: var(--shadow); }
+.btn-primary:hover { color: var(--navy); transform: translateY(-2px); box-shadow: var(--shadow-lg); filter: brightness(1.03); }
+.btn-ghost { border: 1px solid var(--line); color: var(--ink); }
+.btn-ghost:hover { border-color: var(--accent); color: var(--ink); transform: translateY(-2px); }
+
+/* Stat chips */
+.stats {
+  display: flex; flex-wrap: wrap; gap: 12px 30px;
+  margin-top: 36px; padding-top: 24px; border-top: 1px solid var(--line-soft);
+}
+.stat { display: flex; flex-direction: column; gap: 3px; }
+.stat b {
+  font-family: var(--font-display); font-size: 1.85rem; font-weight: 700;
+  color: var(--ink); line-height: 1;
+}
+.stat span {
+  font-family: var(--font-display); font-weight: 500; font-size: .68rem; letter-spacing: .11em;
+  text-transform: uppercase; color: var(--muted);
+}
+
+/* Map figure */
+.map-figure { margin: 46px 0 0; }
+.map-frame {
+  border: 1px solid var(--line);
+  background: #ffffff;
+  border-radius: var(--radius);
+  padding: 14px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.map-frame img { display: block; border-radius: 6px; width: 100%; }
+.map-cap {
+  display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: space-between;
+  margin-top: 14px; font-family: var(--font-display); font-weight: 500; font-size: .74rem;
+  color: var(--muted); letter-spacing: .01em;
+}
+.map-cap .partners { color: var(--ink-soft); }
+.map-cap .partners b { color: var(--slate); font-weight: 500; }
+
+/* --------------------------------------------------------------------------
+   Category grid (static nav into the README sections)
+   -------------------------------------------------------------------------- */
+.cats { padding: 60px 0 12px; }
+.cats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 14px;
+}
+.cat {
+  position: relative;
+  display: flex; flex-direction: column; gap: 6px;
+  padding: 20px 18px 18px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  text-decoration: none; color: var(--ink);
+  transition: transform .18s ease, box-shadow .2s, border-color .2s;
+  overflow: hidden;
+}
+.cat::before {
+  content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
+  background: var(--accent); transform: scaleY(0); transform-origin: top;
+  transition: transform .22s ease;
+}
+.cat:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); border-color: transparent; }
+.cat:hover::before { transform: scaleY(1); }
+.cat .num {
+  font-family: var(--font-display); font-weight: 500; font-size: .74rem; letter-spacing: .12em;
+  color: var(--slate);
+}
+.cat h3 {
+  font-family: var(--font-display); font-weight: 700; font-size: 1.22rem;
+  margin: 2px 0 0; letter-spacing: -.01em; color: var(--ink);
+}
+.cat p { margin: 0; font-size: .9rem; color: var(--ink-soft); line-height: 1.45; }
+.cat .go {
+  margin-top: 8px; font-family: var(--font-display); font-weight: 500; font-size: .76rem;
+  color: var(--muted); transition: color .2s;
+}
+.cat:hover .go { color: var(--slate); }
+
+/* --------------------------------------------------------------------------
+   Prose — the rendered README
+   -------------------------------------------------------------------------- */
+.prose { padding: 26px 0 20px; counter-reset: sect; }
+
+/* Invisible in-content jump targets placed before each section heading. */
+.prose a.anchor-target { display: block; height: 0; scroll-margin-top: 84px; }
+.prose p:has(> a.anchor-target:only-child) { margin: 0; height: 0; }
+
+/* Hide the README's own hero block (H1 + intro + map + first rule):
+   the designed hero above already presents this content. The README stays
+   fully self-contained for the GitHub repo page. */
+.prose > h1:first-child,
+.prose > h1:first-child + p,
+.prose > hr:first-of-type,
+.prose p:has(> img[src*="network"]),
+.prose img[src*="network"] { display: none !important; }
+
+/* Section headers (## in README) */
+.prose h2 {
+  counter-increment: sect;
+  position: relative;
+  font-family: var(--font-display);
+  font-weight: 700; font-size: clamp(1.8rem, 3.6vw, 2.4rem);
+  letter-spacing: -.02em; line-height: 1.06;
+  margin: 68px 0 4px; padding-top: 26px;
+  border-top: 1px solid var(--line);
+  scroll-margin-top: 78px;
+  color: var(--ink);
+}
+.prose h2::before {
+  content: counter(sect, decimal-leading-zero);
+  position: absolute; top: 26px; right: 0;
+  font-family: var(--font-display); font-size: .82rem; font-weight: 500;
+  letter-spacing: .1em; color: var(--slate);
+}
+.prose h2 a.anchor, .prose h3 a.anchor { display: none; } /* kramdown auto-anchors */
+
+/* Subsection labels within Workshops (### with NO link) */
+.prose h3:not(:has(a)) {
+  font-family: var(--font-display);
+  font-size: .82rem; font-weight: 500; letter-spacing: .15em; text-transform: uppercase;
+  color: var(--slate);
+  margin: 34px 0 6px; padding-bottom: 8px;
+  border-bottom: 1px dashed var(--line);
+}
+
+/* Entry rows: ### that contain a link, and #### list items */
+.prose h3:has(a),
+.prose li > h4 {
+  font-family: var(--font-body);
+  font-weight: 500; font-size: 1.06rem; line-height: 1.4;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 13px 14px 13px 30px;
+  position: relative;
+  border-bottom: 1px solid var(--line-soft);
+  transition: background .18s, padding-left .18s;
+}
+.prose h3:has(a) { padding-left: 30px; }
+.prose h3:has(a)::before,
+.prose li > h4::before {
+  content: ""; position: absolute; left: 12px; top: 1.35em;
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--slate);
+  box-shadow: 0 0 0 0 var(--glow);
+  transition: box-shadow .25s, background .2s;
+}
+.prose h3:has(a):hover,
+.prose li > h4:hover {
+  background: var(--surface-2);
+  padding-left: 34px;
+}
+.prose h3:has(a):hover::before,
+.prose li > h4:hover::before {
+  background: var(--accent);
+  box-shadow: 0 0 0 5px var(--glow);
+}
+
+/* Links inside entry rows */
+.prose h3 a, .prose li > h4 a { text-decoration: none; }
+.prose h3 > a:first-child, .prose li > h4 > a:first-child {
+  color: var(--ink); background-image: linear-gradient(var(--accent), var(--accent));
+  background-size: 0% 2px; background-repeat: no-repeat; background-position: 0 100%;
+  transition: background-size .25s ease, color .2s;
+}
+.prose h3:hover > a:first-child, .prose li > h4:hover > a:first-child {
+  color: var(--link-hover); background-size: 100% 2px;
+}
+/* Secondary links: [[Slides]] [[Video]] [[Material]] */
+.prose h3 a:not(:first-child), .prose li > h4 a:not(:first-child) {
+  font-family: var(--font-display); font-weight: 500; font-size: .74rem; color: var(--slate);
+  padding: 1px 6px; border-radius: 5px; background: var(--line-soft);
+  margin-left: 4px; white-space: nowrap;
+}
+.prose h3 a:not(:first-child):hover, .prose li > h4 a:not(:first-child):hover {
+  background: color-mix(in srgb, var(--accent) 30%, transparent); color: var(--ink);
+}
+
+/* Lists (workshop sub-groups) */
+.prose ul { list-style: none; margin: 0; padding: 0; }
+.prose li { margin: 0; }
+
+/* Divider + closing note */
+.prose hr {
+  border: none; border-top: 1px solid var(--line); margin: 56px 0 0;
+}
+.prose > p:last-of-type {
+  margin-top: 34px; padding: 22px 24px;
+  background: var(--surface); border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 10px;
+  font-size: 1rem; color: var(--ink-soft); line-height: 1.6;
+}
+.prose > p:last-of-type a { color: var(--link); font-weight: 500; }
+
+/* --------------------------------------------------------------------------
+   Footer
+   -------------------------------------------------------------------------- */
+.site-footer {
+  margin-top: 72px; border-top: 1px solid var(--line);
+  background: var(--surface-2);
+}
+.footer-grid {
+  display: grid; grid-template-columns: 1.4fr 1fr; gap: 30px;
+  padding: 48px 0 24px;
+}
+.footer-grid .foot-logo { height: 30px; width: auto; margin-bottom: 12px; }
+.footer-grid .foot-logo.logo-light { display: var(--logo-light); }
+.footer-grid .foot-logo.logo-dark  { display: var(--logo-dark); }
+.footer-grid p { margin: 0; color: var(--ink-soft); font-size: .95rem; max-width: 48ch; }
+.footer-grid p a { color: var(--link); font-weight: 500; }
+.foot-links { display: flex; flex-direction: column; gap: 8px; }
+.foot-links a {
+  font-family: var(--font-display); font-weight: 500; font-size: .84rem; color: var(--ink-soft);
+  text-decoration: none;
+}
+.foot-links a:hover { color: var(--link-hover); }
+.foot-bottom {
+  display: flex; flex-wrap: wrap; gap: 8px 18px; justify-content: space-between;
+  padding: 18px 0 40px; border-top: 1px solid var(--line-soft);
+  font-family: var(--font-display); font-weight: 500; font-size: .74rem; color: var(--muted);
+}
+@media (max-width: 640px) {
+  .footer-grid { grid-template-columns: 1fr; }
+}
+
+/* --------------------------------------------------------------------------
+   Entrance animations (progressive; respects reduced motion)
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal { opacity: 0; transform: translateY(14px); }
+  .reveal.in { opacity: 1; transform: none; transition: opacity .6s ease, transform .6s cubic-bezier(.2,.7,.2,1); }
+  .hero .eyebrow { animation: rise .7s .02s both; }
+  .hero h1 { animation: rise .7s .08s both; }
+  .hero .lede { animation: rise .7s .16s both; }
+  .hero .cta-row { animation: rise .7s .24s both; }
+  .hero .stats { animation: rise .7s .32s both; }
+  .map-figure { animation: rise .8s .4s both; }
+  @keyframes rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+}

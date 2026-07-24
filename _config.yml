@@ -1,0 +1,13 @@
+title: "AIEng4D — Academic Network"
+description: "A global community improving access to Edge AI & TinyML education and enabling solutions for the challenges of the developing world."
+url: "https://mjrovai.github.io"
+baseurl: "/TinyML4D"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# The custom layout is applied to the home page via README.md front matter,
+# so linked assets in sub-folders (papers/*.pdf, Lectures/*.pdf, /AAU, ...)
+# are left untouched and keep working.

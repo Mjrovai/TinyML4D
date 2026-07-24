@@ -1,12 +1,22 @@
+---
+layout: default
+---
+
 # AIEng4D (former TinyML4D)
+
 [Community of researchers and practitioners focused on both improving access to TinyML education and enabling innovative solutions for the unique challenges faced by Developing Countries.](https://tinyml.seas.harvard.edu/4D/AcademicNetwork)
 
-<img src='network-july26.png'/>
-<hr> 
+<img src='network-july26.png' alt='AIEng4D academic network — partner universities across Latin America, Africa and Asia'/>
 
-## University complete courses
+<hr>
+
+<a id="courses" class="anchor-target"></a>
+
+## University Courses
 ### [UNIFEI-IESTI01: TinyML - Machine Learning for Embedded Devices](https://mjrovai.github.io/UNIFEI-IESTI01-TinyML/)
-### [UNIFEI-IESTI05: EdgeAI - Edge Machine Learning Systems Engineering](https://mjrovai.github.io/UNIFEI-IESTI05-EDGE_AI/))
+### [UNIFEI-IESTI05: EdgeAI - Edge Machine Learning Systems Engineering](https://mjrovai.github.io/UNIFEI-IESTI05-EDGE_AI/)
+
+<a id="books" class="anchor-target"></a>
 
 ## Books
 ### [Machine Learning Systems](https://mlsysbook.ai/)
@@ -15,14 +25,17 @@
 ### [TinyML Made Easy: Hands-On with Seeed Studio Devices](https://mjrovai.github.io/TinyML_Made_Easy_XIAO_ESP32S3_ebook/)
 ### [Edge AI Engineering: Hands-on with the Raspberry Pi](https://mjrovai.github.io/EdgeML_Made_Ease_ebook/)
 
-## Workshops / Lectures
-### JAVERIANA (2026) - Generative AI at the Edge - [[Material]](https://github.com/Mjrovai/TinyML4D/tree/main/Javeriana-2026)
-### JAVERIANA (2025) - Generative AI at the Edge - [[Material]](https://github.com/Mjrovai/TinyML4D/tree/main/Javariana)
-### [AI for Everyone, Everywhere – MFSH25, Shenzhen, China (2025)](https://www.youtube.com/watch?v=rneXwK4ViVs))
-### [Workshop for Educators (ARM/Harvard) – ASEE25 – Montreal, Canada (2025)](https://www.youtube.com/watch?v=LxJkuXUBQYA)
+<a id="workshops" class="anchor-target"></a>
+
+## Workshops & Lectures
+
+### Recent Highlights
+- #### JAVERIANA (2026) — Generative AI at the Edge [[Material]](https://github.com/Mjrovai/TinyML4D/tree/main/Javeriana-2026)
+- #### JAVERIANA (2025) — Generative AI at the Edge [[Material]](https://github.com/Mjrovai/TinyML4D/tree/main/Javariana)
+- #### [AI for Everyone, Everywhere — MFSH25, Shenzhen, China (2025)](https://www.youtube.com/watch?v=rneXwK4ViVs)
+- #### [Workshop for Educators (ARM/Harvard) — ASEE25, Montreal, Canada (2025)](https://www.youtube.com/watch?v=LxJkuXUBQYA)
 
 ### ICTP Workshops
-
 - #### [Workshop on TinyML for Sustainable Development – ICTP – Universidad Javeriana – Bogotá, Colombia (2025)](https://tinymlcolombia.notion.site/SciTinyML-2025-Scientific-Use-of-Machine-Learning-on-Low-Power-Devices-2736dbff8adb806c8bd0d1b79f57cf5d)
 - #### [TinyML for Sustainable Development – ICTP/Malawi University, Zomba, Malawi (2025)](https://tinymlmalawi.notion.site/Agenda-TinyML-workshop-Malawi-1bd6dbff8adb800c9271db78657a8ad0)
 - #### [Workshop on TinyML for Sustainable Development – IBM/ICTP – Brazil (2024)](https://tinyml.seas.harvard.edu/SustainableDev-24/)
@@ -31,21 +44,24 @@
 - #### [SciTinyML: Scientific Use of Machine Learning on Low-Power Devices (2022)](https://tinyml.seas.harvard.edu/SciTinyML-22/)
 - #### [SciTinyML: Scientific Use of Machine Learning on Low-Power Devices (2021)](https://tinyml.seas.harvard.edu/SciTinyML-21/schedule)
 
-### Workshop for Latin America and Caribbean (WALC)
+### WALC — Latin America & Caribbean
 - #### [WALC 2025 - Virtual - "Applied AI"](https://walc2025-appliedai.notion.site)
 - #### [WALC 2024 - Virtual - "Applied AI"](https://github.com/Mjrovai/TinyML4D/tree/main/WALC_2024)
 - #### [WALC 2023 - Ecuador - "Applied AI"](https://github.com/Mjrovai/TinyML4D/tree/main/WALC_2023)
-- #### [WALC 2022 - Panama - "Applied_AI"](https://github.com/Mjrovai/WALC_2022-Applied_AI)
+- #### [WALC 2022 - Panama - "Applied AI"](https://github.com/Mjrovai/WALC_2022-Applied_AI)
 
-### South Dakota State University (SDSU): AI in Agriculture [[Slides]](Lectures/AI_in_Agriculture_Bio_Science.pdf)[[Video]](https://sdstate.hosted.panopto.com/Panopto/Pages/Viewer.aspx?tid=8555b793-61b1-4bac-8c20-b23d00de53df)
-### UNIFEI: From GPIO to GPT - Turning the Raspberry Pi into an AI Hub [[Slides]](Lectures/From_GPIO_2_GPT.pdf) [[Video]](https://youtu.be/xfIA_U7cUsk?si=Jm_K7qtaoWxeKI2d)
-### [UPCH-Peru: TinyML Introduction and Edge Computing Vision w/ Arduino NICLA Vision](UPCH-Peru)
-### Morocco AI - Summer School [[Material]](AI-Morocco)
-### tinyML Talks: "Unleashing the Power of the New XIAO ESP32S3 Sense" [[Slides]](https://cms.tinyml.org/wp-content/uploads/talks2023/tinyML_Talks_Marcelo_Rovai_230613.pdf) [[Video]](https://youtu.be/KeXlAazzgKw?si=PEi6pVYxZ8zKobIl)
-### [PUC Ecuador - Bringing Intelligence to Sensors](/PUC-Ecuador/TinyML-Intro-Rovai_30mar23.pdf)
-### [Addis Ababa University (AAU) Workshop - Using Wio Terminal](/AAU)
-### [UAO - Colombia - TinyML Introduction](/UAO_2023)
-### [CNMAC-22 - Campinas, Brazil](https://github.com/Mjrovai/CNMAC-22)
+### University Lectures & Talks
+- #### South Dakota State University (SDSU): AI in Agriculture [[Slides]](Lectures/AI_in_Agriculture_Bio_Science.pdf) [[Video]](https://sdstate.hosted.panopto.com/Panopto/Pages/Viewer.aspx?tid=8555b793-61b1-4bac-8c20-b23d00de53df)
+- #### UNIFEI: From GPIO to GPT - Turning the Raspberry Pi into an AI Hub [[Slides]](Lectures/From_GPIO_2_GPT.pdf) [[Video]](https://youtu.be/xfIA_U7cUsk?si=Jm_K7qtaoWxeKI2d)
+- #### [UPCH-Peru: TinyML Introduction and Edge Computing Vision w/ Arduino NICLA Vision](UPCH-Peru)
+- #### Morocco AI - Summer School [[Material]](AI-Morocco)
+- #### tinyML Talks: "Unleashing the Power of the New XIAO ESP32S3 Sense" [[Slides]](https://cms.tinyml.org/wp-content/uploads/talks2023/tinyML_Talks_Marcelo_Rovai_230613.pdf) [[Video]](https://youtu.be/KeXlAazzgKw?si=PEi6pVYxZ8zKobIl)
+- #### [PUC Ecuador - Bringing Intelligence to Sensors](/PUC-Ecuador/TinyML-Intro-Rovai_30mar23.pdf)
+- #### [Addis Ababa University (AAU) Workshop - Using Wio Terminal](/AAU)
+- #### [UAO - Colombia - TinyML Introduction](/UAO_2023)
+- #### [CNMAC-22 - Campinas, Brazil](https://github.com/Mjrovai/CNMAC-22)
+
+<a id="papers" class="anchor-target"></a>
 
 ## Academic Papers
 ### [AFIB_SR_detection_TinyML](/papers/AFIB_SR_detection_TinyML.pdf)
@@ -53,16 +69,19 @@
 ### [Classifying mosquito wingbeat sound using TinyML](/papers/TinyML_Research_Symposium_Classifying-mosquito-wingbeat-sound-using-TinyML.pdf)
 ### [Use of Edge Machine Learning for a Non-Invasive Beehive Monitoring System](https://ieeexplore.ieee.org/document/11467907)
 
-## Tutorials 
+<a id="tutorials" class="anchor-target"></a>
+
+## Tutorials
 ### [Arduino UNO Q Hands-On Tutorials](https://github.com/Mjrovai/ARDUINO-UNO-Q)
-### [Edge Machine Learning in Practice e-Book (working in progress)](https://tinyml4d.gitbook.io/edge-machine-learning/)
-### TinyML LSTM Model [[Temperature Prediction using a TinyML LSTM model - Tutorial]](https://www.hackster.io/mjrobot/temperature-prediction-using-a-tinyml-lstm-model-264029) [[Material]](https://github.com/Mjrovai/Tiny-LSTM-Weather-Station)
+### [Edge Machine Learning in Practice e-Book (work in progress)](https://tinyml4d.gitbook.io/edge-machine-learning/)
+### TinyML LSTM Model [[Temperature Prediction Tutorial]](https://www.hackster.io/mjrobot/temperature-prediction-using-a-tinyml-lstm-model-264029) [[Material]](https://github.com/Mjrovai/Tiny-LSTM-Weather-Station)
 ### Grove Vision AI Module (V2) [[Computer Vision at the Edge - Tutorial]](https://www.hackster.io/mjrobot/computer-vision-at-the-edge-with-grove-vision-ai-module-v2-0003c7) [[Material]](https://github.com/Mjrovai/Edge-Computer-Vision/tree/main/SenseCraft-EDGE-CV)
-### SONY Spresense and SensiEDGE CommonSense [[Sensor Data Fusion tutorial]](https://docs.edgeimpulse.com/experts/air-quality-and-environmental-projects/environmental-sensor-fusion-commonsense) [[Material]](https://github.com/Mjrovai/Sony-Spresense)
+### SONY Spresense and SensiEDGE CommonSense [[Sensor Data Fusion Tutorial]](https://docs.edgeimpulse.com/experts/air-quality-and-environmental-projects/environmental-sensor-fusion-commonsense) [[Material]](https://github.com/Mjrovai/Sony-Spresense)
 ### ARDUINO NICLA Vision - Computer Vision [[Material]](UPCH-Peru) [[Video-ES]](https://www.youtube.com/watch?v=uYHSKd8A_sE&t=10s)
 ### [XIAO ESP32S3 Sense - Audio / Motion / Vision](https://github.com/Mjrovai/XIAO-ESP32S3-Sense)
 ### [ESP32 TinyML - Audio / Motion / Vision](https://github.com/Mjrovai/ESP32-TinyML)
 ### [XIAO-BLE-Sense - Audio / Motion / Datalogger / MicroPython](https://github.com/Mjrovai/Seeed-XIAO-BLE-Sense/tree/main)
+
 <hr>
 
-These workshops and Lectures are part of the [TinyML4D](https://tinyml.seas.harvard.edu/), an initiative to make Embedded Machine Learning (TinyML) education available to everyone, explicitly enabling innovative solutions for the unique challenges faced by Developing Countries.  
+These workshops and lectures are part of the [TinyML4D](https://tinyml.seas.harvard.edu/) initiative, making Embedded & Edge Machine Learning (TinyML) education available to everyone, with an emphasis on enabling innovative solutions for the unique challenges faced by Developing Countries.

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title | default: "AIEng4D — Academic Network" }}</title>
+  <meta name="description" content="{{ site.description }}">
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="{{ '/network-july26.png' | absolute_url }}">
+  <meta property="og:url" content="{{ '/' | absolute_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" href="{{ '/assets/img/aieng4d-mark.png' | relative_url }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="AIEng4D home">
+        <img class="logo-light" src="{{ '/assets/img/aieng4d-horizontal-navy.png' | relative_url }}" alt="AIEng4D">
+        <img class="logo-dark" src="{{ '/assets/img/aieng4d-horizontal-white.png' | relative_url }}" alt="AIEng4D">
+      </a>
+      <nav class="nav-links compact">
+        <a href="#courses">Courses</a>
+        <a href="#books">Books</a>
+        <a href="#workshops">Workshops</a>
+        <a href="#papers">Papers</a>
+        <a href="#tutorials">Tutorials</a>
+        <a class="nav-gh" href="https://github.com/Mjrovai/TinyML4D" target="_blank" rel="noopener">GitHub ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Academic Network · AI Engineering for Global Impact</p>
+      <h1><span class="ai">AI</span>Eng4D<sup>formerly TinyML4D</sup></h1>
+      <p class="lede">
+        A global education and community initiative
+        <a href="https://tinyml.seas.harvard.edu/4D/AcademicNetwork" target="_blank" rel="noopener">expanding access to practical AI systems &amp; Edge&nbsp;AI learning</a>
+        for meaningful impact across the Global&nbsp;South.
+      </p>
+
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://tinyml.seas.harvard.edu/4D/AcademicNetwork" target="_blank" rel="noopener">Explore the network →</a>
+        <a class="btn btn-ghost" href="#courses">Browse resources</a>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><b>40+</b><span>Partner universities</span></div>
+        <div class="stat"><b>2</b><span>University courses</span></div>
+        <div class="stat"><b>5</b><span>Open books</span></div>
+        <div class="stat"><b>4</b><span>Research papers</span></div>
+      </div>
+
+      <figure class="map-figure">
+        <div class="map-frame">
+          <img src="{{ '/network-july26.png' | relative_url }}"
+               alt="World map of AIEng4D partner universities across Latin America, Africa and Asia">
+        </div>
+        <figcaption class="map-cap">
+          <span>Partner universities across Latin America, Africa &amp; Asia</span>
+          <span class="partners">In partnership with <b>ICTP · Harvard SEAS · Edge Impulse · Arduino · Seeed · EdgeAI Foundation</b></span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="cats">
+    <div class="wrap">
+      <div class="cats-grid">
+        <a class="cat reveal" href="#courses">
+          <span class="num">01</span>
+          <h3>University Courses</h3>
+          <p>Full semester courses on TinyML and Edge&nbsp;AI systems engineering.</p>
+          <span class="go">View courses →</span>
+        </a>
+        <a class="cat reveal" href="#books">
+          <span class="num">02</span>
+          <h3>Books</h3>
+          <p>Open, hands-on e-books spanning ML systems to hardware.</p>
+          <span class="go">View books →</span>
+        </a>
+        <a class="cat reveal" href="#workshops">
+          <span class="num">03</span>
+          <h3>Workshops &amp; Lectures</h3>
+          <p>Global workshops and talks — ICTP, WALC, and universities worldwide.</p>
+          <span class="go">View workshops →</span>
+        </a>
+        <a class="cat reveal" href="#papers">
+          <span class="num">04</span>
+          <h3>Academic Papers</h3>
+          <p>Peer-reviewed research on TinyML and edge machine learning.</p>
+          <span class="go">View papers →</span>
+        </a>
+        <a class="cat reveal" href="#tutorials">
+          <span class="num">05</span>
+          <h3>Tutorials</h3>
+          <p>Step-by-step guides for boards from XIAO to Raspberry Pi.</p>
+          <span class="go">View tutorials →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <main class="wrap prose">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <img class="foot-logo logo-light" src="{{ '/assets/img/aieng4d-horizontal-navy.png' | relative_url }}" alt="AIEng4D">
+        <img class="foot-logo logo-dark" src="{{ '/assets/img/aieng4d-horizontal-white.png' | relative_url }}" alt="AIEng4D">
+        <p>A global education and community initiative building on <a href="https://mlsysbook.ai/" target="_blank" rel="noopener">MLSysBook.ai</a> and the <a href="https://tinyml.seas.harvard.edu/" target="_blank" rel="noopener">TinyML4D</a> academic network — expanding access to practical AI systems education across the Global South.</p>
+      </div>
+      <div class="foot-links">
+        <a href="https://tinyml.seas.harvard.edu/4D/AcademicNetwork" target="_blank" rel="noopener">Academic Network ↗</a>
+        <a href="https://github.com/Mjrovai/TinyML4D" target="_blank" rel="noopener">GitHub repository ↗</a>
+        <a href="#courses">Courses &amp; books</a>
+        <a href="#tutorials">Tutorials</a>
+      </div>
+    </div>
+    <div class="wrap foot-bottom">
+      <span>Maintained by Marcelo Rovai · UNIFEI</span>
+      <span>GPL-3.0 · Built with Jekyll on GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script>
+    // Progressive reveal for category cards + section blocks.
+    (function () {
+      if (!('IntersectionObserver' in window)) return;
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+        });
+      }, { rootMargin: '0px 0px -8% 0px', threshold: 0.06 });
+      document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+    })();
+  </script>
+</body>
+</html>
