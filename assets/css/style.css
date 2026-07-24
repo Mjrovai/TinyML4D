@@ -346,6 +346,26 @@ img { max-width: 100%; height: auto; }
 .prose p:has(> img[src*="network"]),
 .prose img[src*="network"] { display: none !important; }
 
+/* Body paragraphs (e.g. the About Me bio) */
+.prose p { margin: 0 0 16px; color: var(--ink-soft); max-width: 74ch; }
+.prose p a { color: var(--link); font-weight: 500; }
+.prose p a:hover { color: var(--link-hover); }
+.prose p strong a { text-decoration-color: var(--accent); }
+
+/* Profile photo — floats beside the About Me bio (removes itself if the file
+   is missing, via onerror in the README). */
+.prose img.profile-photo {
+  float: right;
+  width: clamp(150px, 30%, 240px);
+  border-radius: 16px;
+  margin: 4px 0 18px 30px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--line);
+}
+@media (max-width: 600px) {
+  .prose img.profile-photo { float: none; display: block; width: 70%; margin: 0 0 20px; }
+}
+
 /* Section headers (## in README) */
 .prose h2 {
   counter-increment: sect;
@@ -436,6 +456,7 @@ img { max-width: 100%; height: auto; }
   border: none; border-top: 1px solid var(--line); margin: 56px 0 0;
 }
 .prose > p:last-of-type {
+  max-width: none;
   margin-top: 34px; padding: 22px 24px;
   background: var(--surface); border: 1px solid var(--line);
   border-left: 3px solid var(--accent);

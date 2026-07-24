@@ -83,6 +83,22 @@ permalink: /
 ### [ESP32 TinyML - Audio / Motion / Vision](https://github.com/Mjrovai/ESP32-TinyML)
 ### [XIAO-BLE-Sense - Audio / Motion / Datalogger / MicroPython](https://github.com/Mjrovai/Seeed-XIAO-BLE-Sense/tree/main)
 
+<a id="about" class="anchor-target"></a>
+
+## About Me
+
+<img class="profile-photo" src="assets/img/marcelo-rovai.jpg" alt="Marcelo Rovai teaching" onerror="this.remove()">
+
+This site is a personal hub for my work with the AIEng4D academic network — the courses, books, workshops, and tutorials gathered here. A little about me:
+
+Marcelo Rovai is a Brazilian engineer based in Chile, working on Edge AI and TinyML education. He is a volunteer professor at the Federal University of Itajubá (UNIFEI), Brazil, where he holds the title of Professor Honoris Causa and teaches embedded machine learning courses that have reached students across Latin America and beyond.
+
+His open e-books and tutorials, published on GitHub and Hackster.io, are used by universities and makers worldwide. He is Co-Chair of the AIEng4D Academic Network (formerly TinyML4D) and of the EDGE AI Foundation's Academia-Industry Partnership (EDGE AIP), initiatives that bring AI engineering education to universities in Latin America, Africa, and Asia.
+
+Before moving to academia, he built a career in industry at Avibras Aerospace, AT&T, NCR, and IGT, where he served as Vice President for Latin America. He holds an engineering degree from UNIFEI, a specialization from the Polytechnic School of the University of São Paulo (POLI/USP), an MBA from IBMEC (INSPER), and a Master's in Data Science from Universidad del Desarrollo (UDD), Chile.
+
+**[Connect on LinkedIn ↗](https://www.linkedin.com/in/marcelo-jose-rovai-brazil-chile/)**
+
 <hr>
 
 These materials are part of the [AIEng4D](https://tinyml.seas.harvard.edu/) initiative, making Embedded & Edge Machine Learning education available to everyone, with an emphasis on enabling innovative solutions for the unique challenges faced by Developing Countries.
