@@ -85,4 +85,4 @@ permalink: /
 
 <hr>
 
-These workshops and lectures are part of the [TinyML4D](https://tinyml.seas.harvard.edu/) initiative, making Embedded & Edge Machine Learning (TinyML) education available to everyone, with an emphasis on enabling innovative solutions for the unique challenges faced by Developing Countries.
+These materials are part of the [AIEng4D](https://tinyml.seas.harvard.edu/) initiative, making Embedded & Edge Machine Learning education available to everyone, with an emphasis on enabling innovative solutions for the unique challenges faced by Developing Countries.
