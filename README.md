@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /
 ---
 
 # AIEng4D (former TinyML4D)
