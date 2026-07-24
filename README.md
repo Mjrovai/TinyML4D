@@ -5,8 +5,8 @@
 <hr> 
 
 ## University complete courses
-### [UNIFEI-IESTI01: TinyML - Machine Learning for Embedded Devices](https://github.com/Mjrovai/UNIFEI-IESTI01-TinyML)
-### [UNIFEI-IESTI05: EdgeAI - Edge Machine Learning Systems Engineering](https://github.com/Mjrovai/UNIFEI-IESTI05-EDGE_AI)
+### [UNIFEI-IESTI01: TinyML - Machine Learning for Embedded Devices](https://mjrovai.github.io/UNIFEI-IESTI01-TinyML/)
+### [UNIFEI-IESTI05: EdgeAI - Edge Machine Learning Systems Engineering](https://mjrovai.github.io/UNIFEI-IESTI05-EDGE_AI/))
 
 ## Books
 ### [Machine Learning Systems](https://mlsysbook.ai/)
