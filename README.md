@@ -20,7 +20,7 @@ permalink: /
 <a id="books" class="anchor-target"></a>
 
 ## Books
-### [Machine Learning Systems](https://mlsysbook.ai/)
+### [Machine Learning Systems by Prof. Vijay Janapa Reddi ](https://mlsysbook.ai/)
 ### [XIAO: Big Power, Small Board - Mastering Arduino and TinyML](https://mjrovai.github.io/XIAO_Big_Power_Small_Board-ebook/)
 ### [TinyML Made Easy: Hands-On with the Nicla Vision](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/)
 ### [TinyML Made Easy: Hands-On with Seeed Studio Devices](https://mjrovai.github.io/TinyML_Made_Easy_XIAO_ESP32S3_ebook/)
