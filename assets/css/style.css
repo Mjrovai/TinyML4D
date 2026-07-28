@@ -1,67 +1,70 @@
 /* ==========================================================================
-   AIEng4D — Academic Network
-   Styled to the official AIEng4D Brand Guidelines:
-     Navy #1A2774 · Amber #F5C842 · Slate Blue #4A7FA5 · Steel Blue #8AB4D4
-     Warm White #FDF9F0 · Space Grotesk (headings/labels) · DM Sans (body)
+   Marcelo Rovai — Edge AI & TinyML  (UNIFEI identity)
+   Palette: UNIFEI Blue #003A70 · UNIFEI Gray #A2AAAD · UNIFEI Red #DA291C
+            Highlight Orange #F37035 (presentation style) · Calibri
+   Light is the primary mode (matches the slides: white, dark-gray text,
+   orange highlights); dark mode uses UNIFEI blue.
    Content is driven by README.md; this stylesheet dresses the rendered
    markdown (.prose) and the layout chrome (hero, nav, cards, footer).
    ========================================================================== */
 
 :root {
   /* Brand palette */
-  --navy:       #1A2774;
-  --amber:      #F5C842;
-  --amber-deep: #C0921A;   /* amber for text on light bg (legibility) */
-  --slate:      #4A7FA5;
-  --steel:      #8AB4D4;
-  --warm-white: #FDF9F0;
+  --navy:       #003A70;   /* UNIFEI blue */
+  --amber:      #F37035;   /* highlight orange (kept name for token reuse) */
+  --amber-deep: #D9591C;   /* orange for text on light bg (legibility) */
+  --red:        #DA291C;   /* UNIFEI red (sparing) */
+  --ugray:      #A2AAAD;   /* UNIFEI gray */
 
-  /* Light theme roles */
-  --bg:        var(--warm-white);
-  --bg-2:      #F4EEDE;
+  /* Light theme roles (primary — like the presentations) */
+  --bg:        #FBFCFD;
+  --bg-2:      #EEF2F6;
   --surface:   #FFFFFF;
-  --surface-2: #FBF5E8;
-  --ink:       var(--navy);
-  --ink-soft:  #46508A;
-  --muted:     #8A92B6;
-  --line:      rgba(26, 39, 116, 0.14);
-  --line-soft: rgba(26, 39, 116, 0.07);
+  --surface-2: #F3F6FA;
+  --ink:       var(--navy);   /* headings = UNIFEI blue */
+  --ink-soft:  #33383D;       /* body = dark gray, not black */
+  --muted:     #6C7580;
+  --slate:     #3F6A92;       /* secondary blue: eyebrows, pins, numbers */
+  --steel:     #7FB2E0;
+  --line:      rgba(0, 58, 112, 0.14);
+  --line-soft: rgba(0, 58, 112, 0.07);
   --accent:    var(--amber);
   --accent-tx: var(--amber-deep);
-  --link:      var(--slate);
+  --link:      #0A5CA8;
   --link-hover:var(--navy);
-  --glow:      rgba(245, 200, 66, 0.30);
+  --glow:      rgba(243, 112, 53, 0.20);
 
   --logo-light: block;
   --logo-dark:  none;
 
-  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
-  --font-body:    "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: Calibri, Carlito, "Segoe UI", -apple-system, system-ui, sans-serif;
+  --font-body:    Calibri, Carlito, "Segoe UI", -apple-system, system-ui, sans-serif;
 
   --maxw: 1080px;
   --radius: 14px;
-  --shadow: 0 1px 2px rgba(26,39,116,.06), 0 12px 32px -18px rgba(26,39,116,.30);
-  --shadow-lg: 0 2px 6px rgba(26,39,116,.10), 0 30px 60px -28px rgba(26,39,116,.40);
+  --shadow: 0 1px 2px rgba(0,58,112,.06), 0 12px 32px -18px rgba(0,58,112,.28);
+  --shadow-lg: 0 2px 6px rgba(0,58,112,.10), 0 30px 60px -28px rgba(0,58,112,.34);
 }
 
-/* Dark tokens — applied when the system prefers dark (unless the viewer has
-   explicitly chosen light via the toggle), or when explicitly toggled to dark. */
+/* Dark tokens — UNIFEI blue. Applied when the system prefers dark (unless the
+   viewer chose light via the toggle), or when explicitly toggled to dark. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg:        #121a52;   /* deepened brand navy for depth */
+    --bg:        #002B52;   /* deep UNIFEI blue */
     --bg-2:      var(--navy);
-    --surface:   #1e2a70;
-    --surface-2: #1a2566;
-    --ink:       var(--warm-white);
-    --ink-soft:  #c9cfee;
-    --muted:     #8f98c8;
-    --line:      rgba(255, 255, 255, 0.14);
-    --line-soft: rgba(255, 255, 255, 0.07);
+    --surface:   #0A487F;
+    --surface-2: #073E71;
+    --ink:       #FFFFFF;
+    --ink-soft:  #CAD7E6;
+    --muted:     #8AA0BC;
+    --slate:     #8FB0D4;
+    --line:      rgba(255, 255, 255, 0.15);
+    --line-soft: rgba(255, 255, 255, 0.08);
     --accent:    var(--amber);
-    --accent-tx: var(--amber);
+    --accent-tx: #F7935F;
     --link:      var(--steel);
     --link-hover:var(--amber);
-    --glow:      rgba(245, 200, 66, 0.28);
+    --glow:      rgba(243, 112, 53, 0.24);
     --logo-light: none;
     --logo-dark:  block;
     --shadow: 0 1px 2px rgba(0,0,0,.4), 0 14px 34px -18px rgba(0,0,0,.7);
@@ -69,20 +72,21 @@
   }
 }
 :root[data-theme="dark"] {
-  --bg:        #121a52;
+  --bg:        #002B52;
   --bg-2:      var(--navy);
-  --surface:   #1e2a70;
-  --surface-2: #1a2566;
-  --ink:       var(--warm-white);
-  --ink-soft:  #c9cfee;
-  --muted:     #8f98c8;
-  --line:      rgba(255, 255, 255, 0.14);
-  --line-soft: rgba(255, 255, 255, 0.07);
+  --surface:   #0A487F;
+  --surface-2: #073E71;
+  --ink:       #FFFFFF;
+  --ink-soft:  #CAD7E6;
+  --muted:     #8AA0BC;
+  --slate:     #8FB0D4;
+  --line:      rgba(255, 255, 255, 0.15);
+  --line-soft: rgba(255, 255, 255, 0.08);
   --accent:    var(--amber);
-  --accent-tx: var(--amber);
+  --accent-tx: #F7935F;
   --link:      var(--steel);
   --link-hover:var(--amber);
-  --glow:      rgba(245, 200, 66, 0.28);
+  --glow:      rgba(243, 112, 53, 0.24);
   --logo-light: none;
   --logo-dark:  block;
   --shadow: 0 1px 2px rgba(0,0,0,.4), 0 14px 34px -18px rgba(0,0,0,.7);
@@ -195,39 +199,35 @@ img { max-width: 100%; height: auto; }
   gap: 48px; align-items: center;
 }
 .hero-copy { min-width: 0; }
-.hero-mark { justify-self: end; width: clamp(190px, 24vw, 280px); }
-.hero-mark .globe {
-  display: block;
-  width: 100%;
-  aspect-ratio: 536 / 450;   /* frame out the wordmark printed below the globe */
-  overflow: hidden;
-  filter: drop-shadow(0 20px 34px rgba(26, 39, 116, .20));
+.hero-mark { justify-self: end; width: clamp(210px, 27vw, 300px); }
+.hero-mark img {
+  display: block; width: 100%;
+  filter: drop-shadow(0 18px 30px rgba(0, 58, 112, .16));
   animation: floaty 7s ease-in-out infinite;
 }
-.hero-mark .globe img { width: 100%; display: block; }
-/* On dark, lift the two-color globe off the navy background with a soft plate + shadow. */
-:root[data-theme="dark"] .hero-mark { background: radial-gradient(circle at 50% 43%, rgba(184, 208, 232, .15), transparent 60%); }
-:root[data-theme="dark"] .hero-mark .globe { filter: drop-shadow(0 16px 30px rgba(0, 0, 0, .5)); }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .hero-mark { background: radial-gradient(circle at 50% 43%, rgba(184, 208, 232, .15), transparent 60%); }
-  :root:not([data-theme="light"]) .hero-mark .globe { filter: drop-shadow(0 16px 30px rgba(0, 0, 0, .5)); }
-}
-@media (prefers-reduced-motion: reduce) { .hero-mark .globe { animation: none; } }
+.hero-mark .logo-light { display: var(--logo-light); }
+.hero-mark .logo-dark  { display: var(--logo-dark); }
+@media (prefers-reduced-motion: reduce) { .hero-mark img { animation: none; } }
 @keyframes floaty { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
 @media (max-width: 860px) {
-  .hero-top { grid-template-columns: 1fr; gap: 0; }
-  .hero-mark { display: none; }
+  .hero-top { grid-template-columns: 1fr; gap: 22px; }
+  .hero-mark { order: -1; justify-self: start; width: clamp(170px, 44vw, 230px); }
 }
 .hero h1 {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: clamp(3.2rem, 8.4vw, 5.6rem);
-  line-height: .98;
-  letter-spacing: -.03em;
-  margin: 16px 0 0;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  line-height: 1.03;
+  letter-spacing: -.01em;
+  margin: 14px 0 0;
   color: var(--ink);
 }
-.hero h1 .ai { color: var(--accent-tx); }
+/* Presentation-style orange highlighter on a headline word */
+.hero h1 .hl {
+  color: var(--ink);
+  background: linear-gradient(180deg, transparent 60%, color-mix(in srgb, var(--accent) 46%, transparent) 60%);
+  padding: 0 .05em; border-radius: 2px;
+}
 .hero h1 sup {
   font-family: var(--font-display);
   font-size: .2em; font-weight: 500; letter-spacing: .06em;

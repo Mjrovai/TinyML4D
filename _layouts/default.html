@@ -17,11 +17,9 @@
   <meta property="og:url" content="{{ '/' | absolute_url }}">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="icon" type="image/png" href="{{ '/assets/img/aieng4d-mark.png' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ '/assets/img/unifei-mark.png' | relative_url }}">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <!-- Type is Calibri (the presentation font), with system fallbacks — no web font needed. -->
 
   <!-- ?v=<build time> busts browser cache on every deploy so CSS changes show without a hard refresh. -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
@@ -30,9 +28,9 @@
 
   <header class="site-header">
     <div class="wrap nav">
-      <a class="brand" href="{{ '/' | relative_url }}" aria-label="AIEng4D home">
-        <img class="logo-light" src="{{ '/assets/img/aieng4d-horizontal-navy.png' | relative_url }}" alt="AIEng4D">
-        <img class="logo-dark" src="{{ '/assets/img/aieng4d-horizontal-white.png' | relative_url }}" alt="AIEng4D">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Marcelo Rovai — Edge AI & TinyML, UNIFEI">
+        <img class="logo-light" src="{{ '/assets/img/unifei-horizontal.png' | relative_url }}" alt="UNIFEI">
+        <img class="logo-dark" src="{{ '/assets/img/unifei-horizontal-white.png' | relative_url }}" alt="UNIFEI">
       </a>
       <nav class="nav-links compact">
         <a href="#courses">Courses</a>
@@ -54,17 +52,17 @@
     <div class="wrap">
       <div class="hero-top">
         <div class="hero-copy">
-          <p class="eyebrow">AIEng4D Academic Network · Marcelo Rovai</p>
-          <h1>AI<span class="ai">Eng</span>4D<sup>formerly TinyML4D</sup></h1>
+          <p class="eyebrow">Marcelo Rovai · Professor, UNIFEI</p>
+          <h1>Edge&nbsp;AI &amp; <span class="hl">TinyML</span></h1>
           <p class="lede">
             A personal hub for my lectures, books, workshops, and tutorials — part of my work with the
             <a href="https://tinyml.seas.harvard.edu/4D/AcademicNetwork" target="_blank" rel="noopener">AIEng4D academic network</a>,
-            advancing Edge&nbsp;AI &amp; TinyML education across the Global&nbsp;South.
+            bringing Edge&nbsp;AI &amp; TinyML education across the Global&nbsp;South.
           </p>
 
           <div class="cta-row">
-            <a class="btn btn-primary" href="https://tinyml.seas.harvard.edu/4D/AcademicNetwork" target="_blank" rel="noopener">Explore the network →</a>
-            <a class="btn btn-ghost" href="#courses">Browse resources</a>
+            <a class="btn btn-primary" href="#courses">Browse resources →</a>
+            <a class="btn btn-ghost" href="https://tinyml.seas.harvard.edu/4D/AcademicNetwork" target="_blank" rel="noopener">AIEng4D network ↗</a>
           </div>
 
           <div class="stats">
@@ -75,8 +73,9 @@
           </div>
         </div>
 
-        <div class="hero-mark" aria-hidden="true">
-          <span class="globe"><img src="{{ '/assets/img/aieng4d-mark.png' | relative_url }}" alt=""></span>
+        <div class="hero-mark">
+          <img class="logo-light" src="{{ '/assets/img/unifei-pref.png' | relative_url }}" alt="Universidade Federal de Itajubá (UNIFEI)">
+          <img class="logo-dark" src="{{ '/assets/img/unifei-pref-white.png' | relative_url }}" alt="Universidade Federal de Itajubá (UNIFEI)">
         </div>
       </div>
 
@@ -143,9 +142,9 @@
   <footer class="site-footer">
     <div class="wrap footer-grid">
       <div>
-        <img class="foot-logo logo-light" src="{{ '/assets/img/aieng4d-horizontal-navy.png' | relative_url }}" alt="AIEng4D">
-        <img class="foot-logo logo-dark" src="{{ '/assets/img/aieng4d-horizontal-white.png' | relative_url }}" alt="AIEng4D">
-        <p>A global education and community initiative building on <a href="https://mlsysbook.ai/" target="_blank" rel="noopener">MLSysBook.ai</a> and the <a href="https://tinyml.seas.harvard.edu/" target="_blank" rel="noopener">TinyML4D</a> academic network — expanding access to practical AI systems education across the Global South.</p>
+        <img class="foot-logo logo-light" src="{{ '/assets/img/unifei-horizontal.png' | relative_url }}" alt="UNIFEI">
+        <img class="foot-logo logo-dark" src="{{ '/assets/img/unifei-horizontal-white.png' | relative_url }}" alt="UNIFEI">
+        <p>Lectures, books, workshops, and tutorials by <strong>Marcelo Rovai</strong> — volunteer professor at <a href="https://unifei.edu.br/" target="_blank" rel="noopener">UNIFEI</a>. Part of my work with the <a href="https://tinyml.seas.harvard.edu/4D/AcademicNetwork" target="_blank" rel="noopener">AIEng4D</a> academic network, building on <a href="https://mlsysbook.ai/" target="_blank" rel="noopener">MLSysBook.ai</a>.</p>
       </div>
       <div class="foot-links">
         <a href="https://tinyml.seas.harvard.edu/4D/AcademicNetwork" target="_blank" rel="noopener">Academic Network ↗</a>
