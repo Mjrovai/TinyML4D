@@ -31,6 +31,7 @@ permalink: /
 ## Workshops & Lectures
 
 ### Recent Highlights
+- #### PUCE - Ibarra (2026) - [[Material]]() [[Video]](https://youtu.be/glCg-sOzVYo)
 - #### JAVERIANA (2026) — Generative AI at the Edge [[Material]](https://github.com/Mjrovai/TinyML4D/tree/main/Javeriana-2026)
 - #### JAVERIANA (2025) — Generative AI at the Edge [[Material]](https://github.com/Mjrovai/TinyML4D/tree/main/Javariana)
 - #### [AI for Everyone, Everywhere — MFSH25, Shenzhen, China (2025)](https://www.youtube.com/watch?v=rneXwK4ViVs)
