@@ -71,6 +71,10 @@ permalink: /
 ### [Classifying mosquito wingbeat sound using TinyML](/papers/TinyML_Research_Symposium_Classifying-mosquito-wingbeat-sound-using-TinyML.pdf)
 ### [Use of Edge Machine Learning for a Non-Invasive Beehive Monitoring System](https://ieeexplore.ieee.org/document/11467907)
 
+## Articles
+### [Open and Local Is Not a Compromise Anymore (2026)](https://mjrovai.github.io/TinyML4D/articles/open-and-local-2026/)
+### [All articles →](https://mjrovai.github.io/TinyML4D/articles/)
+
 <a id="tutorials" class="anchor-target"></a>
 
 ## Tutorials
@@ -103,3 +107,7 @@ Before moving to academia, he built a career in industry at Avibras Aerospace, A
 <hr>
 
 These materials are part of the [AIEng4D](https://tinyml.seas.harvard.edu/) initiative, making Embedded & Edge Machine Learning education available to everyone, with an emphasis on enabling innovative solutions for the unique challenges faced by Developing Countries.
+
+<div class="repo-licence" markdown="0">
+<strong>Licence.</strong> Text, figures, slides, and other written material in this repository are licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> — see <a href="LICENSE-CONTENT">LICENSE-CONTENT</a>. Source code is licensed under <a href="LICENSE">GPL-3.0</a>.
+</div>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Total versus active parameters across open models">
+<rect width="900" height="520" fill="#ffffff"/>
+<text x="78" y="30" font-size="17" font-weight="640" fill="#16202b">Capacity is cheap. Compute is what you pay for.</text>
+<text x="78" y="50" font-size="12.5" fill="#657586">Total parameters set your memory floor. Active parameters set your tokens per second.</text>
+<line x1="78" y1="458.0" x2="770" y2="458.0" stroke="#e6ebf0"/>
+<text x="68" y="462.0" font-size="11" fill="#657586" text-anchor="end">2B</text>
+<line x1="78" y1="378.5" x2="770" y2="378.5" stroke="#e6ebf0"/>
+<text x="68" y="382.5" font-size="11" fill="#657586" text-anchor="end">5B</text>
+<line x1="78" y1="318.4" x2="770" y2="318.4" stroke="#e6ebf0"/>
+<text x="68" y="322.4" font-size="11" fill="#657586" text-anchor="end">10B</text>
+<line x1="78" y1="258.3" x2="770" y2="258.3" stroke="#e6ebf0"/>
+<text x="68" y="262.3" font-size="11" fill="#657586" text-anchor="end">20B</text>
+<line x1="78" y1="178.9" x2="770" y2="178.9" stroke="#e6ebf0"/>
+<text x="68" y="182.9" font-size="11" fill="#657586" text-anchor="end">50B</text>
+<line x1="78" y1="118.8" x2="770" y2="118.8" stroke="#e6ebf0"/>
+<text x="68" y="122.8" font-size="11" fill="#657586" text-anchor="end">100B</text>
+<line x1="162.9" y1="78" x2="162.9" y2="458" stroke="#e6ebf0"/>
+<text x="162.9" y="478.0" font-size="11" fill="#657586" text-anchor="middle">5B</text>
+<line x1="291.4" y1="78" x2="291.4" y2="458" stroke="#e6ebf0"/>
+<text x="291.4" y="478.0" font-size="11" fill="#657586" text-anchor="middle">20B</text>
+<line x1="440.5" y1="78" x2="440.5" y2="458" stroke="#e6ebf0"/>
+<text x="440.5" y="478.0" font-size="11" fill="#657586" text-anchor="middle">100B</text>
+<line x1="589.7" y1="78" x2="589.7" y2="458" stroke="#e6ebf0"/>
+<text x="589.7" y="478.0" font-size="11" fill="#657586" text-anchor="middle">500B</text>
+<line x1="718.1" y1="78" x2="718.1" y2="458" stroke="#e6ebf0"/>
+<text x="718.1" y="478.0" font-size="11" fill="#657586" text-anchor="middle">2T</text>
+<line x1="78.0" y1="458.0" x2="484.1" y2="78.0" stroke="#657586" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.6"/>
+<text x="457.4" y="83.6" font-size="10.5" fill="#657586" text-anchor="end">dense (all params active)</text>
+<circle cx="332.0" cy="220.3" r="6" fill="#657586" opacity="0.9"/>
+<text x="323.0" y="212.3" font-size="10.5" fill="#16202b" text-anchor="end" font-weight="400">Gemma 4 31B</text>
+<circle cx="319.2" cy="232.3" r="6" fill="#657586" opacity="0.9"/>
+<text x="319.2" y="249.3" font-size="10.5" fill="#16202b" text-anchor="middle" font-weight="400">Qwen3.8 27B</text>
+<circle cx="697.5" cy="180.6" r="6" fill="#0d8a72" opacity="0.9"/>
+<text x="686.5" y="184.6" font-size="10.5" fill="#16202b" text-anchor="end" font-weight="400">DeepSeek V4 Pro</text>
+<circle cx="749.3" cy="115.4" r="6" fill="#0d8a72" opacity="0.9"/>
+<text x="749.3" y="134.4" font-size="10.5" fill="#16202b" text-anchor="middle" font-weight="400">Kimi K3</text>
+<circle cx="626.5" cy="198.2" r="6" fill="#0d8a72" opacity="0.9"/>
+<text x="616.5" y="202.2" font-size="10.5" fill="#16202b" text-anchor="end" font-weight="400">GLM-5.2</text>
+<circle cx="735.0" cy="123.2" r="6" fill="#0d8a72" opacity="0.9"/>
+<text x="724.0" y="114.2" font-size="10.5" fill="#16202b" text-anchor="end" font-weight="400">Qwen3.8 2.4T A95B</text>
+<circle cx="575.3" cy="246.2" r="6" fill="#0d8a72" opacity="0.9"/>
+<text x="564.3" y="250.2" font-size="10.5" fill="#16202b" text-anchor="end" font-weight="400">MiniMax-M3</text>
+<circle cx="537.3" cy="295.7" r="6" fill="#0d8a72" opacity="0.9"/>
+<text x="527.3" y="299.7" font-size="10.5" fill="#16202b" text-anchor="end" font-weight="400">DeepSeek V4 Flash</text>
+<circle cx="548.6" cy="267.5" r="7" fill="#c2410c" opacity="0.9"/>
+<text x="548.6" y="285.5" font-size="10.5" fill="#16202b" text-anchor="middle" font-weight="660">GLM-5.3-Flash</text>
+<circle cx="492.9" cy="362.7" r="7" fill="#c2410c" opacity="0.9"/>
+<text x="492.9" y="380.7" font-size="10.5" fill="#16202b" text-anchor="middle" font-weight="660">Qwen3.8-Flash-Next</text>
+<circle cx="343.2" cy="422.8" r="6" fill="#0d8a72" opacity="0.9"/>
+<text x="333.2" y="426.8" font-size="10.5" fill="#16202b" text-anchor="end" font-weight="400">Qwen3.6 35B A3B</text>
+<text x="424.0" y="506" font-size="12" font-weight="600" fill="#16202b" text-anchor="middle">Total parameters (log)</text>
+<text transform="translate(22,268.0) rotate(-90)" font-size="12" font-weight="600" fill="#16202b" text-anchor="middle">Active parameters per token (log)</text>
+<circle cx="792" cy="84" r="6" fill="#657586"/>
+<text x="804" y="88" font-size="11" fill="#16202b">Dense</text>
+<circle cx="792" cy="106" r="6" fill="#0d8a72"/>
+<text x="804" y="110" font-size="11" fill="#16202b">Sparse MoE</text>
+<circle cx="792" cy="128" r="6" fill="#c2410c"/>
+<text x="804" y="132" font-size="11" fill="#16202b">Flash tier</text>
+<text x="786" y="162" font-size="10.5" fill="#657586">Down and to</text>
+<text x="786" y="176" font-size="10.5" fill="#657586">the right is</text>
+<text x="786" y="190" font-size="10.5" fill="#657586">where you</text>
+<text x="786" y="204" font-size="10.5" fill="#657586">want to be.</text>
+</svg>

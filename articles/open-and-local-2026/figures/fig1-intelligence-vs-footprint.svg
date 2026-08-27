@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 640" width="980" height="640" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Intelligence index versus Q4 memory footprint for open-weight models, coloured by family">
+<rect width="980" height="640" fill="#ffffff"/>
+<text x="78" y="30" font-size="17.5" font-weight="640" fill="#16202b">What you can run, and how smart it is</text>
+<text x="78" y="50" font-size="12.5" fill="#657586">Artificial Analysis Intelligence Index v4.1.1 vs. Q4 weight footprint. Highest-effort variant per model.</text>
+<circle cx="83" cy="70" r="5.5" fill="#0d8a72"/>
+<text x="93" y="74" font-size="11.5" fill="#16202b">Qwen</text>
+<circle cx="139.4" cy="70" r="5.5" fill="#2563eb"/>
+<text x="149.4" y="74" font-size="11.5" fill="#16202b">Gemma</text>
+<circle cx="203.4" cy="70" r="5.5" fill="#7c3aed"/>
+<text x="213.4" y="74" font-size="11.5" fill="#16202b">DeepSeek</text>
+<circle cx="290.2" cy="70" r="5.5" fill="#ea580c"/>
+<text x="300.2" y="74" font-size="11.5" fill="#16202b">GLM</text>
+<circle cx="339.0" cy="70" r="5.5" fill="#be185d"/>
+<text x="349.0" y="74" font-size="11.5" fill="#16202b">Kimi</text>
+<circle cx="395.4" cy="70" r="5.5" fill="#0891b2"/>
+<text x="405.4" y="74" font-size="11.5" fill="#16202b">MiniMax</text>
+<circle cx="474.59999999999997" cy="70" r="5.5" fill="#6b7280"/>
+<text x="484.59999999999997" y="74" font-size="11.5" fill="#16202b">gpt-oss</text>
+<text x="562.8" y="74" font-size="11" fill="#657586">○ hollow = not yet rated  ·  dot size = active params</text>
+<line x1="228.8" y1="104" x2="228.8" y2="570" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="228.8" y="86" font-size="10.5" font-weight="700" fill="#475569" text-anchor="middle">4 GB</text>
+<text x="228.8" y="98" font-size="9.5" fill="#657586" text-anchor="middle">UNO-Q</text>
+<line x1="293.7" y1="104" x2="293.7" y2="570" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="293.7" y="86" font-size="10.5" font-weight="700" fill="#475569" text-anchor="middle">8 GB</text>
+<text x="293.7" y="98" font-size="9.5" fill="#657586" text-anchor="middle">Pi 5</text>
+<line x1="388.5" y1="104" x2="388.5" y2="570" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="388.5" y="86" font-size="10.5" font-weight="700" fill="#475569" text-anchor="middle">16 GB</text>
+<text x="388.5" y="98" font-size="9.5" fill="#657586" text-anchor="middle">laptop</text>
+<line x1="465.4" y1="104" x2="465.4" y2="570" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="465.4" y="86" font-size="10.5" font-weight="700" fill="#475569" text-anchor="middle">32 GB</text>
+<text x="465.4" y="98" font-size="9.5" fill="#657586" text-anchor="middle">mini M6</text>
+<line x1="532.2" y1="104" x2="532.2" y2="570" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="532.2" y="86" font-size="10.5" font-weight="700" fill="#475569" text-anchor="middle">64 GB</text>
+<text x="532.2" y="98" font-size="9.5" fill="#657586" text-anchor="middle">M5 Pro</text>
+<line x1="597.2" y1="104" x2="597.2" y2="570" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="597.2" y="86" font-size="10.5" font-weight="700" fill="#475569" text-anchor="middle">128 GB</text>
+<text x="597.2" y="98" font-size="9.5" fill="#657586" text-anchor="middle">M5 Max</text>
+<line x1="662.6" y1="104" x2="662.6" y2="570" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="662.6" y="86" font-size="10.5" font-weight="700" fill="#475569" text-anchor="middle">256 GB</text>
+<text x="662.6" y="98" font-size="9.5" fill="#657586" text-anchor="middle">M5 Ultra</text>
+<line x1="732.0" y1="104" x2="732.0" y2="570" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="732.0" y="86" font-size="10.5" font-weight="700" fill="#475569" text-anchor="middle">512 GB</text>
+<text x="732.0" y="98" font-size="9.5" fill="#657586" text-anchor="middle">Ultra 512</text>
+<text x="78" y="86" font-size="10" fill="#657586" text-anchor="start" font-style="italic">RAM you buy ↓</text>
+<text x="78" y="98" font-size="10" fill="#657586" text-anchor="start" font-style="italic">line at usable budget</text>
+<rect x="78" y="151.9" width="798" height="73.0" fill="#eceff3"/>
+<text x="86" y="216.9" font-size="11" fill="#475569" font-weight="640">Closed frontier band (52–63)</text>
+<line x1="78" y1="570.0" x2="876" y2="570.0" stroke="#e6ebf0"/>
+<text x="68" y="574.0" font-size="11" fill="#657586" text-anchor="end">0</text>
+<line x1="78" y1="503.6" x2="876" y2="503.6" stroke="#e6ebf0"/>
+<text x="68" y="507.6" font-size="11" fill="#657586" text-anchor="end">10</text>
+<line x1="78" y1="437.3" x2="876" y2="437.3" stroke="#e6ebf0"/>
+<text x="68" y="441.3" font-size="11" fill="#657586" text-anchor="end">20</text>
+<line x1="78" y1="370.9" x2="876" y2="370.9" stroke="#e6ebf0"/>
+<text x="68" y="374.9" font-size="11" fill="#657586" text-anchor="end">30</text>
+<line x1="78" y1="304.5" x2="876" y2="304.5" stroke="#e6ebf0"/>
+<text x="68" y="308.5" font-size="11" fill="#657586" text-anchor="end">40</text>
+<line x1="78" y1="238.2" x2="876" y2="238.2" stroke="#e6ebf0"/>
+<text x="68" y="242.2" font-size="11" fill="#657586" text-anchor="end">50</text>
+<line x1="78" y1="171.8" x2="876" y2="171.8" stroke="#e6ebf0"/>
+<text x="68" y="175.8" font-size="11" fill="#657586" text-anchor="end">60</text>
+<text x="98.9" y="590.0" font-size="11" fill="#657586" text-anchor="middle">0.5</text>
+<text x="163.8" y="590.0" font-size="11" fill="#657586" text-anchor="middle">1</text>
+<text x="314.6" y="590.0" font-size="11" fill="#657586" text-anchor="middle">5</text>
+<text x="444.5" y="590.0" font-size="11" fill="#657586" text-anchor="middle">20</text>
+<text x="595.3" y="590.0" font-size="11" fill="#657586" text-anchor="middle">100</text>
+<text x="746.1" y="590.0" font-size="11" fill="#657586" text-anchor="middle">500</text>
+<text x="876.0" y="590.0" font-size="11" fill="#657586" text-anchor="middle">2 TB</text>
+<text x="477.0" y="622" font-size="12" font-weight="600" fill="#16202b" text-anchor="middle">Model weights at Q4 (GB, log scale)</text>
+<text transform="translate(22,351.0) rotate(-90)" font-size="12" font-weight="600" fill="#16202b" text-anchor="middle">Intelligence Index</text>
+<circle cx="853.2" cy="171.8" r="9.8" fill="#be185d" stroke="#be185d" stroke-width="2" />
+<text x="853.2" y="155.8" font-size="10.5" fill="#16202b" text-anchor="middle">Kimi K3</text>
+<circle cx="730.2" cy="171.8" r="8.7" fill="none" stroke="#ea580c" stroke-width="2" stroke-dasharray='3 2'/>
+<text x="717.2" y="175.8" font-size="10.5" fill="#16202b" text-anchor="end">GLM-5.3</text>
+<circle cx="838.8" cy="185.1" r="9.7" fill="#0d8a72" stroke="#0d8a72" stroke-width="2" />
+<text x="844.8" y="205.1" font-size="10.5" fill="#16202b" text-anchor="start">Qwen3.8 2.4T A95B</text>
+<circle cx="799.1" cy="218.3" r="8.9" fill="#7c3aed" stroke="#7c3aed" stroke-width="2" />
+<text x="799.1" y="238.3" font-size="10.5" fill="#16202b" text-anchor="middle">DeepSeek V4 Pro</text>
+<circle cx="729.0" cy="218.3" r="8.7" fill="#ea580c" stroke="#ea580c" stroke-width="2" />
+<text x="717.0" y="233.3" font-size="10.5" fill="#16202b" text-anchor="end">GLM-5.2</text>
+<circle cx="423.6" cy="224.9" r="8.3" fill="#0d8a72" stroke="#0d8a72" stroke-width="2" />
+<text x="423.6" y="202.9" font-size="10.5" fill="#16202b" text-anchor="middle">Qwen3.8 27B</text>
+<circle cx="638.8" cy="224.9" r="7.5" fill="#7c3aed" stroke="#7c3aed" stroke-width="2" />
+<text x="638.8" y="209.9" font-size="10.5" fill="#16202b" text-anchor="middle">DeepSeek V4 Flash</text>
+<circle cx="677.2" cy="271.4" r="8.1" fill="#0891b2" stroke="#0891b2" stroke-width="2" />
+<text x="690.2" y="276.4" font-size="10.5" fill="#16202b" text-anchor="start">MiniMax-M3</text>
+<circle cx="559.6" cy="351.0" r="7.2" fill="#0d8a72" stroke="#0d8a72" stroke-width="2" />
+<text x="571.6" y="355.0" font-size="10.5" fill="#16202b" text-anchor="start">Qwen3.5 122B A10B</text>
+<circle cx="442.6" cy="357.6" r="6.1" fill="#0d8a72" stroke="#0d8a72" stroke-width="2" />
+<text x="442.6" y="343.6" font-size="10.5" fill="#16202b" text-anchor="middle">Qwen3.6 35B A3B</text>
+<circle cx="431.5" cy="370.9" r="8.4" fill="#2563eb" stroke="#2563eb" stroke-width="2" />
+<text x="418.5" y="374.9" font-size="10.5" fill="#16202b" text-anchor="end">Gemma 4 31B</text>
+<circle cx="415.0" cy="397.5" r="6.3" fill="#2563eb" stroke="#2563eb" stroke-width="2" />
+<text x="427.0" y="401.5" font-size="10.5" fill="#16202b" text-anchor="start">Gemma 4 26B A4B</text>
+<circle cx="549.0" cy="410.7" r="6.5" fill="#6b7280" stroke="#6b7280" stroke-width="2" />
+<text x="549.0" y="429.7" font-size="10.5" fill="#16202b" text-anchor="middle">gpt-oss-120b</text>
+<circle cx="342.1" cy="424.0" r="7.4" fill="#2563eb" stroke="#2563eb" stroke-width="2" />
+<text x="353.1" y="428.0" font-size="10.5" fill="#16202b" text-anchor="start">Gemma 4 12B</text>
+<circle cx="323.6" cy="424.0" r="7.1" fill="#0d8a72" stroke="#0d8a72" stroke-width="2" />
+<text x="323.6" y="410.0" font-size="10.5" fill="#16202b" text-anchor="middle">Qwen3.5 9B</text>
+<circle cx="249.7" cy="437.3" r="6.3" fill="#0d8a72" stroke="#0d8a72" stroke-width="2" />
+<text x="238.7" y="441.3" font-size="10.5" fill="#16202b" text-anchor="end">Qwen3.5 4B</text>
+<circle cx="304.8" cy="490.4" r="6.3" fill="#2563eb" stroke="#2563eb" stroke-width="2" />
+<text x="316.8" y="494.4" font-size="10.5" fill="#16202b" text-anchor="start">Gemma 4 E4B</text>
+<circle cx="263.6" cy="503.6" r="5.7" fill="#2563eb" stroke="#2563eb" stroke-width="2" />
+<text x="252.6" y="516.6" font-size="10.5" fill="#16202b" text-anchor="end">Gemma 4 E2B</text>
+<circle cx="195.4" cy="523.5" r="5.7" fill="#0d8a72" stroke="#0d8a72" stroke-width="2" />
+<text x="195.4" y="540.5" font-size="10.5" fill="#16202b" text-anchor="middle">Qwen3.5 2B</text>
+<circle cx="116.0" cy="536.8" r="5.3" fill="#0d8a72" stroke="#0d8a72" stroke-width="2" />
+<text x="116.0" y="553.8" font-size="10.5" fill="#16202b" text-anchor="middle">Qwen3.5 0.8B</text>
+<text x="423.6" y="213.9" font-size="9.5" fill="#0d8a72" text-anchor="middle">16 GB at Q4 · 13.5 GB at Q3</text>
+<line x1="593.4" y1="570" x2="593.4" y2="264.7" stroke="#0d8a72" stroke-width="1.4" stroke-dasharray="2 3"/>
+<polygon points="593.4,256.7 600.4,264.7 593.4,272.7 586.4,264.7" fill="#ffffff" stroke="#0d8a72" stroke-width="2"/>
+<text x="581.4" y="250.7" font-size="10.5" fill="#0d8a72" text-anchor="end" font-weight="640">Qwen3.8-Flash-Next</text>
+<line x1="650.4" y1="570" x2="650.4" y2="264.7" stroke="#ea580c" stroke-width="1.4" stroke-dasharray="2 3"/>
+<polygon points="650.4,256.7 657.4,264.7 650.4,272.7 643.4,264.7" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+<text x="662.4" y="250.7" font-size="10.5" fill="#ea580c" text-anchor="start" font-weight="640">GLM-5.3-Flash</text>
+</svg>

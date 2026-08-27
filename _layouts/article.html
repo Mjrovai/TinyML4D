@@ -1,0 +1,71 @@
+---
+layout: base
+---
+<article class="article-page">
+
+  <header class="article-head">
+    <div class="wrap">
+      <p class="eyebrow">
+        <a href="{{ '/articles/' | relative_url }}">Articles</a>
+        {% if page.kicker %}<span class="sep">·</span> {{ page.kicker }}{% endif %}
+      </p>
+
+      <h1>{{ page.title }}</h1>
+      {% if page.subtitle %}<p class="article-sub">{{ page.subtitle }}</p>{% endif %}
+
+      <p class="article-meta">
+        <span>Marcelo Rovai</span>
+        {% if page.date %}<span class="sep">·</span><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>{% endif %}
+        {% assign words = content | strip_html | number_of_words %}
+        <span class="sep">·</span><span>{{ words | divided_by: 220 | plus: 1 }} min read</span>
+      </p>
+
+      {% if page.image %}
+        <figure class="article-cover">
+          <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}">
+          {% if page.image_alt %}<figcaption>{{ page.image_alt }}</figcaption>{% endif %}
+        </figure>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="wrap article">
+    {{ content }}
+  </div>
+
+  <div class="wrap article-foot">
+    {% if page.license %}<p class="article-license">{{ page.license }}</p>{% endif %}
+    <p><a class="btn btn-ghost" href="{{ '/articles/' | relative_url }}">← All articles</a></p>
+  </div>
+
+</article>
+
+<script>
+  // Progressive enhancement for the rendered markdown:
+  //  - wrap tables so wide ones scroll inside their own box instead of the page
+  //  - promote standalone images to <figure>, reusing the alt text as a caption
+  (function () {
+    var body = document.querySelector('.article');
+    if (!body) return;
+
+    body.querySelectorAll('table').forEach(function (t) {
+      if (t.parentNode.classList.contains('table-wrap')) return;
+      var box = document.createElement('div');
+      box.className = 'table-wrap';
+      t.parentNode.insertBefore(box, t);
+      box.appendChild(t);
+    });
+
+    body.querySelectorAll('p > img:only-child').forEach(function (img) {
+      var p = img.parentNode;
+      var fig = document.createElement('figure');
+      fig.appendChild(img);
+      if (img.alt) {
+        var cap = document.createElement('figcaption');
+        cap.textContent = img.alt;
+        fig.appendChild(cap);
+      }
+      p.parentNode.replaceChild(fig, p);
+    });
+  })();
+</script>

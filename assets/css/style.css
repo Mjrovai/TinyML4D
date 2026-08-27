@@ -367,6 +367,7 @@ img { max-width: 100%; height: auto; }
 }
 
 /* Section headers (## in README) */
+.prose h2 { scroll-margin-top: 84px; }
 .prose h2 {
   counter-increment: sect;
   position: relative;
@@ -464,6 +465,14 @@ img { max-width: 100%; height: auto; }
   font-size: 1rem; color: var(--ink-soft); line-height: 1.6;
 }
 .prose > p:last-of-type a { color: var(--link); font-weight: 500; }
+
+/* Licence note under the closing card — a <div>, not a <p>, so the card above
+   keeps its :last-of-type styling. */
+.prose .repo-licence {
+  margin-top: 22px;
+  font-size: .86rem; line-height: 1.55; color: var(--muted);
+}
+.prose .repo-licence a { color: var(--link); font-weight: 500; }
 
 /* --------------------------------------------------------------------------
    Footer

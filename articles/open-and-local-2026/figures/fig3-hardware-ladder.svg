@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 744" width="940" height="744" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Hardware ladder for running open models locally">
+<rect width="940" height="744" fill="#ffffff"/>
+<text x="26" y="30" font-size="17" font-weight="640" fill="#16202b">The ladder</text>
+<text x="26" y="50" font-size="12.5" fill="#657586">Every rung runs something useful. Prices are US list, August 2026.</text>
+<rect x="26" y="74" width="888" height="147" fill="#0d8a72" opacity="0.045" rx="7"/>
+<rect x="26" y="74" width="4" height="147" fill="#0d8a72" rx="2"/>
+<text x="44" y="106" font-size="15" font-weight="700" fill="#0d8a72">Edge</text>
+<text x="132" y="104" font-size="12" font-weight="600" fill="#16202b">Arduino UNO-Q (4 GB)</text>
+<text x="432" y="104" font-size="11.5" fill="#657586">4 GB · ~10 GB/s est.</text>
+<text x="642" y="104" font-size="11.5" fill="#d97706" font-weight="600">$79</text>
+<text x="132" y="131" font-size="12" font-weight="600" fill="#16202b">Raspberry Pi 5 / Zero 2W</text>
+<text x="432" y="131" font-size="11.5" fill="#657586">8–16 GB · ~17 GB/s</text>
+<text x="642" y="131" font-size="11.5" fill="#d97706" font-weight="600">$50–200</text>
+<text x="132" y="158" font-size="12" font-weight="600" fill="#16202b">Jetson Orin Nano</text>
+<text x="432" y="158" font-size="11.5" fill="#657586">8 GB · 102 GB/s</text>
+<text x="642" y="158" font-size="11.5" fill="#d97706" font-weight="600">$249</text>
+<line x1="132" y1="181" x2="896" y2="181" stroke="#0d8a72" opacity="0.2"/>
+<text x="132" y="197" font-size="11.5" fill="#0d8a72" font-weight="640">Gemma 4 E2B/E4B · Qwen3.5 0.8B–4B</text>
+<text x="132" y="214" font-size="11.5" fill="#657586">Index 5–20. Tool-calling agents, classifiers, on-device speech.</text>
+<rect x="26" y="235" width="888" height="120" fill="#0e7490" opacity="0.045" rx="7"/>
+<rect x="26" y="235" width="4" height="120" fill="#0e7490" rx="2"/>
+<text x="44" y="267" font-size="15" font-weight="700" fill="#0e7490">Low</text>
+<text x="132" y="265" font-size="12" font-weight="600" fill="#16202b">Commodity notebook (M5 Air class)</text>
+<text x="432" y="265" font-size="11.5" fill="#657586">16 GB · ~150 GB/s</text>
+<text x="642" y="265" font-size="11.5" fill="#d97706" font-weight="600">$999–1,499</text>
+<text x="132" y="292" font-size="12" font-weight="600" fill="#16202b">Mac mini M6</text>
+<text x="432" y="292" font-size="11.5" fill="#657586">16–32 GB · 170 GB/s</text>
+<text x="642" y="292" font-size="11.5" fill="#d97706" font-weight="600">$899</text>
+<line x1="132" y1="315" x2="896" y2="315" stroke="#0e7490" opacity="0.2"/>
+<text x="132" y="331" font-size="11.5" fill="#0e7490" font-weight="640">16 GB: Gemma 4 12B · Qwen3.5 9B  —  32 GB: Qwen3.8 27B · Gemma 4 31B</text>
+<text x="132" y="348" font-size="11.5" fill="#657586">Notebook tops out near index 22. The 32 GB mini reaches 52.</text>
+<rect x="26" y="369" width="888" height="174" fill="#4f46e5" opacity="0.045" rx="7"/>
+<rect x="26" y="369" width="4" height="174" fill="#4f46e5" rx="2"/>
+<text x="44" y="401" font-size="15" font-weight="700" fill="#4f46e5">Mid</text>
+<text x="132" y="399" font-size="12" font-weight="600" fill="#16202b">Mac mini M5 Pro</text>
+<text x="432" y="399" font-size="11.5" fill="#657586">64 GB · 307 GB/s</text>
+<text x="642" y="399" font-size="11.5" fill="#d97706" font-weight="600">$1,699</text>
+<text x="132" y="426" font-size="12" font-weight="600" fill="#16202b">PC + RTX 5090</text>
+<text x="432" y="426" font-size="11.5" fill="#657586">32 GB · 1,792 GB/s</text>
+<text x="642" y="426" font-size="11.5" fill="#d97706" font-weight="600">$4,300–5,000</text>
+<text x="132" y="453" font-size="12" font-weight="600" fill="#16202b">Strix Halo 128 · DGX Spark</text>
+<text x="432" y="453" font-size="11.5" fill="#657586">128 GB · 256–273 GB/s</text>
+<text x="642" y="453" font-size="11.5" fill="#d97706" font-weight="600">$2,000–4,699</text>
+<text x="132" y="480" font-size="12" font-weight="600" fill="#16202b">Mac Studio M5 Max</text>
+<text x="432" y="480" font-size="11.5" fill="#657586">128 GB · 614 GB/s</text>
+<text x="642" y="480" font-size="11.5" fill="#d97706" font-weight="600">~$4,800</text>
+<line x1="132" y1="503" x2="896" y2="503" stroke="#4f46e5" opacity="0.2"/>
+<text x="132" y="519" font-size="11.5" fill="#4f46e5" font-weight="640">Qwen3.8-Flash-Next · DeepSeek V4 Flash (Q3)</text>
+<text x="132" y="536" font-size="11.5" fill="#657586">The 5090 is the odd one: triple the bandwidth, a quarter of the memory.</text>
+<rect x="26" y="557" width="888" height="147" fill="#6b5bd2" opacity="0.045" rx="7"/>
+<rect x="26" y="557" width="4" height="147" fill="#6b5bd2" rx="2"/>
+<text x="44" y="589" font-size="15" font-weight="700" fill="#6b5bd2">High</text>
+<text x="132" y="587" font-size="12" font-weight="600" fill="#16202b">Mac Studio M5 Ultra 256 GB</text>
+<text x="432" y="587" font-size="11.5" fill="#657586">256 GB · 1.2 TB/s</text>
+<text x="642" y="587" font-size="11.5" fill="#d97706" font-weight="600">$9,499–10,799</text>
+<text x="132" y="614" font-size="12" font-weight="600" fill="#16202b">Mac Studio M5 Ultra 512 GB</text>
+<text x="432" y="614" font-size="11.5" fill="#657586">512 GB · 1.2 TB/s</text>
+<text x="642" y="614" font-size="11.5" fill="#d97706" font-weight="600">late Oct, unpriced</text>
+<text x="132" y="641" font-size="12" font-weight="600" fill="#16202b">4× Studio over Thunderbolt 5</text>
+<text x="432" y="641" font-size="11.5" fill="#657586">up to 2 TB pooled</text>
+<text x="642" y="641" font-size="11.5" fill="#d97706" font-weight="600">$40k+</text>
+<line x1="132" y1="664" x2="896" y2="664" stroke="#6b5bd2" opacity="0.2"/>
+<text x="132" y="680" font-size="11.5" fill="#6b5bd2" font-weight="640">GLM-5.3-Flash · GLM-5.2 · Kimi K3 (cluster)</text>
+<text x="132" y="697" font-size="11.5" fill="#657586">Index 53–60. Frontier-class open models on a desk. Lab and small-company scale, not a rack.</text>
+</svg>

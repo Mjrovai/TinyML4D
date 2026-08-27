@@ -1,0 +1,269 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 946 654" width="946" height="654" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Estimated decode speed by model and machine">
+<rect width="946" height="654" fill="#ffffff"/>
+<text x="26" y="30" font-size="17" font-weight="640" fill="#16202b">Estimated decode speed, tokens per second</text>
+<text x="26" y="50" font-size="12.5" fill="#657586">My arithmetic, not measurements: active params × 0.56 GB ÷ (bandwidth × 0.60). Before MTP or draft models.</text>
+<text x="26" y="68" font-size="12.5" fill="#657586">Grey cells mean the weights do not fit in memory at Q4. Capacity decides what runs; bandwidth decides how fast.</text>
+<rect x="513" y="76" width="81" height="490" fill="#c2410c" opacity="0.055" rx="4"/>
+<text x="226.0" y="78" font-size="11" font-weight="640" fill="#16202b" text-anchor="middle">UNO-Q</text>
+<text x="226.0" y="91" font-size="9.5" fill="#657586" text-anchor="middle">4 GB RAM</text>
+<text x="226.0" y="102" font-size="9.5" fill="#d97706" text-anchor="middle" font-weight="600">2 GB budget</text>
+<text x="226.0" y="114" font-size="9.5" fill="#657586" text-anchor="middle">~10 GB/s</text>
+<text x="308.0" y="78" font-size="11" font-weight="640" fill="#16202b" text-anchor="middle">Pi 5 8 GB</text>
+<text x="308.0" y="91" font-size="9.5" fill="#657586" text-anchor="middle">8 GB RAM</text>
+<text x="308.0" y="102" font-size="9.5" fill="#d97706" text-anchor="middle" font-weight="600">4 GB budget</text>
+<text x="308.0" y="114" font-size="9.5" fill="#657586" text-anchor="middle">17 GB/s</text>
+<text x="390.0" y="78" font-size="11" font-weight="640" fill="#16202b" text-anchor="middle">Notebook 16</text>
+<text x="390.0" y="91" font-size="9.5" fill="#657586" text-anchor="middle">16 GB RAM</text>
+<text x="390.0" y="102" font-size="9.5" fill="#d97706" text-anchor="middle" font-weight="600">11 GB budget</text>
+<text x="390.0" y="114" font-size="9.5" fill="#657586" text-anchor="middle">150 GB/s</text>
+<text x="472.0" y="78" font-size="11" font-weight="640" fill="#16202b" text-anchor="middle">mini M6</text>
+<text x="472.0" y="91" font-size="9.5" fill="#657586" text-anchor="middle">32 GB RAM</text>
+<text x="472.0" y="102" font-size="9.5" fill="#d97706" text-anchor="middle" font-weight="600">25 GB budget</text>
+<text x="472.0" y="114" font-size="9.5" fill="#657586" text-anchor="middle">170 GB/s</text>
+<text x="554.0" y="78" font-size="11" font-weight="640" fill="#c2410c" text-anchor="middle">RTX 5090</text>
+<text x="554.0" y="91" font-size="9.5" fill="#657586" text-anchor="middle">32 GB RAM</text>
+<text x="554.0" y="102" font-size="9.5" fill="#d97706" text-anchor="middle" font-weight="600">29 GB budget</text>
+<text x="554.0" y="114" font-size="9.5" fill="#657586" text-anchor="middle">1,792 GB/s</text>
+<text x="636.0" y="78" font-size="11" font-weight="640" fill="#16202b" text-anchor="middle">mini M5 Pro</text>
+<text x="636.0" y="91" font-size="9.5" fill="#657586" text-anchor="middle">64 GB RAM</text>
+<text x="636.0" y="102" font-size="9.5" fill="#d97706" text-anchor="middle" font-weight="600">51 GB budget</text>
+<text x="636.0" y="114" font-size="9.5" fill="#657586" text-anchor="middle">307 GB/s</text>
+<text x="718.0" y="78" font-size="11" font-weight="640" fill="#16202b" text-anchor="middle">M5 Max</text>
+<text x="718.0" y="91" font-size="9.5" fill="#657586" text-anchor="middle">128 GB RAM</text>
+<text x="718.0" y="102" font-size="9.5" fill="#d97706" text-anchor="middle" font-weight="600">102 GB budget</text>
+<text x="718.0" y="114" font-size="9.5" fill="#657586" text-anchor="middle">614 GB/s</text>
+<text x="800.0" y="78" font-size="11" font-weight="640" fill="#16202b" text-anchor="middle">Ultra 256</text>
+<text x="800.0" y="91" font-size="9.5" fill="#657586" text-anchor="middle">256 GB RAM</text>
+<text x="800.0" y="102" font-size="9.5" fill="#d97706" text-anchor="middle" font-weight="600">205 GB budget</text>
+<text x="800.0" y="114" font-size="9.5" fill="#657586" text-anchor="middle">1,200 GB/s</text>
+<text x="882.0" y="78" font-size="11" font-weight="640" fill="#16202b" text-anchor="middle">Ultra 512</text>
+<text x="882.0" y="91" font-size="9.5" fill="#657586" text-anchor="middle">512 GB RAM</text>
+<text x="882.0" y="102" font-size="9.5" fill="#d97706" text-anchor="middle" font-weight="600">430 GB budget</text>
+<text x="882.0" y="114" font-size="9.5" fill="#657586" text-anchor="middle">1,200 GB/s</text>
+<text x="174" y="142.0" font-size="11.5" font-weight="600" fill="#16202b" text-anchor="end">Qwen3.5 0.8B</text>
+<text x="174" y="154.0" font-size="9.5" fill="#657586" text-anchor="end">0.8B active · 0.6 GB</text>
+<rect x="187" y="125" width="78" height="33" fill="#fdf2dc" rx="3"/>
+<text x="226.0" y="147.0" font-size="13" font-weight="680" fill="#a16207" text-anchor="middle">13</text>
+<rect x="269" y="125" width="78" height="33" fill="#e2f3ec" rx="3"/>
+<text x="308.0" y="147.0" font-size="13" font-weight="680" fill="#0d6f5c" text-anchor="middle">23</text>
+<rect x="351" y="125" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="390.0" y="147.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">201</text>
+<rect x="433" y="125" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="472.0" y="147.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">228</text>
+<rect x="515" y="125" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="554.0" y="147.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">400+</text>
+<rect x="597" y="125" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="636.0" y="147.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">400+</text>
+<rect x="679" y="125" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="718.0" y="147.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">400+</text>
+<rect x="761" y="125" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="800.0" y="147.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">400+</text>
+<rect x="843" y="125" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="882.0" y="147.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">400+</text>
+<text x="174" y="182.0" font-size="11.5" font-weight="600" fill="#16202b" text-anchor="end">Qwen3.5 4B</text>
+<text x="174" y="194.0" font-size="9.5" fill="#657586" text-anchor="end">4B active · 2.5 GB</text>
+<rect x="187" y="165" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="226.0" y="187.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="269" y="165" width="78" height="33" fill="#fdeceb" rx="3"/>
+<text x="308.0" y="187.0" font-size="13" font-weight="680" fill="#b3261e" text-anchor="middle">5</text>
+<rect x="351" y="165" width="78" height="33" fill="#e2f3ec" rx="3"/>
+<text x="390.0" y="187.0" font-size="13" font-weight="680" fill="#0d6f5c" text-anchor="middle">40</text>
+<rect x="433" y="165" width="78" height="33" fill="#e2f3ec" rx="3"/>
+<text x="472.0" y="187.0" font-size="13" font-weight="680" fill="#0d6f5c" text-anchor="middle">46</text>
+<rect x="515" y="165" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="554.0" y="187.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">400+</text>
+<rect x="597" y="165" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="636.0" y="187.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">82</text>
+<rect x="679" y="165" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="718.0" y="187.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">164</text>
+<rect x="761" y="165" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="800.0" y="187.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">321</text>
+<rect x="843" y="165" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="882.0" y="187.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">321</text>
+<text x="174" y="222.0" font-size="11.5" font-weight="600" fill="#16202b" text-anchor="end">Gemma 4 E2B</text>
+<text x="174" y="234.0" font-size="9.5" fill="#657586" text-anchor="end">2B active · 2.9 GB</text>
+<rect x="187" y="205" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="226.0" y="227.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="269" y="205" width="78" height="33" fill="#fdf2dc" rx="3"/>
+<text x="308.0" y="227.0" font-size="13" font-weight="680" fill="#a16207" text-anchor="middle">9</text>
+<rect x="351" y="205" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="390.0" y="227.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">80</text>
+<rect x="433" y="205" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="472.0" y="227.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">91</text>
+<rect x="515" y="205" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="554.0" y="227.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">400+</text>
+<rect x="597" y="205" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="636.0" y="227.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">164</text>
+<rect x="679" y="205" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="718.0" y="227.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">329</text>
+<rect x="761" y="205" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="800.0" y="227.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">400+</text>
+<rect x="843" y="205" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="882.0" y="227.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">400+</text>
+<text x="174" y="262.0" font-size="11.5" font-weight="600" fill="#16202b" text-anchor="end">Gemma 4 12B</text>
+<text x="174" y="274.0" font-size="9.5" fill="#657586" text-anchor="end">12B active · 6.7 GB</text>
+<rect x="187" y="245" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="226.0" y="267.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="269" y="245" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="308.0" y="267.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="351" y="245" width="78" height="33" fill="#fdf2dc" rx="3"/>
+<text x="390.0" y="267.0" font-size="13" font-weight="680" fill="#a16207" text-anchor="middle">13</text>
+<rect x="433" y="245" width="78" height="33" fill="#fdf2dc" rx="3"/>
+<text x="472.0" y="267.0" font-size="13" font-weight="680" fill="#a16207" text-anchor="middle">15</text>
+<rect x="515" y="245" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="554.0" y="267.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">160</text>
+<rect x="597" y="245" width="78" height="33" fill="#e2f3ec" rx="3"/>
+<text x="636.0" y="267.0" font-size="13" font-weight="680" fill="#0d6f5c" text-anchor="middle">27</text>
+<rect x="679" y="245" width="78" height="33" fill="#e2f3ec" rx="3"/>
+<text x="718.0" y="267.0" font-size="13" font-weight="680" fill="#0d6f5c" text-anchor="middle">55</text>
+<rect x="761" y="245" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="800.0" y="267.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">107</text>
+<rect x="843" y="245" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="882.0" y="267.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">107</text>
+<text x="174" y="302.0" font-size="11.5" font-weight="600" fill="#16202b" text-anchor="end">Qwen3.8 27B</text>
+<text x="174" y="314.0" font-size="9.5" fill="#657586" text-anchor="end">27B active · 16 GB</text>
+<rect x="187" y="285" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="226.0" y="307.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="269" y="285" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="308.0" y="307.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="351" y="285" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="390.0" y="307.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="433" y="285" width="78" height="33" fill="#fdf2dc" rx="3"/>
+<text x="472.0" y="307.0" font-size="13" font-weight="680" fill="#a16207" text-anchor="middle">7</text>
+<rect x="515" y="285" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="554.0" y="307.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">71</text>
+<rect x="597" y="285" width="78" height="33" fill="#fdf2dc" rx="3"/>
+<text x="636.0" y="307.0" font-size="13" font-weight="680" fill="#a16207" text-anchor="middle">12</text>
+<rect x="679" y="285" width="78" height="33" fill="#e2f3ec" rx="3"/>
+<text x="718.0" y="307.0" font-size="13" font-weight="680" fill="#0d6f5c" text-anchor="middle">24</text>
+<rect x="761" y="285" width="78" height="33" fill="#e2f3ec" rx="3"/>
+<text x="800.0" y="307.0" font-size="13" font-weight="680" fill="#0d6f5c" text-anchor="middle">48</text>
+<rect x="843" y="285" width="78" height="33" fill="#e2f3ec" rx="3"/>
+<text x="882.0" y="307.0" font-size="13" font-weight="680" fill="#0d6f5c" text-anchor="middle">48</text>
+<text x="174" y="342.0" font-size="11.5" font-weight="600" fill="#16202b" text-anchor="end">Qwen3.6 35B A3B</text>
+<text x="174" y="354.0" font-size="9.5" fill="#657586" text-anchor="end">3B active · 19.6 GB</text>
+<rect x="187" y="325" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="226.0" y="347.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="269" y="325" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="308.0" y="347.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="351" y="325" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="390.0" y="347.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="433" y="325" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="472.0" y="347.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">61</text>
+<rect x="515" y="325" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="554.0" y="347.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">400+</text>
+<rect x="597" y="325" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="636.0" y="347.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">110</text>
+<rect x="679" y="325" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="718.0" y="347.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">219</text>
+<rect x="761" y="325" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="800.0" y="347.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">400+</text>
+<rect x="843" y="325" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="882.0" y="347.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">400+</text>
+<text x="174" y="382.0" font-size="11.5" font-weight="600" fill="#16202b" text-anchor="end">Qwen3.8-Flash-Next</text>
+<text x="174" y="394.0" font-size="9.5" fill="#657586" text-anchor="end">6B active · 98 GB</text>
+<rect x="187" y="365" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="226.0" y="387.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="269" y="365" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="308.0" y="387.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="351" y="365" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="390.0" y="387.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="433" y="365" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="472.0" y="387.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="515" y="365" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="554.0" y="387.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="597" y="365" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="636.0" y="387.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="679" y="365" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<rect x="679.5" y="365.5" width="77" height="32" fill="none" stroke="#d97706" stroke-width="1.6" stroke-dasharray="3 2" rx="3"/>
+<text x="718.0" y="387.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">110</text>
+<rect x="761" y="365" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="800.0" y="387.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">214</text>
+<rect x="843" y="365" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="882.0" y="387.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">214</text>
+<text x="174" y="422.0" font-size="11.5" font-weight="600" fill="#16202b" text-anchor="end">DeepSeek V4 Flash</text>
+<text x="174" y="434.0" font-size="9.5" fill="#657586" text-anchor="end">13B active · 159 GB</text>
+<rect x="187" y="405" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="226.0" y="427.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="269" y="405" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="308.0" y="427.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="351" y="405" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="390.0" y="427.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="433" y="405" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="472.0" y="427.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="515" y="405" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="554.0" y="427.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="597" y="405" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="636.0" y="427.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="679" y="405" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="718.0" y="427.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="761" y="405" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="800.0" y="427.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">99</text>
+<rect x="843" y="405" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="882.0" y="427.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">99</text>
+<text x="174" y="462.0" font-size="11.5" font-weight="600" fill="#16202b" text-anchor="end">GLM-5.3-Flash</text>
+<text x="174" y="474.0" font-size="9.5" fill="#657586" text-anchor="end">18B active · 180 GB</text>
+<rect x="187" y="445" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="226.0" y="467.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="269" y="445" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="308.0" y="467.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="351" y="445" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="390.0" y="467.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="433" y="445" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="472.0" y="467.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="515" y="445" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="554.0" y="467.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="597" y="445" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="636.0" y="467.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="679" y="445" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="718.0" y="467.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="761" y="445" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="800.0" y="467.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">71</text>
+<rect x="843" y="445" width="78" height="33" fill="#c3e9dc" rx="3"/>
+<text x="882.0" y="467.0" font-size="13" font-weight="680" fill="#0a5245" text-anchor="middle">71</text>
+<text x="174" y="502.0" font-size="11.5" font-weight="600" fill="#16202b" text-anchor="end">GLM-5.2</text>
+<text x="174" y="514.0" font-size="9.5" fill="#657586" text-anchor="end">40B active · 416.6 GB</text>
+<rect x="187" y="485" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="226.0" y="507.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="269" y="485" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="308.0" y="507.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="351" y="485" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="390.0" y="507.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="433" y="485" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="472.0" y="507.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="515" y="485" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="554.0" y="507.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="597" y="485" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="636.0" y="507.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="679" y="485" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="718.0" y="507.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="761" y="485" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="800.0" y="507.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="843" y="485" width="78" height="33" fill="#e2f3ec" rx="3"/>
+<rect x="843.5" y="485.5" width="77" height="32" fill="none" stroke="#d97706" stroke-width="1.6" stroke-dasharray="3 2" rx="3"/>
+<text x="882.0" y="507.0" font-size="13" font-weight="680" fill="#0d6f5c" text-anchor="middle">32</text>
+<text x="174" y="542.0" font-size="11.5" font-weight="600" fill="#16202b" text-anchor="end">Kimi K3</text>
+<text x="174" y="554.0" font-size="9.5" fill="#657586" text-anchor="end">104B active · 1568 GB</text>
+<rect x="187" y="525" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="226.0" y="547.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="269" y="525" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="308.0" y="547.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="351" y="525" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="390.0" y="547.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="433" y="525" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="472.0" y="547.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="515" y="525" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="554.0" y="547.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="597" y="525" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="636.0" y="547.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="679" y="525" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="718.0" y="547.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="761" y="525" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="800.0" y="547.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<rect x="843" y="525" width="78" height="33" fill="#e6ebf0" rx="3"/>
+<text x="882.0" y="547.0" font-size="11" fill="#657586" text-anchor="middle">—</text>
+<text x="26" y="592" font-size="10.5" fill="#d97706">Budget = RAM minus OS, runtime and KV cache. Linux boards keep about half; Macs about 80% (the 75% default is raisable via iogpu.wired_limit_mb).</text>
+<text x="26" y="607" font-size="10.5" fill="#d97706">Dashed cell outlines mean the model fits but leaves almost no room — those are the configuration-dependent ones.</text>
+<text x="26" y="622" font-size="10.5" fill="#c2410c">The RTX 5090 column is the point: 1,792 GB/s buys the fastest decode on the chart, and 32 GB shuts it out of every model larger than that.</text>
+<text x="26" y="637" font-size="10.5" fill="#657586">UNO-Q bandwidth estimated from the QRB2210 interface. Qwen3.8-Flash-Next counted with its N-gram table resident; mmap'd it drops to ~70 GB.</text>
+</svg>

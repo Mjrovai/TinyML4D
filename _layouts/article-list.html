@@ -1,0 +1,39 @@
+---
+layout: base
+---
+<section class="artlist-head">
+  <div class="wrap">
+    <p class="eyebrow">Section 05</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif %}
+  </div>
+</section>
+
+<section class="artlist">
+  <div class="wrap">
+    {%- assign articles = site.pages | where: "layout", "article" | sort: "date" | reverse -%}
+    {%- if articles.size == 0 -%}
+      <p class="artlist-empty">Nothing published here yet.</p>
+    {%- else -%}
+      <ul class="artlist-grid">
+      {%- for a in articles -%}
+        <li class="artcard reveal">
+          <a href="{{ a.url | relative_url }}">
+            {% if a.image %}<span class="artcard-thumb"><img src="{{ a.image | relative_url }}" alt="" loading="lazy"></span>{% endif %}
+            <span class="artcard-body">
+              {% if a.date %}<span class="artcard-date">{{ a.date | date: "%-d %B %Y" }}</span>{% endif %}
+              <h2>{{ a.title }}</h2>
+              {% if a.subtitle %}<span class="artcard-sub">{{ a.subtitle }}</span>{% endif %}
+              <span class="go">Read →</span>
+            </span>
+          </a>
+        </li>
+      {%- endfor -%}
+      </ul>
+    {%- endif -%}
+  </div>
+</section>
+
+<div class="wrap article-foot">
+  <p><a class="btn btn-ghost" href="{{ '/' | relative_url }}">← Back to the hub</a></p>
+</div>
