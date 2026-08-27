@@ -14,7 +14,7 @@ $10,799. One box on a desk, drawing about as much power as a couple of light bul
 
 **No API key. No rate limit. No per-token bill. Nothing leaving the room.**
 
-The machine shipped this week. The model shipped yesterday. Three points on the Artificial Analysis index now separate the best model anyone sells from the best model anyone can download. Six points separate it from the best one that fits on a machine you can order this afternoon.
+The machine shipped this week. The model shipped yesterday. Three points on the Artificial Analysis index now separate the best model anyone sells from the best model anyone can download — and the download runs on hardware you can order this afternoon.
 
 For about three years, the honest answer to "can I run a good model locally?" was: sort of, if you lower your expectations. You ran a 7B, then a 13B, then a 30B, and each time you told yourself it was fine for the task at hand. Sometimes that was true. Mostly you were trading capability for control and pretending the trade was free.
 
@@ -26,9 +26,9 @@ Let's be careful here and look at numbers.
 
 ![Artificial Analysis Intelligence Index, closed and open-weight models ranked](figures/gap-ai-index.png)
 
-Three points separate Claude Opus 5 from Kimi K3 (a 2.8 Trillion MoE model). Six points separate Opus 5 from GLM 5-3 Flash (a 321 Billion MoE model). Seven points separate Opus 5 from Qwen3.8 Flash Next (a 125-billion-parameter model, the future Qwen 4 architecture). Eleven points separate Opus 5 from Qwen3.8 27B, **a dense model that fits in a desktop, at the border of frontier models.**
+Three points separate Claude Opus 5 from Kimi K3 (a 2.8 Trillion MoE model). Six points separate Opus 5 from GLM 5-3 Flash (a 321 Billion MoE model). Seven points separate Opus 5 from Qwen3.8 Flash Next (a 125 Billion model, future Qwen 4 architecture). Eleven points separate Opus 5 from Qwen3.8 27B, **a dense model that fits in a desktop, at the border of frontier models.**
 
-Two caveats. The [Intelligence Index](https://artificialanalysis.ai/leaderboards/models?weights=proprietary%2Copen&size=large%2Cunknown%2Ctiny%2Csmall%2Cmedium) is a composite, and it flattens what matters — whether a model stays coherent across four hundred tool calls, for one. And Kimi K3 is 2.8 trillion parameters: open weights and runnable are not the same word.
+Two caveats. The [Intelligence Index](https://artificialanalysis.ai/leaderboards/models?weights=proprietary%2Copen&size=large%2Cunknown%2Ctiny%2Csmall%2Cmedium) is a composite, and it flattens things that matter — whether a model stays coherent across four hundred tool calls, for one. And Kimi K3 is 2.8 trillion parameters: open weights and runnable are not the same word.
 
 Runnable is the real question.
 
@@ -40,7 +40,7 @@ Runnable is the real question.
 
 The dashed lines represent usable model budget, not nameplate RAM — a 4 GB UNO-Q gives you about 2 GB once Debian and the KV cache take their share, and an 8 GB Pi 5 gives you about 4 GB. Everything to the left of a line fits. Capacity only; nothing here says anything about speed.
 
-Look at where Qwen3.8 27B sits: index 52, 13.5 GB at Q3 or 16 GB at Q4, inside the frontier band, just left of the Mac mini M6 line (16 GB version runs Q3; 32 GB version runs Q4). A desktop comfortably runs a model that scores higher (with no quantization) than GPT-5.6 Luna or Claude Opus 4.7. Of course, with Q4 or Q3, it will lose some quality, but it will still work pretty well.
+Look at where Qwen3.8 27B sits: index 52, 13.5 GB at Q3 or 16 GB at Q4, inside the frontier band, just left of the Mac mini M6 line (16GB version runs Q3; 32GB version, runs Q4). A desktop confortably runs a model that scores higher (with no quantization) than GPT-5.6 Luna or Claude Opus 4.7. Of course with q4 or Q3, it will lose some quality, but it will still work pretty well.
 
 And look at the cluster between the Pi 5 and notebook lines — Gemma 4 E4B, Qwen3.5 9B, Gemma 4 12B. That band is the sweet spot for a laptop, and until this year it was empty.
 
@@ -70,7 +70,7 @@ Qwen's reported numbers, against my current daily driver and against Opus 4.6:
 | GPQA Diamond | **91.7** | 89.2 | 91.3 |
 | HLE | 35.9 | 30.8 | **40.0** |
 
-Vendor-reported, self-harnessed, and neither model has an independent Intelligence Index score yet. Treat the table as a hypothesis. But if even half of it survives third-party evaluation, a 6B-active model is doing work that needed a 40B-active model in June.
+Vendor-reported and self-harnessed. Artificial Analysis has since scored GLM-5.3-Flash at 57.5, close to what Z.ai's own numbers implied — the independent confirmation arrived faster than I expected. Qwen3.8-Flash-Next has an index but no independent agentic evaluation yet, so treat the table above as a hypothesis. If even half of it survives, a 6B-active model is doing work that needed a 40B-active model in June.
 
 ## What changed in the Macs
 
@@ -120,7 +120,7 @@ Most of the coverage this week is about the $10,799 Ultra. For the majority of u
 
 Start with the laptop already on the desk. A commodity notebook in the M5 Air class has 16 GB of unified memory at roughly 150 GB/s, which, after accounting for the OS and KV cache, leaves about 11 GB for weights. That lands you on **Gemma 4 12B at 6.7 GB or Qwen3.5 9B at 5.5 GB**, both around index 22, both running at 13 to 18 tok/s. Not frontier. Genuinely useful, on hardware nobody bought for AI, at zero marginal cost.
 
-What 16 GB does *not* comfortably run is Qwen3.8 27B. That model is 16 GB at Q4 and still 13.5 GB at Q3, against an 11 GB budget, so it wants a 32 GB machine. That is not the $899 mini — that one has 16 GB and the slower 153 GB/s memory, and it lands in the same place as the laptop. The machine you want is the **32 GB Mac mini M6 at roughly $1,299**, which also happens to be the configuration that reaches 170 GB/s. There, index 52 sits inside the closed-frontier band for about the price of a good phone. The jump from index 22 to index 52 costs $400 of RAM and one tier of bandwidth. It is still the best value on the entire ladder.
+What 16 GB does *not* comfortably run is Qwen3.8 27B. That model is 17GB at Q4 and still 13.5 GB at Q3, against an 11 GB budget, so it wants a 32 GB machine. That is not the $899 mini — that one has 16 GB and the slower 153 GB/s memory, and it lands in the same place as the laptop. The machine you want is the **32 GB Mac mini M6 at roughly $1,299**, which also happens to be the configuration that reaches 170 GB/s. There, index 52 sits inside the closed-frontier band for about the price of a good phone. The jump from index 22 to index 52 costs $400 of RAM and one tier of bandwidth. It is still the best value on the entire ladder.
 
 The **Mac mini M5 Pro** holds 307 GB/s at every configuration, but $1,699 buys 24 GB, not 64. The 64 GB version is closer to $2,700, and that is the one that covers everything up to about 50 GB at Q4 and reaches Qwen3.8-Flash-Next if the N-gram table offloads.
 
@@ -148,7 +148,7 @@ Two things that matter more than the index at this tier:
 
 **MTP speculative decoding.** I benchmarked this on a Pi 5 with Gemma 4 E2B and Qwen3.5 4B, and the gains are large enough to change which models are viable. Both new Flash-tier models ship MTP too — GLM-5.2 extended it to five draft tokens, and Qwen3.8-Flash-Next includes a 4B MTP layer. The technique scales from Pi to Ultra.
 
-**Quantization-aware training (QAT).** Gemma 4 E2B QAT holds up at INT4 in a way that post-training quantization does not, and on an 8 GB Pi that difference decides whether the model is usable.
+**Quantization-aware training (QAT).** Gemma 4 E2B QAT holds up at INT4 in a way that post-training quantization does not, and on a 8 GB Pi that difference decides whether the model is usable.
 
 ## What I would actually buy
 
@@ -168,6 +168,14 @@ If you need GLM-5.3-Flash at honest quantization: **Mac Studio M5 Ultra, 256 GB,
 ## What it costs, and who it makes sense for
 
 The API is cheap, and it is not going away. Any honest version of this article says so.
+
+![Intelligence Index versus cost per task, closed and open-weight models](figures/Intelligence_Index_vs_Cost.png)
+
+That chart is the strongest argument against everything I just recommended, and it deserves to be shown rather than buried. GLM-5.3-Flash costs about $0.085 per task against Claude Opus 5's $2.30 — roughly twenty-seven times less for six index points — and it sits on the Pareto frontier, inside the attractive quadrant. If cost per token is your only axis, do not buy hardware. Rent the same model from an API and get on with your work.
+
+Then notice what the chart has no axis for. Whether your data leaves the building. What happens when a provider retires the model your pipeline was built on. Whether the rate limit holds when you need it. Those are not token costs, and they do not appear anywhere on that plot.
+
+Notice too that the cheapest good model on this chart is the same model that fits in 180 GB. The choice is not between a cheap frontier model and an expensive local one. It is the same model, delivered two ways, and the price you pay depends on what you are optimizing.
 
 Against GLM-5.2's pricing of $1.40 / $4.40 per million tokens, a heavy agent workload of 10M input and 2M output per day runs about $8,400 a year, and a $10,799 Ultra pays for itself in roughly fifteen months. Against DeepSeek V4 Flash at $0.14 / $0.28, the same workload costs $715 a year, and the hardware never pays back on tokens alone.
 
@@ -189,10 +197,10 @@ Runtime support is the gate, and right now it is closed. QSA, Gated DeltaNet, KD
 
 Licensing shifted too, and not in a good direction. Qwen3.8-Flash-Next ships under `qwen-community-1.0`, not Apache 2.0. After a long run of permissive releases from that team, this is worth reading carefully before you build a project around redistributing weights.
 
-And every headline number in the Flash-tier section came from the labs that trained the models. No independent evaluation exists for either yet. I have written the optimistic version of this article because I think the direction is real. Check back in a month, and some of it will be wrong.
+The agentic benchmark tables in the Flash-tier section still come from the labs that trained the models. Artificial Analysis has independently scored GLM-5.3-Flash since I started writing, and it landed where Z.ai said it would; Qwen3.8-Flash-Next's coding and agentic claims remain unverified by anyone outside Alibaba. I have written the optimistic version of this article because I think the direction is real. Check back in a month, and some of it will be wrong.
 
 ---
 
 ### Sources and method
 
-Intelligence Index values: Artificial Analysis LLM Leaderboard v4.1.1, read 26 August 2026, highest-effort variant per model. Hardware specifications and pricing: Apple Newsroom and apple.com technical specifications, 25–26 August 2026. Memory-bandwidth figures are per configuration, not per chip: the M6 runs 153 GB/s at 16 GB and 170 GB/s at 24 GB or more, and the M5 Max runs 460 GB/s until the 40-core GPU upgrade. Model architectures: official model cards on Hugging Face and vLLM recipes. Q4 footprints estimated at 0.56 GB per billion parameters (Q4_K_M class) unless a published figure was available. The throughput figures in Figure 5 are my own arithmetic and are not measurements. UNO-Q memory bandwidth is estimated; Arduino UNO-Q 4 GB pricing from the Arduino store, August 2026. RTX 5090 street pricing reflects the 2026 GDDR7 shortage and moves weekly.
+Intelligence Index values: Artificial Analysis LLM Leaderboard v4.1.1, read 26 August 2026, highest-effort variant per model. Hardware specifications and pricing: Apple Newsroom and apple.com technical specifications, 25–26 August 2026. Memory-bandwidth figures are per configuration, not per chip: the M6 runs 153 GB/s at 16 GB and 170 GB/s at 24 GB or more, and the M5 Max runs 460 GB/s until the 40-core GPU upgrade. Model architectures: official model cards on Hugging Face and vLLM recipes. Q4 footprints estimated at 0.56 GB per billion parameters (Q4_K_M class) unless a published figure was available. The throughput figures in Figure 5 are my own arithmetic and are not measurements. UNO-Q memory bandwidth is estimated; Arduino UNO-Q 4 GB pricing from the Arduino store, August 2026. RTX 5090 street pricing reflects the 2026 GDDR7 shortage and moves weekly. Cost per Intelligence Index task is a weighted composite across the benchmark suite and is not directly comparable to the per-million-token API prices quoted alongside it.
