@@ -73,12 +73,14 @@ permalink: /
 
 ## Articles
 ### [Open and Local Is Not a Compromise Anymore (2026)](https://mjrovai.com/articles/open-and-local-2026/)
+### [Running Small Language Models on a Raspberry Pi 5: Gemma 4 E2B and Qwen3.5 4B with MTP (2026)](https://mjrovai.com/articles/slm-on-raspberry-pi-mtp/)
 ### [All articles →](https://mjrovai.com/articles/)
 
 <a id="tutorials" class="anchor-target"></a>
 
 ## Tutorials
 ### [Arduino UNO Q Hands-On Tutorials](https://github.com/Mjrovai/ARDUINO-UNO-Q)
+### [From Ollama to llama.cpp: Multimodal Inference on the Edge (Raspberry Pi 5)](https://github.com/Mjrovai/EdgeML-with-Raspberry-Pi/tree/main/Llama_cpp)
 ### [Edge Machine Learning in Practice e-Book (work in progress)](https://tinyml4d.gitbook.io/edge-machine-learning/)
 ### TinyML LSTM Model [[Temperature Prediction Tutorial]](https://www.hackster.io/mjrobot/temperature-prediction-using-a-tinyml-lstm-model-264029) [[Material]](https://github.com/Mjrovai/Tiny-LSTM-Weather-Station)
 ### Grove Vision AI Module (V2) [[Computer Vision at the Edge - Tutorial]](https://www.hackster.io/mjrobot/computer-vision-at-the-edge-with-grove-vision-ai-module-v2-0003c7) [[Material]](https://github.com/Mjrovai/Edge-Computer-Vision/tree/main/SenseCraft-EDGE-CV)

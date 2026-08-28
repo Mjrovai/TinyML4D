@@ -66,7 +66,10 @@
   color: var(--ink-soft);
 }
 
-.article > * { max-width: 68ch; margin-left: auto; margin-right: auto; }
+/* One left rail: text wraps at 68ch, wide elements (figures, tables, code)
+   extend right to 84ch. Everything shares the same left edge — the text rules
+   below reset margins, so wide elements must not be centred either. */
+.article > * { max-width: 68ch; margin-left: 0; margin-right: auto; }
 
 .article p { margin: 0 0 1.15em; }
 
@@ -124,7 +127,7 @@
 
 /* Blockquote — used in this section for asides and pull-outs */
 .article blockquote {
-  margin: 1.7em auto;
+  margin: 1.7em 0;
   padding: 2px 0 2px 22px;
   border-left: 3px solid var(--accent);
   color: var(--ink);
@@ -138,20 +141,20 @@
   display: block;
   width: 100%;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 0;
   border: 1px solid var(--line);
   border-radius: 10px;
   background: #ffffff;
 }
 .article p:has(> img:only-child) {
   max-width: min(100%, 84ch);
-  margin: 1.9em auto;
+  margin: 1.9em 0;
 }
 /* Standalone images are promoted to <figure> at load (see the article layout),
    with the markdown alt text reused as the caption. */
 .article figure {
   max-width: min(100%, 84ch);
-  margin: 1.9em auto;
+  margin: 1.9em 0;
 }
 .article figure img { margin: 0; }
 .article figcaption {
@@ -166,7 +169,7 @@
 .article .table-wrap,
 .article table { max-width: min(100%, 84ch); }
 .article .table-wrap {
-  margin: 1.8em auto;
+  margin: 1.8em 0;
   overflow-x: auto;
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -217,7 +220,7 @@
 }
 .article pre {
   max-width: min(100%, 84ch);
-  margin: 1.6em auto;
+  margin: 1.6em 0;
   padding: 16px 18px;
   overflow-x: auto;
   background: var(--surface-2);
@@ -230,7 +233,7 @@
   max-width: min(100%, 84ch);
   border: 0; height: 1px;
   background: var(--line);
-  margin: 2.6em auto;
+  margin: 2.6em 0;
 }
 
 /* The closing "Sources and method" block sets itself apart. */
@@ -246,12 +249,12 @@
 .article-foot { padding: 10px 0 64px; }
 .article-license {
   max-width: 68ch;
-  margin: 0 auto 18px;
+  margin: 0 0 18px;
   padding-top: 16px;
   border-top: 1px solid var(--line-soft);
   font-size: .86rem; color: var(--muted);
 }
-.article-foot > p:last-child { max-width: 68ch; margin: 0 auto; }
+.article-foot > p:last-child { max-width: 68ch; margin: 0; }
 
 /* --------------------------------------------------------------------------
    Article index
