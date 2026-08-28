@@ -1,7 +1,7 @@
 title: "Marcelo Rovai — Edge AI & TinyML"
 description: "Lectures, books, workshops, and tutorials on Edge AI & TinyML by Marcelo Rovai, professor at UNIFEI — part of my work with the AIEng4D academic network."
-url: "https://mjrovai.github.io"
-baseurl: "/TinyML4D"
+url: "https://mjrovai.com"
+baseurl: ""
 
 markdown: kramdown
 kramdown:

@@ -72,8 +72,8 @@ permalink: /
 ### [Use of Edge Machine Learning for a Non-Invasive Beehive Monitoring System](https://ieeexplore.ieee.org/document/11467907)
 
 ## Articles
-### [Open and Local Is Not a Compromise Anymore (2026)](https://mjrovai.github.io/TinyML4D/articles/open-and-local-2026/)
-### [All articles →](https://mjrovai.github.io/TinyML4D/articles/)
+### [Open and Local Is Not a Compromise Anymore (2026)](https://mjrovai.com/articles/open-and-local-2026/)
+### [All articles →](https://mjrovai.com/articles/)
 
 <a id="tutorials" class="anchor-target"></a>
 
