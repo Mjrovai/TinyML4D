@@ -80,6 +80,7 @@ permalink: /
 
 ## Tutorials
 ### [Arduino UNO Q Hands-On Tutorials](https://github.com/Mjrovai/ARDUINO-UNO-Q)
+### [SLMs at the Edge: A Guide to Local Inference on PC, Raspberry Pi, and Arduino UNO Q](https://github.com/Mjrovai/EdgeML-with-Raspberry-Pi/tree/main/A_Guide_to_Local_Inference)
 ### [From Ollama to llama.cpp: Multimodal Inference on the Edge (Raspberry Pi 5)](https://github.com/Mjrovai/EdgeML-with-Raspberry-Pi/tree/main/Llama_cpp)
 ### [Edge Machine Learning in Practice e-Book (work in progress)](https://tinyml4d.gitbook.io/edge-machine-learning/)
 ### TinyML LSTM Model [[Temperature Prediction Tutorial]](https://www.hackster.io/mjrobot/temperature-prediction-using-a-tinyml-lstm-model-264029) [[Material]](https://github.com/Mjrovai/Tiny-LSTM-Weather-Station)
