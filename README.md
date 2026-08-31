@@ -21,10 +21,13 @@ permalink: /
 
 ## Books
 ### [Machine Learning Systems by Prof. Vijay Janapa Reddi (contributor)](https://mlsysbook.ai/)
-### [XIAO: Big Power, Small Board - Mastering Arduino and TinyML](https://mjrovai.github.io/XIAO_Big_Power_Small_Board-ebook/)
-### [TinyML Made Easy: Hands-On with the Nicla Vision](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/)
-### [TinyML Made Easy: Hands-On with Seeed Studio Devices](https://mjrovai.github.io/TinyML_Made_Easy_XIAO_ESP32S3_ebook/)
+### [Generative AI at the Edge: Running SLMs with Arduino UNO Q and llama.cpp](https://mjrovai.github.io/genai-uno-q/)
 ### [Edge AI Engineering: Hands-on with the Raspberry Pi](https://mjrovai.github.io/EdgeML_Made_Ease_ebook/)
+### [TinyML Made Easy: Hands-On with Seeed Studio Devices](https://mjrovai.github.io/TinyML_Made_Easy_XIAO_ESP32S3_ebook/)
+### [TinyML Made Easy: Hands-On with the Nicla Vision](https://mjrovai.github.io/TinyML_Made_Easy_NiclaV_eBook/)
+### [XIAO: Big Power, Small Board - Mastering Arduino and TinyML](https://mjrovai.github.io/XIAO_Big_Power_Small_Board-ebook/)
+
+
 
 <a id="workshops" class="anchor-target"></a>
 
