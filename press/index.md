@@ -30,15 +30,15 @@ description: "Journalism featuring Marcelo Rovai's work on TinyML and Edge AI, w
 
 <h2>What's tinyML? The Global South's alternative to power-hungry, pricey AI</h2>
 
-<p><strong>Science (AAAS)</strong> · 20 February 2025</p>
+<p><strong>Science (AAAS)</strong> · Sandeep Ravindran · 20 February 2025 · Vol 387, Issue 6736</p>
 
-<p>A feature on why low-power, low-cost machine learning matters in regions where electricity and connectivity cannot be assumed. It covers the teaching network that runs TinyML courses and workshops across Brazil, Morocco, Nigeria, South Africa, Rwanda and elsewhere, and the field applications that come out of it. I was interviewed for the piece.</p>
+<p>A feature on why low-power, low-cost machine learning matters in regions where electricity and connectivity cannot be assumed, reported from India, Brazil, Malaysia, Kenya and Argentina. I was interviewed for it, alongside the AIEng4D teaching network that runs TinyML courses across the Global South. The piece covers the mosquito work I did with Marco Zennaro of the ICTP: a model that tells two <em>Aedes</em> species apart with 98% accuracy, on a prototype whose battery lasts up to four days in the field. In Brazil, dengue affects more than a million people a year.</p>
 
 <blockquote>
-  <p>TinyML "is fantastic for developing countries." <br><span>— Marcelo Rovai, quoted in Science</span></p>
+  <p>"I think [tinyML] is the future. It's fantastic for developing countries." <br><span>— Marcelo Rovai, quoted in Science</span></p>
 </blockquote>
 
-<p><a href="https://www.science.org/content/article/what-s-tinyml-global-south-s-alternative-power-hungry-pricey-ai" target="_blank" rel="noopener">Read it at Science ↗</a></p>
+<p><a href="https://www.science.org/content/article/what-s-tinyml-global-south-s-alternative-power-hungry-pricey-ai" target="_blank" rel="noopener">Read it at Science ↗</a> <span class="doi">doi:10.1126/science.zdwxnqg</span></p>
 
 </div>
 
