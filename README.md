@@ -75,6 +75,7 @@ permalink: /
 ### [Use of Edge Machine Learning for a Non-Invasive Beehive Monitoring System](https://ieeexplore.ieee.org/document/11467907)
 
 ## Articles
+### [Christmas 1970, Rebuilt in a Browser (2026)](https://mjrovai.com/articles/ee20-simulator/)
 ### [Open and Local Is Not a Compromise Anymore (2026)](https://mjrovai.com/articles/open-and-local-2026/)
 ### [Running Small Language Models on a Raspberry Pi 5: Gemma 4 E2B and Qwen3.5 4B with MTP (2026)](https://mjrovai.com/articles/slm-on-raspberry-pi-mtp/)
 ### [All articles →](https://mjrovai.com/articles/)
@@ -95,6 +96,12 @@ permalink: /
 ### [XIAO ESP32S3 Sense - Audio / Motion / Vision](https://github.com/Mjrovai/XIAO-ESP32S3-Sense)
 ### [ESP32 TinyML - Audio / Motion / Vision](https://github.com/Mjrovai/ESP32-TinyML)
 ### [XIAO-BLE-Sense - Audio / Motion / Datalogger / MicroPython](https://github.com/Mjrovai/Seeed-XIAO-BLE-Sense/tree/main)
+
+## Press
+
+### [Small AI Models Gain Traction Around the World — IEEE Spectrum (2026)](https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals)
+### [What's tinyML? The Global South's alternative to power-hungry, pricey AI — Science (2025)](https://www.science.org/content/article/what-s-tinyml-global-south-s-alternative-power-hungry-pricey-ai)
+### [All coverage →](https://mjrovai.com/press/)
 
 <a id="about" class="anchor-target"></a>
 
