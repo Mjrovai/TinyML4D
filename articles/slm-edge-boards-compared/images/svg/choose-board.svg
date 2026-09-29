@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#52514e"/>
+    </marker>
+  </defs>
+  <rect width="900" height="480" fill="#fcfcfb"/>
+  <text x="450" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#0b0b0b">Which board for a local language model?</text>
+
+  <!-- Question 1 -->
+  <rect x="250" y="60" width="400" height="66" rx="10" fill="#ffffff" stroke="#8d8c86" stroke-width="1.5"/>
+  <text x="450" y="87" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#0b0b0b">Does the project need a microcontroller?</text>
+  <text x="450" y="108" text-anchor="middle" font-size="12.5" fill="#52514e">real-time I/O, motors, sensors, low-level timing</text>
+
+  <line x1="250" y1="93" x2="160" y2="93" stroke="#52514e" stroke-width="1.8"/>
+  <line x1="160" y1="93" x2="160" y2="168" stroke="#52514e" stroke-width="1.8" marker-end="url(#a)"/>
+  <text x="200" y="85" text-anchor="middle" font-size="13" font-weight="bold" fill="#52514e">yes</text>
+
+  <line x1="450" y1="126" x2="450" y2="168" stroke="#52514e" stroke-width="1.8" marker-end="url(#a)"/>
+  <text x="466" y="152" font-size="13" font-weight="bold" fill="#52514e">no</text>
+
+  <!-- UNO Q -->
+  <rect x="30" y="170" width="260" height="170" rx="10" fill="#e6f6ef" stroke="#1baf7a" stroke-width="2"/>
+  <text x="160" y="198" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b0b0b">Arduino UNO Q (4 GB)</text>
+  <text x="160" y="218" text-anchor="middle" font-size="12.5" fill="#52514e">$79, no cooling needed</text>
+  <g font-size="12.5" fill="#1f2937">
+    <text x="48" y="246">• Qwen3.5 0.8B + vision for captions</text>
+    <text x="58" y="263">(about 1.7 min per image)</text>
+    <text x="48" y="286">• Qwen3.5 2B for tool calling</text>
+    <text x="58" y="303">(2.5 t/s; keep the tool list short)</text>
+    <text x="48" y="326">• When latency is not critical</text>
+  </g>
+
+  <!-- Question 2 -->
+  <rect x="330" y="170" width="400" height="80" rx="10" fill="#ffffff" stroke="#8d8c86" stroke-width="1.5"/>
+  <text x="530" y="197" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#0b0b0b">Do you need 4B models, Gemma with vision,</text>
+  <text x="530" y="216" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#0b0b0b">or the fastest response?</text>
+  <text x="530" y="237" text-anchor="middle" font-size="12.5" fill="#52514e">or a large ecosystem and documentation (classroom)</text>
+  <line x1="450" y1="168" x2="450" y2="170" stroke="#52514e"/>
+
+  <line x1="730" y1="210" x2="770" y2="210" stroke="#52514e" stroke-width="1.8"/>
+  <line x1="770" y1="210" x2="770" y2="283" stroke="#52514e" stroke-width="1.8" marker-end="url(#a)"/>
+  <text x="752" y="200" text-anchor="middle" font-size="13" font-weight="bold" fill="#52514e">yes</text>
+
+  <line x1="530" y1="250" x2="530" y2="283" stroke="#52514e" stroke-width="1.8" marker-end="url(#a)"/>
+  <text x="546" y="272" font-size="13" font-weight="bold" fill="#52514e">no</text>
+
+  <!-- Orange Pi -->
+  <rect x="330" y="285" width="330" height="175" rx="10" fill="#fdefe8" stroke="#eb6834" stroke-width="2"/>
+  <text x="495" y="313" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b0b0b">Orange Pi Zero 3W (6 GB)</text>
+  <text x="495" y="333" text-anchor="middle" font-size="12.5" fill="#52514e">$85 with heatsink and fan · best value</text>
+  <g font-size="12.5" fill="#1f2937">
+    <text x="348" y="360">• Qwen3.5 2B chat at 6 t/s, caption in 45 s</text>
+    <text x="348" y="383">• Gemma 4 E2B + MTP at 8.7 t/s</text>
+    <text x="348" y="406">• Runs everything tested, incl. 4B (slowly)</text>
+    <text x="348" y="429">• Use -t 2 -tb 8; keep the fan on</text>
+  </g>
+
+  <!-- Raspberry Pi 5 -->
+  <rect x="680" y="285" width="200" height="175" rx="10" fill="#e8f1fb" stroke="#2a78d6" stroke-width="2"/>
+  <text x="780" y="313" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b0b0b">Raspberry Pi 5</text>
+  <text x="780" y="333" text-anchor="middle" font-size="16" font-weight="bold" fill="#0b0b0b">(8 GB)</text>
+  <text x="780" y="353" text-anchor="middle" font-size="12.5" fill="#52514e">$211 on Amazon US</text>
+  <g font-size="12.5" fill="#1f2937">
+    <text x="694" y="380">• Fastest of the three</text>
+    <text x="694" y="403">• Largest MTP gains</text>
+    <text x="704" y="420">(Gemma E2B 13 t/s)</text>
+    <text x="694" y="443">• Qwen3.5 4B at 4.8 t/s</text>
+  </g>
+</svg>

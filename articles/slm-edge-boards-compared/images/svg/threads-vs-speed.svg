@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="Helvetica, Arial, sans-serif">
+<rect width="760" height="440" fill="#fcfcfb"/>
+<text x="70" y="28" font-size="17" font-weight="bold" fill="#0b0b0b">Generation speed vs. threads — Qwen3.5 2B Q4_K_XL</text>
+<text x="70" y="48" font-size="12.5" fill="#52514e">llama-bench tg128, tokens/s, same llama.cpp build (136887b) on all three boards</text>
+<line x1="70" x2="570" y1="370.0" y2="370.0" stroke="#e7e6e2" stroke-width="1"/>
+<text x="60" y="374.0" font-size="12" text-anchor="end" fill="#52514e">0</text>
+<line x1="70" x2="570" y1="292.5" y2="292.5" stroke="#e7e6e2" stroke-width="1"/>
+<text x="60" y="296.5" font-size="12" text-anchor="end" fill="#52514e">2</text>
+<line x1="70" x2="570" y1="215.0" y2="215.0" stroke="#e7e6e2" stroke-width="1"/>
+<text x="60" y="219.0" font-size="12" text-anchor="end" fill="#52514e">4</text>
+<line x1="70" x2="570" y1="137.5" y2="137.5" stroke="#e7e6e2" stroke-width="1"/>
+<text x="60" y="141.5" font-size="12" text-anchor="end" fill="#52514e">6</text>
+<line x1="70" x2="570" y1="60.0" y2="60.0" stroke="#e7e6e2" stroke-width="1"/>
+<text x="60" y="64.0" font-size="12" text-anchor="end" fill="#52514e">8</text>
+<text x="70.0" y="390" font-size="12" text-anchor="middle" fill="#52514e">1</text>
+<text x="141.4" y="390" font-size="12" text-anchor="middle" fill="#52514e">2</text>
+<text x="212.9" y="390" font-size="12" text-anchor="middle" fill="#52514e">3</text>
+<text x="284.3" y="390" font-size="12" text-anchor="middle" fill="#52514e">4</text>
+<text x="355.7" y="390" font-size="12" text-anchor="middle" fill="#52514e">5</text>
+<text x="427.1" y="390" font-size="12" text-anchor="middle" fill="#52514e">6</text>
+<text x="498.6" y="390" font-size="12" text-anchor="middle" fill="#52514e">7</text>
+<text x="570.0" y="390" font-size="12" text-anchor="middle" fill="#52514e">8</text>
+<line x1="70" x2="570" y1="370.0" y2="370.0" stroke="#8d8c86" stroke-width="1"/>
+<text x="320.0" y="414" font-size="12.5" text-anchor="middle" fill="#52514e">Threads (-t)</text>
+<text x="18" y="215.0" font-size="12.5" text-anchor="middle" fill="#52514e" transform="rotate(-90 18 215.0)">tokens/s</text>
+<path d="M70.0,199.1 L141.4,111.9 L212.9,110.8 L284.3,146.4" fill="none" stroke="#2a78d6" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="70.0" cy="199.1" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="141.4" cy="111.9" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="212.9" cy="110.8" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<circle cx="284.3" cy="146.4" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="70.0" y="188.1" font-size="11" text-anchor="middle" fill="#52514e">4.41</text>
+<text x="141.4" y="100.9" font-size="11" text-anchor="middle" fill="#52514e">6.66</text>
+<text x="212.9" y="99.8" font-size="11" text-anchor="middle" fill="#52514e">6.69</text>
+<text x="284.3" y="135.4" font-size="11" text-anchor="middle" fill="#52514e">5.77</text>
+<path d="M141.4,139.8 L284.3,155.3 L570.0,158.4" fill="none" stroke="#eb6834" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="136.4" y="134.8" width="10" height="10" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<rect x="279.3" y="150.3" width="10" height="10" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<rect x="565.0" y="153.4" width="10" height="10" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="141.4" y="159.8" font-size="11" text-anchor="middle" fill="#52514e">5.94</text>
+<text x="284.3" y="175.3" font-size="11" text-anchor="middle" fill="#52514e">5.54</text>
+<text x="570.0" y="178.4" font-size="11" text-anchor="middle" fill="#52514e">5.46</text>
+<path d="M70.0,341.3 L141.4,319.2 L212.9,296.0 L284.3,272.0" fill="none" stroke="#1baf7a" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M70.0,335.3 L76.0,346.3 L64.0,346.3 Z" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<path d="M141.4,313.2 L147.4,324.2 L135.4,324.2 Z" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<path d="M212.9,290.0 L218.9,301.0 L206.9,301.0 Z" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<path d="M284.3,266.0 L290.3,277.0 L278.3,277.0 Z" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<text x="70.0" y="330.3" font-size="11" text-anchor="middle" fill="#52514e">0.74</text>
+<text x="141.4" y="308.2" font-size="11" text-anchor="middle" fill="#52514e">1.31</text>
+<text x="212.9" y="285.0" font-size="11" text-anchor="middle" fill="#52514e">1.91</text>
+<text x="284.3" y="261.0" font-size="11" text-anchor="middle" fill="#52514e">2.53</text>
+<g font-size="12.5">
+<circle cx="584" cy="102.6" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="596" y="106.6" font-weight="bold" fill="#0b0b0b">Raspberry Pi 5</text>
+<text x="596" y="122.6" fill="#52514e">memory-bound:</text>
+<text x="596" y="137.6" fill="#52514e">peaks at 2–3 threads</text>
+<rect x="579" y="182.9" width="10" height="10" fill="#eb6834"/>
+<text x="596" y="191.9" font-weight="bold" fill="#0b0b0b">Orange Pi Zero 3W</text>
+<text x="596" y="207.9" fill="#52514e">memory-bound: best</text>
+<text x="596" y="222.9" fill="#52514e">on the 2 A76 cores</text>
+<path d="M584,278.8 L590,289.8 L578,289.8 Z" fill="#1baf7a"/>
+<text x="596" y="288.8" font-weight="bold" fill="#0b0b0b">Arduino UNO Q</text>
+<text x="596" y="304.8" fill="#52514e">compute-bound:</text>
+<text x="596" y="319.8" fill="#52514e">scales with every core</text>
+</g></svg>

@@ -75,6 +75,7 @@ permalink: /
 ### [Use of Edge Machine Learning for a Non-Invasive Beehive Monitoring System](https://ieeexplore.ieee.org/document/11467907)
 
 ## Articles
+### [Three Boards, One Question: Where Should a Small Language Model Run? Orange Pi Zero 3W, Raspberry Pi 5, and Arduino UNO Q (2026)](https://mjrovai.com/articles/slm-edge-boards-compared/)
 ### [Christmas 1970, Rebuilt in a Browser (2026)](https://mjrovai.com/articles/ee20-simulator/)
 ### [Open and Local Is Not a Compromise Anymore (2026)](https://mjrovai.com/articles/open-and-local-2026/)
 ### [Running Small Language Models on a Raspberry Pi 5: Gemma 4 E2B and Qwen3.5 4B with MTP (2026)](https://mjrovai.com/articles/slm-on-raspberry-pi-mtp/)
@@ -84,6 +85,7 @@ permalink: /
 
 ## Tutorials
 ### [Arduino UNO Q Hands-On Tutorials](https://github.com/Mjrovai/ARDUINO-UNO-Q)
+### [Small Language Models on the Orange Pi Zero 3W: Headless Setup, llama.cpp, Chat, and Image Captioning](https://github.com/Mjrovai/EdgeML-with-Raspberry-Pi/tree/main/OrangePi_Zero_3W)
 ### YOLOInfer: Running YOLO on Your Phone — No App Store Required [[Live Demo]](https://yoloinfer.netlify.app) [[Material]](https://github.com/Mjrovai/yoloinferApp)
 ### [Exploring the CrowPanel Advanced 10.1-inch ESP32-P4 HMI Display](https://github.com/Mjrovai/CrowPanel-10.1inch)
 ### [SLMs at the Edge: A Guide to Local Inference on PC, Raspberry Pi, and Arduino UNO Q](https://github.com/Mjrovai/EdgeML-with-Raspberry-Pi/tree/main/A_Guide_to_Local_Inference)
