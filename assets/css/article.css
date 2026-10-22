@@ -60,7 +60,9 @@
    Article body — a single readable measure, figures allowed to breathe wider
    -------------------------------------------------------------------------- */
 .article {
-  padding: 8px 0 24px;
+  /* top/bottom only: the side padding comes from .wrap */
+  padding-top: 8px;
+  padding-bottom: 24px;
   font-size: 1.06rem;
   line-height: 1.68;
   color: var(--ink-soft);
@@ -246,7 +248,7 @@
 /* --------------------------------------------------------------------------
    Article footer
    -------------------------------------------------------------------------- */
-.article-foot { padding: 10px 0 64px; }
+.article-foot { padding-top: 10px; padding-bottom: 64px; }
 .article-license {
   max-width: 68ch;
   margin: 0 0 18px;
