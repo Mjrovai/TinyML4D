@@ -10,6 +10,8 @@ image_alt: "A Mac Studio on a desk running GLM-5.3-Flash, unplugged from the clo
 license: "Text and figures © 2026 Marcelo Rovai, released under CC BY 4.0. Benchmark numbers are cited from their sources; see Sources and method below."
 ---
 
+> **Update, 22 October 2026.** Two months later, some of this article was wrong and more of it was incomplete. Read the follow-up: **[Open and Local, Two Months Later: The Hard Part Is No Longer Fitting the Model](/articles/open-and-local-october-2026/)**. Both articles are also covered in two videos: [Open and Local AI, Part 1](https://youtu.be/TbqkBsjqWPU) and [Part 2](https://youtu.be/S-0B4Ajbj28). Note that the Intelligence Index values below come from version 4.1.1 and can't be compared with the current version 4.3.2.
+
 $10,799. One box on a desk, drawing about as much power as a couple of light bulbs. Inside it: GLM-5.3-Flash, 321 billion parameters, multimodal, one-million-token context, scoring 84.3 on Terminal-Bench 2.1 against Claude Opus 4.8's 85.0.
 
 **No API key. No rate limit. No per-token bill. Nothing leaving the room.**
