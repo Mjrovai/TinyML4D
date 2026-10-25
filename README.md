@@ -34,6 +34,7 @@ permalink: /
 ## Workshops & Lectures
 
 ### Recent Highlights
+- #### Vistage - Chile (2026) - IA Abierta y Local [[Slides]](Lectures/IA_abierta_y_local_Vistage_v10_narracion.pdf) [[Video 1]](https://youtu.be/5RbSP-Vhu4c) [[Video 2]](https://youtu.be/0wf6o68XnuY)
 - #### UPB - Bucaramanga, Colombia (2026) - TinyML y Edge AI: ingeniería al servicio de las comunidades [[Slides]](Lectures/UPB-Colombia.pdf)
 - #### PUCE - Ibarra (2026) - Generative AI at the Edge - Introduction [[Material]](https://github.com/Mjrovai/TinyML4D/blob/main/PUC-Ecuador/GenAI%20at%20the%20Edge%20-%20introduction.pdf) [[Video]](https://youtu.be/glCg-sOzVYo)
 - #### JAVERIANA (2026) — Generative AI at the Edge [[Material]](https://github.com/Mjrovai/TinyML4D/tree/main/Javeriana-2026)
