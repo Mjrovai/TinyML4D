@@ -34,6 +34,7 @@ permalink: /
 ## Workshops & Lectures
 
 ### Recent Highlights
+- #### UPB - Bucaramanga, Colombia (2026) - TinyML y Edge AI: ingeniería al servicio de las comunidades [[Slides]](Lectures/UPB-Colombia.pdf)
 - #### PUCE - Ibarra (2026) - Generative AI at the Edge - Introduction [[Material]](https://github.com/Mjrovai/TinyML4D/blob/main/PUC-Ecuador/GenAI%20at%20the%20Edge%20-%20introduction.pdf) [[Video]](https://youtu.be/glCg-sOzVYo)
 - #### JAVERIANA (2026) — Generative AI at the Edge [[Material]](https://github.com/Mjrovai/TinyML4D/tree/main/Javeriana-2026)
 - #### JAVERIANA (2025) — Generative AI at the Edge [[Material]](https://github.com/Mjrovai/TinyML4D/tree/main/Javariana)
