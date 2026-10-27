@@ -86,6 +86,7 @@ permalink: /
 <a id="tutorials" class="anchor-target"></a>
 
 ## Tutorials
+### [Qualcomm Dragonwing IQ-9075 EVK: first tests](https://github.com/Mjrovai/Qualcomm-IQ-9075)
 ### [Arduino UNO Q Hands-On Tutorials](https://github.com/Mjrovai/ARDUINO-UNO-Q)
 ### [Small Language Models on the Orange Pi Zero 3W: Headless Setup, llama.cpp, Chat, and Image Captioning](https://github.com/Mjrovai/EdgeML-with-Raspberry-Pi/tree/main/OrangePi_Zero_3W)
 ### YOLOInfer: Running YOLO on Your Phone — No App Store Required [[Live Demo]](https://yoloinfer.netlify.app) [[Material]](https://github.com/Mjrovai/yoloinferApp)
