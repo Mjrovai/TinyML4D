@@ -301,6 +301,10 @@ img { max-width: 100%; height: auto; }
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
   gap: 14px;
 }
+/* Nove categorias: em telas largas fecha em 3x3 em vez de 4+4+1. */
+@media (min-width: 1024px) {
+  .cats-grid { grid-template-columns: repeat(3, 1fr); }
+}
 .cat {
   position: relative;
   display: flex; flex-direction: column; gap: 6px;
