@@ -83,6 +83,19 @@ permalink: /
 ### [Running Small Language Models on a Raspberry Pi 5: Gemma 4 E2B and Qwen3.5 4B with MTP (2026)](https://mjrovai.com/articles/slm-on-raspberry-pi-mtp/)
 ### [All articles →](https://mjrovai.com/articles/)
 
+<a id="simulators" class="anchor-target"></a>
+
+## Simulators
+
+Twenty interactive labs that run in the browser — no install, no build, no server. Physics, electronics, CPU emulation and the history of computing.
+
+### [The History of AI · 1943–2026](https://mjrovai.github.io/simuladores-interativos/apps/ai-history/)
+### [The Space Race · 1957–1975](https://mjrovai.github.io/simuladores-interativos/apps/space-race/)
+### [Philips EE 20 · the 1966 assembly kit, rebuilt](https://mjrovai.github.io/EE20-Simulator/sim/)
+### [Motor Fault Bench · fault diagnosis with a tiny MLP](https://mjrovai.github.io/motor-fault-bench/demo/)
+### [Jules Verne Bot · RNN × Transformer in the browser](https://mjrovai.github.io/Jules_Verne/)
+### [All 20 simulators →](https://mjrovai.github.io/simuladores-interativos/)
+
 <a id="tutorials" class="anchor-target"></a>
 
 ## Tutorials

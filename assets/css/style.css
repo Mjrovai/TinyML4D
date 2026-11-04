@@ -163,6 +163,12 @@ img { max-width: 100%; height: auto; }
   color: var(--ink) !important;
 }
 .nav-gh:hover { border-color: var(--accent) !important; color: var(--ink) !important; background: var(--line-soft) !important; }
+/* Entre 861 e 960 px a barra carrega dez itens: aperta o passo para caber. */
+@media (min-width: 861px) and (max-width: 960px) {
+  .nav-links { gap: 0; }
+  .nav-links a { padding: 7px 6px; font-size: .78rem; }
+}
+
 @media (max-width: 860px) {
   .nav-links { display: none; }
   .nav-links.compact { display: flex; }
